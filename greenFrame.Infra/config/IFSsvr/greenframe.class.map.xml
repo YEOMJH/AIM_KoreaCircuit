@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+    <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+        <property name="classMap" ref="ClassMap" />
+    </bean>
+
+    <util:map id="ClassMap" map-class="java.util.HashMap">
+
+	<!-- SPC -->
+	<entry key="SPCAlarmReport" value="kr.co.aim.messolution.alarm.event.SPCAlarmReport" />
+	<entry key="SPC_HOLD_ALARM" value="kr.co.aim.messolution.alarm.event.SPC_HOLD_ALARM"/>
+	<entry key="SPC_ALARMMESSAGE_SEND" value="kr.co.aim.messolution.alarm.event.SPCToMESSendAlarm"/>
+
+	<!-- FDC -->
+	<entry key="FDCAlarmReport" value="kr.co.aim.messolution.alarm.event.FDCAlarmReport" />
+	
+	<!-- R2R -->
+	<entry key="OEDParameterDownload" value="kr.co.aim.messolution.lot.event.OEDParameterDownload" />
+	<entry key="DepoParameterSpecCheck" value="kr.co.aim.messolution.recipe.event.DepoParameterSpecCheck" />
+	<entry key="OffsetParameterDownload" value="kr.co.aim.messolution.durable.event.OledMask.OffsetParameterDownload" />
+
+	<!-- PMS -->
+	<entry key="PMSAlarmReport" value="kr.co.aim.messolution.pms.event.PMSAlarmReport" />
+
+	<!-- ADC -->
+	 <entry key="ADCStepOnlineOffline" value="kr.co.aim.messolution.alarm.event.ADCStepOnlineOffline" />
+    </util:map>
+
+</beans>
+

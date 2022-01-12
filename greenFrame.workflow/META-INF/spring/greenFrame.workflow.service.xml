@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+    <bean id="MBeanServer" class="org.springframework.jmx.support.MBeanServerFactoryBean">
+        <property name="locateExistingServerIfPossible" value="true" />
+    </bean>
+    <bean id="BpelProcessManager" class="kr.co.aim.greenflow.core.BpelProcessManager" destroy-method="shutdown"> 
+        <property name="MBeanServer" ref="MBeanServer" />
+        <property name="MBeanDomainType" value="greenFlow:BpelProcessManager=BpelProcessManager" />
+        <property name="corePoolSize" value="3" />
+        <property name="maxPoolSize" value="5" />
+        <property name="keepAliveTime" value="500" />
+        <property name="queueSize" value="0" />
+    </bean>
+    
+    <!-- 
+    <bean id="BpelExRepository" class="kr.co.aim.greenframe.fos.greenflow.BpelExRepository" init-method="init" depends-on="BpelProcessManager">
+        <property name="bpelProcessManager" ref="BpelProcessManager" />
+        <property name="bundleSymbolicNameList">
+            <list>
+                <value>greenFrame.workflow</value>
+            </list>
+        </property>
+        <property name="useBpelsInInnerDirs" value="true" />
+        <property name="rootBpelName" value="dispatching.bpel" />
+        <property name="bpelRootPath" value="${bpel_home}/${svr}" />
+    </bean>
+    -->
+    
+    <bean id="BpelExRepository" class="kr.co.aim.greenframe.template.workflow.CustomBpelExRepository" init-method="init" destroy-method="shutdown">
+        <property name="bpelProcessManager" ref="BpelProcessManager" />
+        <property name="bundleSymbolicNameList">
+            <list>
+                <value>greenFrame.workflow</value>
+            </list>
+        </property>
+        <property name="useBpelsInInnerDirs" value="true" />
+        <property name="rootBpelName" value="dispatching.bpel" />
+        <property name="bpelRootPath" value="META-INF/bpels/" />
+        <property name="bpelWatch" value="false" />
+    </bean>
+    
+    <bean id="BpelExecutionEventAdaptor" class="kr.co.aim.greenframe.template.workflow.CustomEventAdaptor">
+        <property name="bpelRepository" ref="BpelExRepository" />        
+    </bean>
+    
+    <!--
+    <bean id="BpelExecutionEventAdaptor" class="kr.co.aim.greenframe.fos.greenflow.BpelExecutionEventAdaptor">
+        <property name="bpelRepository" ref="BpelExRepository" />        
+    </bean>
+    -->
+
+    <bean id="BpelExecuter" class="kr.co.aim.greenframe.template.workflow.BpelExecuter">
+        <property name="bpelRepository" ref="BpelExRepository" />      
+        <property name="bpelExecutionEventAdaptor" ref="BpelExecutionEventAdaptor" />  
+    </bean>
+    
+ </beans>
+

@@ -1,0 +1,26 @@
+8300
+;225.11.11.3
+
+YUNGU.V2.MES.mengdan.FAB.TEMsvr
+
+false
+3.0
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>MaskBatchJobCancelCompleted</MESSAGENAME>
+        <TRANSACTIONID>20190426124331000181</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME />
+        <EVENTUSER>2MSTK01</EVENTUSER>
+        <EVENTCOMMENT />
+    </Header>
+    <Body>
+        <BATCHJOBNAME>B20190424044329-1C0E01</BATCHJOBNAME>
+        <CARRIERNAME>1C0E01</CARRIERNAME>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE>SUCCESS</RETURNMESSAGE>
+    </Return>
+</Message>
+

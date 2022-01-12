@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MESSolution.FMC.Service
+Bundle-SymbolicName: MESSolution.FMC.Service
+Bundle-Version: 1.0.0
+Bundle-Vendor: AIM Systems, Inc.
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: kr.co.aim.messolution.fmb.event,
+ kr.co.aim.messolution.fmb.service,
+ kr.co.aim.messolution.fmb.service.impl
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ org.jaxen;bundle-version="1.1.0",
+ com.springsource.org.quartz;bundle-version="1.6.2",
+ greenFrame.workflow;bundle-version="1.1.0",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.User.Service;bundle-version="1.1.0",
+ greenflow;bundle-version="1.0.0"

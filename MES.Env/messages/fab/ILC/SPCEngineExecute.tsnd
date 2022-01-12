@@ -1,0 +1,141 @@
+9000
+;225.11.11.9
+
+GVO.FAB.MES.Qiaozhu.GEN.EDCsvr
+Sample
+false
+3.0
+<Message>
+    <Head>
+        <timestamp>1476757787253</timestamp>
+        <messageName>/SPCEngine/execute</messageName>
+        <messageType>Application</messageType>
+        <replyChannel>GVO.A1.MES.PRD.GEN.EDCsvr</replyChannel>
+    </Head>
+    <Results>
+        <Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="controlSpecResultVO">
+            <SpcControlSpecName>AOI-1120</SpcControlSpecName>
+            <DcDataId>301</DcDataId>
+            <ControlItemResultVOs>
+                <ItemName>DEFECT_TOTAL</ItemName>
+                <ScreenLimitIn>true</ScreenLimitIn>
+                <ControlChartResultVOs>
+                    <ControlChartType>LS</ControlChartType>
+                    <RuleResultVOs>
+                        <ControlChartType>LS</ControlChartType>
+                        <SPCControlRule>
+                            <SPCControlRuleName>LIMT003</SPCControlRuleName>
+                            <Description>1 out of 1 points</Description>
+                            <ControlRuleCategory>LimitOut</ControlRuleCategory>
+                            <ControlRuleType>OutOfLimit</ControlRuleType>
+                            <SampleControlCount>1</SampleControlCount>
+                            <LimitControlCount>1</LimitControlCount>
+                            <ControlLimitType>SpecLimit</ControlLimitType>
+                            <ControlLimitRatio>3</ControlLimitRatio>
+                            <OOCChartColor>Color [Red]</OOCChartColor>
+                        </SPCControlRule>
+                        <RuleOut>true</RuleOut>
+                        <CenterLine>0.0</CenterLine>
+                        <UpperLimit>0.0</UpperLimit>
+                        <LowerLimit>0.0</LowerLimit>
+                    </RuleResultVOs>
+                    <RuleResultVOs>
+                        <ControlChartType>LS</ControlChartType>
+                        <SPCControlRule>
+                            <SPCControlRuleName>LIMT005</SPCControlRuleName>
+                            <Description>1 out of 1 points beyond 3 sigma</Description>
+                            <ControlRuleCategory>LimitOut</ControlRuleCategory>
+                            <ControlRuleType>OutOfLimit</ControlRuleType>
+                            <SampleControlCount>1</SampleControlCount>
+                            <LimitControlCount>1</LimitControlCount>
+                            <ControlLimitType>ControlLimit</ControlLimitType>
+                            <ControlLimitRatio>3</ControlLimitRatio>
+                            <OOCChartColor>Color [Chocolate]</OOCChartColor>
+                        </SPCControlRule>
+                        <RuleOut>true</RuleOut>
+                        <CenterLine>0.0</CenterLine>
+                        <UpperLimit>0.0</UpperLimit>
+                        <LowerLimit>0.0</LowerLimit>
+                    </RuleResultVOs>
+                    <SPCControlDataResult>
+                        <controlId>18370839</controlId>
+                        <Position>30</Position>
+                        <SPCControlSpecName>AOI-1120</SPCControlSpecName>
+                        <ReferencePOName>-</ReferencePOName>
+                        <ReferencePOVersion>-</ReferencePOVersion>
+                        <ItemName>DEFECT_TOTAL</ItemName>
+                        <ControlChartType>LSR</ControlChartType>
+                        <ReferenceMachineName>-</ReferenceMachineName>
+                        <ReferenceMachineRecipeName>-</ReferenceMachineRecipeName>
+                        <DCDataId>301</DCDataId>
+                        <MaterialType>Product</MaterialType>
+                        <MaterialName>L1E6B10A101</MaterialName>
+                        <LotName>L1E6B10A1</LotName>
+                        <CreateTime>2016-10-18T10:29:47.309+08:00</CreateTime>
+                        <SubGroupSize>49</SubGroupSize>
+                        <avg>4.408795918367347</avg>
+                        <range>0.2629999999999999</range>
+                        <std>0.06932321027616359</std>
+                        <min>4.269</min>
+                        <max>4.532</max>
+                        <sum>216.03100000000006</sum>
+                        <squareSum>952.6672649999997</squareSum>
+                        <x>0.0</x>
+                        <MovingRange>0.040000000000000036</MovingRange>
+                        <DefectCount>0</DefectCount>
+                        <DefectiveCount>0</DefectiveCount>
+                        <DefectsPerUnit>0.0</DefectsPerUnit>
+                        <ProportionDefective>0.0</ProportionDefective>
+                        <CenterLine>4.4</CenterLine>
+                        <UpperControlLimit>4.9</UpperControlLimit>
+                        <LowerControlLimit>3.9</LowerControlLimit>
+                        <cp>2.0922929529486916</cp>
+                        <cpk>1.989875924566121</cpk>
+                    </SPCControlDataResult>
+                </ControlChartResultVOs>
+                <ControlChartResultVOs>
+                    <ControlChartType>R</ControlChartType>
+                    <SPCControlDataResult>
+                        <controlId>18370839</controlId>
+                        <Position>30</Position>
+                        <SPCControlSpecName>AOI-1120</SPCControlSpecName>
+                        <ReferencePOName>-</ReferencePOName>
+                        <ReferencePOVersion>-</ReferencePOVersion>
+                        <ItemName>DEFECT_TOTAL</ItemName>
+                        <ControlChartType>LSR</ControlChartType>
+                        <ReferenceMachineName>-</ReferenceMachineName>
+                        <ReferenceMachineRecipeName>-</ReferenceMachineRecipeName>
+                        <DCDataId>301</DCDataId>
+                        <MaterialType>Product</MaterialType>
+                        <MaterialName>L1E6B10A101</MaterialName>
+                        <LotName>L1E6B10A1</LotName>
+                        <CreateTime>2016-10-18T10:29:47.309+08:00</CreateTime>
+                        <SubGroupSize>49</SubGroupSize>
+                        <avg>4.408795918367347</avg>
+                        <range>0.2629999999999999</range>
+                        <std>0.06932321027616359</std>
+                        <min>4.269</min>
+                        <max>4.532</max>
+                        <sum>216.03100000000006</sum>
+                        <squareSum>952.6672649999997</squareSum>
+                        <x>0.0</x>
+                        <MovingRange>0.040000000000000036</MovingRange>
+                        <DefectCount>0</DefectCount>
+                        <DefectiveCount>0</DefectiveCount>
+                        <DefectsPerUnit>0.0</DefectsPerUnit>
+                        <ProportionDefective>0.0</ProportionDefective>
+                        <CenterLine>4.4</CenterLine>
+                        <UpperControlLimit>4.9</UpperControlLimit>
+                        <LowerControlLimit>3.9</LowerControlLimit>
+                        <cp>2.0922929529486916</cp>
+                        <cpk>1.989875924566121</cpk>
+                    </SPCControlDataResult>
+                </ControlChartResultVOs>
+            </ControlItemResultVOs>
+        </Result>
+    </Results>
+    <Return>
+        <code>0</code>
+        <message />
+    </Return>
+</Message>

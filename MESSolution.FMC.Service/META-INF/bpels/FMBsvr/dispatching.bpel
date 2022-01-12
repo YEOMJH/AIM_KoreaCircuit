@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="dispatching.bpel">
+    <partnerLinks>
+        <partnerLink name="bpelj" partnerLinkType="bpel:bpelj" />
+    </partnerLinks>
+    <variables>
+        <variable name="language" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/LANGUAGE')" />
+        <variable name="replySubjectName" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/header/replysubjectname')" />
+        <variable name="sendSubjectName" messageType="java.lang.String"></variable>
+        <variable name="xml.Data" messageType="org.jdom.Document"></variable>
+    </variables>
+    <sequence>
+        <receive name="dispatching{SEQ}0" bounds="228,37,101,55">
+            <input variable="xml.Data" />
+        </receive>
+        <switch name="switch" bounds="373,186,33,33" type="switch">
+            <source terminal="5,A" />
+            <switchstart name="switchstart" type="switchstart" bounds="323,235,110,19" />
+            <case name="case" type="case" condition="getXmlData('xml.Data', '//message/header/messagename') = 'RequestQueryResult'" bounds="254,280,60,19">
+                <source terminal="5,A" />
+                <invoke name="RequestQueryResult" type="invokewf" partnerLink="bpelj" partnerLinkType="bpel" bounds="228,358,101,71" operation="RequestQueryResult.bpel" ignoreThrow="false" fork="false">
+                    <source terminal="5,A" />
+                    <input variable="xml.Data" />
+                </invoke>
+            </case>
+            <case name="case" type="case" condition="getXmlData('xml.Data', '//message/header/messagename') = 'UserLogin'" bounds="360,285,60,19">
+                <source terminal="5,A" />
+                <invoke name="UserLogin" type="invokewf" partnerLink="bpelj" partnerLinkType="bpel" bounds="339,358,101,71" operation="UserLogin.bpel" ignoreThrow="false" fork="false">
+                    <source terminal="5,A" />
+                    <input variable="xml.Data" />
+                </invoke>
+            </case>
+            <case name="case" type="case" condition="getXmlData('xml.Data', '//message/header/messagename') = 'UserLogout'" bounds="443,285,60,19">
+                <source terminal="5,A" />
+                <invoke name="UserLogout" type="invokewf" partnerLink="bpelj" partnerLinkType="bpel" bounds="449,358,101,71" operation="UserLogout.bpel" ignoreThrow="false" fork="false">
+                    <source terminal="5,A" />
+                    <input variable="xml.Data" />
+                </invoke>
+            </case>
+            <otherwise name="otherwise" type="otherwise" bounds="555,285,88,19">
+                <source terminal="5,A" />
+                <invoke name="SendToFmbClient" type="invokewf" partnerLink="bpelj" partnerLinkType="bpel" bounds="585,358,101,71" operation="SendToFmbClient.bpel" ignoreThrow="false" fork="false">
+                    <source terminal="5,A" />
+                    <input variable="xml.Data" />
+                </invoke>
+            </otherwise>
+            <case name="case" type="case" condition="getXmlData('xml.Data', '//message/header/messagename') = 'ControlStateChanged'" bounds="668,288,60,19">
+                <source terminal="5,A" />
+                <invoke name="ControlStateChanged" type="invokewf" partnerLink="bpelj" partnerLinkType="bpel" bounds="745,366,101,71" operation="ControlStateChanged.bpel" ignoreThrow="false" fork="false">
+                    <source terminal="5,A" />
+                    <input variable="xml.Data" />
+                </invoke>
+            </case>
+        </switch>
+    </sequence>
+</process>
+

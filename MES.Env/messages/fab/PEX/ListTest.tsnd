@@ -1,0 +1,76 @@
+
+
+
+Default.SUBJECT
+Sample
+false
+3.0
+<Message>
+  <Header>
+    <MESSAGENAME>ListTest</MESSAGENAME>
+    <SHOPNAME>ARRAY</SHOPNAME>
+    <MACHINENAME>3CXST01</MACHINENAME>
+    <TRANSACTIONID>YYYYMMDDHH24MISS</TRANSACTIONID>
+    <SOURCESUBECTNAME>EISsvdd.</SOURCESUBECTNAME>
+    <TARGETSUBECTNAME>MESv</TARGETSUBECTNAME>
+    <EVENTUSER></EVENTUSER>!
+    <EVENTCOMMENT></EVENTCOMMENT>  
+    </Header>
+  <Body>
+    <MACHINENAME>3CXST01</MACHINENAME>
+    <UNITLIST>!
+      <UNIT>
+        <UNITNAME>P11</PORTNAME>
+           <SUBUNITLIST>
+             <SUBUNIT>
+                     
+                 <SUBUNITSTATENAME></SUBUNITSTATENAME>
+                 <SUBUNITNAME></SUBUNITNAME>
+                     <SUB2UNITLIST> 
+                      <SUB2UNIT>
+                        <SUB2UNITSTATENAME></SUB2UNITSTATENAME>
+                        <SUB2UNITTYPE></SUB2UNITTYPE>
+                        <SUB2UNITNAME></SUB2UNITNAME>
+                           <SUB3UNITLIST> 
+                             <SUB3UNIT>
+                         		 <SUB3UNITNAME></SUB2UNITNAME>
+                         		 	   <SUB4UNITLIST> 
+                           				 <SUB4UNIT>
+                           				      <SUB4UNITTYPE></SUB4UNITTYPE>
+                           				      <SUB4UNITACCESSMODE></SUB4UNITACCESSMODE>
+                           				      <SUB4UNITNAME></SUB4UNITNAME>
+                           				         <SUB5UNITLIST> 
+                           				 			<SUB5UNIT>
+                           				 				<SUB5UNITNAME></SUB5UNITNAME>
+                           				 			
+                           				 			</SUB5UNIT>
+                           				 		</SUB5UNITLIST>  
+                           				          
+                           				 </SUB4UNIT>
+                           				</SUB4UNITLIST>  
+                         		 <SUB3UNITSTATENAME></SUB2UNITSTATENAME>
+                         
+                            </SUB3UNIT>
+                          </SUB3UNITLIST> 
+                       <SUB2UNITACCESSMODE></SUB2UNITACCESSMODE>
+                      </SUB2UNIT>
+                     </SUB2UNITLIST> 
+                 <SUBUNITTYPE></SUBUNITTYPE>
+                 <SUBUNITACCESSMODE></SUBUNITACCESSMODE>
+                 
+                 
+              </SUBUNIT>   
+           </SUBUNITLIST> 
+        
+        <UNITSTATENAME>EMPTY</PORTSTATENAME>
+        <UNITTYPE>PB</PORTTYPE>
+        <UNITUSETYPE>OA</PORTUSETYPE>
+        <UNITACCESSMODE>Auto</PORTACCESSMODE>
+     </UNIT>
+    </UNITLIST>
+  </Body>
+  <Return>
+    <RETURNCODE></RETURNCODE> 
+    <RETURNMESSAGE></RETURNMESSAGE>
+  </Return>
+</Message>

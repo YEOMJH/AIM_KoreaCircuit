@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+<!-- 	<osgi:reference id="ntConstantMap" interface="kr.co.aim.greentrack.generic.master.ConstantMap" cardinality="1..1" /> -->
+
+	<osgi:service ref="MailAttachmentGenerator" interface="kr.co.aim.messolution.generic.util.MailAttachmentGenerator" />	
+	<osgi:service ref="EMailInterface" interface="kr.co.aim.messolution.generic.util.EMailInterface" />	
+	<osgi:service ref="SMSInterface" interface="kr.co.aim.messolution.generic.util.SMSInterface" />	
+	<osgi:service ref="CustomExpression" interface="kr.co.aim.greenflow.expression.GreenFlowFunction" />	
+	<osgi:service ref="EventInfoUtil" interface="kr.co.aim.messolution.generic.util.EventInfoUtil" />	
+	<osgi:service ref="ConstantMap" interface="kr.co.aim.messolution.generic.master.ConstantMap" />
+	<osgi:service ref="ESBService" interface="kr.co.aim.messolution.generic.esb.ESBService" />	
+	<osgi:service ref="ErrorDefMap" interface="kr.co.aim.messolution.generic.master.ErrorDefMap" />
+	<osgi:service ref="ConvertUtil" interface="kr.co.aim.messolution.generic.util.ConvertUtil" />
+	<osgi:service ref="CommonValidation" interface="kr.co.aim.messolution.generic.util.CommonValidation" />	
+	
+	<osgi:service ref="PolicyUtil" interface="kr.co.aim.messolution.generic.util.PolicyUtil" />
+	<osgi:service ref="SpecUtil" interface="kr.co.aim.messolution.generic.util.SpecUtil" />
+	
+	<osgi:service ref="MessageLogger" interface="kr.co.aim.messolution.generic.master.MessageLogger" />
+	<osgi:service ref="MessageHistoryUtil" interface="kr.co.aim.messolution.generic.util.MessageHistoryUtil" />
+	
+	<osgi:service ref="QueryTemplate" interface="kr.co.aim.messolution.generic.QueryTemplate" />
+	
+	<osgi:service ref="DBLogWriterManager" interface="kr.co.aim.messolution.generic.util.dblog.DBLogWriterManager" />
+</beans>
+
+

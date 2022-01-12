@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+    
+    <!-- Qtime schedule service 
+    <osgi:service ref="ProductQtimeCalculationTimer" interface="kr.co.aim.messolution.timer.job.ProductQtimeCalculationTimer" />-->
+    
+    <!-- custom schedule service -->
+    <osgi:service ref="WorkOrderCalcutaionTimer" interface="kr.co.aim.messolution.timer.job.WorkOrderCalcutaionTimer" />
+    <osgi:service ref="MaterialQTimeMonitor" interface="kr.co.aim.messolution.timer.job.MaterialQtimeTimer" />
+    <osgi:service ref="ReviewStationQtimeMonitor" interface="kr.co.aim.messolution.timer.job.ReviewStationQtimeTimer" />
+    <osgi:service ref="ReviewStationOLEDOfflineQtimeMonitor" interface="kr.co.aim.messolution.timer.job.ReviewStationOLEDOfflineQtimeTimer" />
+    <osgi:service ref="QueueTimeMonitor" interface="kr.co.aim.messolution.timer.job.QueueTimer" />
+    <osgi:service ref="CSTSleepMonitor" interface="kr.co.aim.messolution.timer.job.CSTSleepCalcutaionTimer" />
+    <osgi:service ref="WIPCalculator" interface="kr.co.aim.messolution.timer.job.WIPCalculationTimer" />
+    <osgi:service ref="CSTCalculator" interface="kr.co.aim.messolution.timer.job.CSTCalculationTimer" />
+    <osgi:service ref="TransportJobMonitor" interface="kr.co.aim.messolution.timer.job.TransportJobTimer" />
+    <osgi:service ref="BorroTimeMonitor" interface="kr.co.aim.messolution.timer.job.BorroTimer" />
+    <osgi:service ref="RecipeTimeMonitor" interface="kr.co.aim.messolution.timer.job.RecipeCalculationTimer" />
+    <osgi:service ref="MessageRepeatMonitor" interface="kr.co.aim.messolution.timer.job.MessageRepeat" />
+    <osgi:service ref="ReserveCSTTransferTimerMonitor" interface="kr.co.aim.messolution.timer.job.ReserveCSTTransferTimer" />
+    <osgi:service ref="BorrowPanelMonitor" interface="kr.co.aim.messolution.timer.job.BorrowPanelTimer" />
+    <osgi:service ref="ReserveCSTUnloadMonitor" interface="kr.co.aim.messolution.timer.job.ReserveCSTUnloadTimer" />
+    <osgi:service ref="OAINTReceiveMonitor" interface="kr.co.aim.messolution.timer.job.OAINTReceiveTimer" />
+    <osgi:service ref="OAQCReceiveMonitor" interface="kr.co.aim.messolution.timer.job.OAQCReceiveTimer" />
+    <osgi:service ref="CheckCSTLastCleanDateMonitor" interface="kr.co.aim.messolution.timer.job.CheckCSTLastCleanDateTimer" />
+    <osgi:service ref="OAScrapReceiveMonitor" interface="kr.co.aim.messolution.timer.job.OASCRAPPRODUCTTimer" />
+    <osgi:service ref="ComponentMonitorTimer" interface="kr.co.aim.messolution.timer.job.ComponentMonitorTimer" />
+    <osgi:service ref="NamingRuleMonitorTimer" interface="kr.co.aim.messolution.timer.job.NamingRuleMonitorTimer" />
+    <osgi:service ref="ProcessingMonitorTimer" interface="kr.co.aim.messolution.timer.job.ProcessingMonitorTimer" />
+    <osgi:service ref="OrganicExpirationMonitor" interface="kr.co.aim.messolution.timer.job.OrganicExpirationTimer" />
+    <osgi:service ref="ReserveCSTTransferForFTEBPMonitor" interface="kr.co.aim.messolution.timer.job.ReserveCSTTransferForFTEBPTimer" />
+    <osgi:service ref="FirstGlassPhotoQueueMonitor" interface="kr.co.aim.messolution.timer.job.FirstGlassPhotoQueueTimer" />
+    <osgi:service ref="OperationChangedReportMonitor" interface="kr.co.aim.messolution.timer.job.OperationChangedReport" />
+    <osgi:service ref="AbnormalEQPMonitor" interface="kr.co.aim.messolution.timer.job.AbnormalEQPTimer" />
+    <osgi:service ref="MachineIdleCalcutaionTimerMonitor" interface="kr.co.aim.messolution.timer.job.MachineIdleCalcutaionTimer" />
+    <osgi:service ref="AutoCloseWOTimerMonitor" interface="kr.co.aim.messolution.timer.job.AutoCloseWOTimer" />
+    <osgi:service ref="LongTimeNoRunTrayGroupTimer" interface="kr.co.aim.messolution.timer.job.LongTimeNoRunTrayGroupTimer" />
+
+    
+    <!-- WMS I/F -->
+    <osgi:service ref="AutoMaterialReleaseHoldTimer" interface="kr.co.aim.messolution.timer.job.AutoMaterialReleaseHoldTimer" />
+    
+    <!-- MDM I/F -->
+    <osgi:service ref="MDM_MAT001_MaterialReceive" interface="kr.co.aim.messolution.timer.job.MDM_MAT001_MaterialReceive" />
+    <osgi:service ref="MDM_PL002_MachineSpecReport" interface="kr.co.aim.messolution.timer.job.MDM_PL002_MachineSpecReport" />
+    <osgi:service ref="MDM_PL003_OperationSpecReport" interface="kr.co.aim.messolution.timer.job.MDM_PL003_OperationSpecReport" />
+    <osgi:service ref="MDM_PL004_ProductSpecReport" interface="kr.co.aim.messolution.timer.job.MDM_PL004_ProductSpecReport" />
+    <osgi:service ref="MDM_PL005_DefectCodeReceive" interface="kr.co.aim.messolution.timer.job.MDM_PL005_DefectCodeReceive" />
+    <osgi:service ref="MDM_PL006_ReasonCodeReceive" interface="kr.co.aim.messolution.timer.job.MDM_PL006_ReasonCodeReceive" />
+    <osgi:service ref="MDM_PL008_EnumDefValueReceive" interface="kr.co.aim.messolution.timer.job.MDM_PL008_EnumDefValueReceive" />
+    <osgi:service ref="MDM_PL010_ReasonCodeReport" interface="kr.co.aim.messolution.timer.job.MDM_PL010_ReasonCodeReport" />
+    
+    <!-- SAP I/F -->
+    <osgi:service ref="MES_SAPIF_WOINFO_ReceiveWO" interface="kr.co.aim.messolution.timer.job.MES_SAPIF_WOINFO_ReceiveWO" />
+    <osgi:service ref="MES_SAPIF_WOBOM_ReceiveBOM" interface="kr.co.aim.messolution.timer.job.MES_SAPIF_WOBOM_ReceiveBOM" />
+    <osgi:service ref="ProductionSummaryTimer" interface="kr.co.aim.messolution.timer.job.MES_SAPIF_PP003_ProductionSummary" />
+    <osgi:service ref="ZPP_MES_ORDEROFF_ESB" interface="kr.co.aim.messolution.timer.job.ZPP_MES_ORDEROFF_ESB" />
+    
+    <osgi:service ref="OledMaskMonitor" interface="kr.co.aim.messolution.timer.job.OledMaskCalculationTimer" />
+    <osgi:service ref="TFEMaskMonitor" interface="kr.co.aim.messolution.timer.job.TFEMaskCalculationTimer" />
+    
+    <osgi:service ref="InventoryZoneDataMonitor" interface="kr.co.aim.messolution.timer.job.InventoryZoneDataRequestTimer" />    
+    
+    <!-- 
+    <osgi:service ref="AlarmCatchMonitor" interface="kr.co.aim.messolution.timer.job.AlarmCatchTimer" />
+    -->
+    
+</beans>
+

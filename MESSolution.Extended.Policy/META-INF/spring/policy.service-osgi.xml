@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:osgi="http://www.springframework.org/schema/osgi"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <!-- Consumable -->
+    <osgi:service ref="ConsumableSplitPolicy" interface="kr.co.aim.greentrack.consumable.management.policy.SplitPolicy" ranking="1"/>
+    <osgi:service ref="ConsumableDecrementQuantityPolicy" interface="kr.co.aim.greentrack.consumable.management.policy.DecrementQuantityPolicy" ranking="1"/>
+	<osgi:service ref="ConsumableIncrementQuantityPolicy" interface="kr.co.aim.greentrack.consumable.management.policy.IncrementQuantityPolicy" ranking="1"/>
+	<osgi:service ref="ConsumableMakeNotAvailablePolicy" interface="kr.co.aim.greentrack.consumable.management.policy.MakeNotAvailablePolicy" ranking="1"/>
+	
+	<!-- Durable -->
+	<!-- 
+	<osgi:service ref="DurableIncrementTimeUsedPolicy" interface="kr.co.aim.greentrack.durable.management.policy.IncrementTimeUsedPolicy" ranking="1"/>
+	<osgi:service ref="DurableDecrementTimeUsedPolicy" interface="kr.co.aim.greentrack.durable.management.policy.DecrementTimeUsedPolicy" ranking="1"/>
+	<osgi:service ref="DurableIncrementDurationUsedPolicy" interface="kr.co.aim.greentrack.durable.management.policy.IncrementDurationUsedPolicy" ranking="1"/>
+	<osgi:service ref="DurableDecrementDurationUsedPolicy" interface="kr.co.aim.greentrack.durable.management.policy.DecrementDurationUsedPolicy" ranking="1"/>
+	 -->
+	 
+	<!-- Lot -->
+	<osgi:service ref="MakeLoggedOutPolicy" interface="kr.co.aim.greentrack.lot.management.policy.MakeLoggedOutPolicy" ranking="1"/>
+	<!-- 
+	<osgi:service ref="LotAssignNewProductsPolicy" interface="kr.co.aim.greentrack.lot.management.policy.AssignNewProductsPolicy" ranking="1"/>
+	<osgi:service ref="LotAssignProductsPolicy" interface="kr.co.aim.greentrack.lot.management.policy.AssignProductsPolicy" ranking="1"/>
+	<osgi:service ref="LotDeassignProductsPolicy" interface="kr.co.aim.greentrack.lot.management.policy.DeassignProductsPolicy" ranking="1"/>
+	<osgi:service ref="LotTransferProductsToLotPolicy" interface="kr.co.aim.greentrack.lot.management.policy.TransferProductsToLotPolicy" ranking="1"/>
+	 -->
+	
+ </beans>

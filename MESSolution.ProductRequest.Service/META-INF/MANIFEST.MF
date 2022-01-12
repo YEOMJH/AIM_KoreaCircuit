@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MESSolution.ProductRequest.Service [service]
+Bundle-SymbolicName: MESSolution.ProductRequest.Service
+Bundle-Version: 1.1.0
+Bundle-ClassPath: .
+Bundle-Vendor: AIM System. Inc
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Export-Package: kr.co.aim.messolution.productrequest,
+ kr.co.aim.messolution.productrequest.service
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Extended.Object;bundle-version="1.1.0",
+ MESSolution.Extended.WebInterface;bundle-version="1.1.0",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.Lot.Service;bundle-version="1.1.0",
+ greenTrack.Machine.Service;bundle-version="1.1.0",
+ greenTrack.Name.Service;bundle-version="1.1.0",
+ greenTrack.Product.Service;bundle-version="1.1.0",
+ greenTrack.ProductRequest.Service;bundle-version="1.1.0"
+Eclipse-LazyStart: false
+Created-By: Aim System. Inc
+Ant-Version: Apache Ant 1.7.0
+Import-Package: kr.co.aim.messolution.consumable,
+ kr.co.aim.messolution.consumable.service,
+ kr.co.aim.messolution.durable,
+ kr.co.aim.messolution.durable.service,
+ kr.co.aim.messolution.lot,
+ kr.co.aim.messolution.lot.service,
+ kr.co.aim.messolution.machine,
+ kr.co.aim.messolution.machine.service,
+ kr.co.aim.messolution.port,
+ kr.co.aim.messolution.port.service,
+ kr.co.aim.messolution.product,
+ kr.co.aim.messolution.product.service,
+ kr.co.aim.messolution.recipe,
+ kr.co.aim.messolution.recipe.service,
+ kr.co.aim.greentrack.consumable.management.data,
+ kr.co.aim.greentrack.consumable.management.info,
+ kr.co.aim.greentrack.durable.management.data,
+ kr.co.aim.greentrack.machine.management.data,
+ kr.co.aim.greentrack.port.management.data,
+ kr.co.aim.greentrack.processflow.management.data,
+ kr.co.aim.greentrack.productrequestplan.management.info

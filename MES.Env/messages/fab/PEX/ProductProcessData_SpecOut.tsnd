@@ -1,0 +1,48 @@
+8200
+;225.11.11.2
+
+BOEDT.B4.MES.DEVjyyoo.FAB.PEMsvr
+Sample
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>ProductProcessData</MESSAGENAME>
+        <SHOPNAME>ARRAY</SHOPNAME>
+        <MACHINENAME>8AMCD03</MACHINENAME>
+        <TRANSACTIONID>20110817023618028393</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>BOEDT.B4.EIS.PRD.FAB.EISFAB22</ORIGINALSOURCESUBJECTNAME>
+        <SOURCESUBJECTNAME>BOEDT.B4.EIS.PRD.FAB.EISFAB22</SOURCESUBJECTNAME>
+        <TARGETSUBJECTNAME>BOEDT.B4.MES.PRD.FAB.PEMsvr</TARGETSUBJECTNAME>
+        <EVENTUSER>8AMCD03</EVENTUSER>
+        <EVENTCOMMENT>ProductProcessData</EVENTCOMMENT>
+        <INPUTSET />
+        <listener>PEMListener</listener>
+    </Header>
+    <Body>
+        <MACHINENAME>8AMCD03</MACHINENAME>
+        <UNITNAME />
+        <SUBUNITNAME />
+        <LOTNAME>8AWX1Z0754</LOTNAME>
+        <CARRIERNAME>8ACN-0394</CARRIERNAME>
+        <PRODUCTNAME>8AWX1Z0754A3</PRODUCTNAME>
+        <MACHINERECIPENAME>P_32_SDT_DICD</MACHINERECIPENAME>
+        <PROCESSOPERATIONNAME>850C-00</PROCESSOPERATIONNAME>
+        <PRODUCTSPECNAME>B4A320WX7V401</PRODUCTSPECNAME>
+        <ITEMLIST>
+            <ITEM>
+                <ITEMNAME>CD1</ITEMNAME>
+                <SITELIST>
+                    <SITE>
+                        <SITENAME>S01</SITENAME>
+                        <SITEVALUE>.1279</SITEVALUE>
+                    </SITE>
+                    <SITE>
+                        <SITENAME>S02</SITENAME>
+                        <SITEVALUE>.2279</SITEVALUE>
+                    </SITE>
+                </SITELIST>
+            </ITEM>
+        </ITEMLIST>
+    </Body>
+</Message>

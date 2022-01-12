@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+<!--
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">    
+			<param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] [%c{2}] %M(%L) : %m%n" />
+			<param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] : %m%n" />
+        </layout>
+    </appender>
+-->
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+    	<layout class="org.apache.log4j.PatternLayout">
+    		<param name="ConversionPattern" value="%d [%20X{MES.MSGNAME}] [%20X{MES.TRXID}] [%3t] [%5p] - %m%n"/>
+    	</layout>
+	</appender>
+    
+    <appender name="DailyRollingFile" class="kr.co.aim.greenframe.logger.appender.DailySizeRollingFileAppender">
+        <param name="file" value="${LogDir}/${svr}/${Seq}"/>
+        <param name="DirectoryPattern" value="yyyyMMdd"/>
+        <param name="DatePattern" value="'_'yyyyMMddHH'_%02d.log'"/>
+        <param name="Append" value="true" />
+        <param name="MaxFileSize" value="40MB" />
+        <param name="MaxBackupIndex" value="20" />
+        <layout class="org.apache.log4j.PatternLayout">
+        <!--    <param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] : %m%n" /> -->
+            <param name="ConversionPattern" value="%d [%20X{MES.MSGNAME}] [%20X{MES.TRXID}] [%3t] [%5p] [%F:%M:%L] - %m%n"/>
+        </layout>
+    </appender>
+    
+    <!--
+    <appender name="DailyRollingFile" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="file" value="${LogDir}/${svr}/${Seq}"/>
+        <param name="Append" value="true"/>
+        <param name="DatePattern" value="'_'yyyyMMdd'.log'"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] : %m%n" />
+        </layout>
+    </appender>
+    -->
+    
+    <!--
+    
+    <appender name="ERROR_RollingFile" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="${LogDir}/${svr}/${Seq}_ERROR.log" />
+        <param name="Append" value="true" />
+        <param name="MaxFileSize" value="40MB" />
+        <param name="MaxBackupIndex" value="10" />
+        <param name="Threshold" value="ERROR" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] - [%c{2}.%M] %m%n" />
+        </layout>
+    </appender>
+    -->
+    
+    <appender name="ERROR_RollingFile" class="kr.co.aim.greenframe.logger.appender.DailySizeRollingFileAppender">
+        <param name="file" value="${LogDir}/${svr}/${Seq}_ERROR"/>
+        <param name="DirectoryPattern" value="yyyyMMdd"/>
+        <param name="DatePattern" value="'_'yyyyMMddHH'_%02d.log'"/>
+        <param name="Append" value="true" />
+        <param name="MaxFileSize" value="40MB" />
+        <param name="MaxBackupIndex" value="20" />
+        <param name="Threshold" value="ERROR" />
+        <layout class="org.apache.log4j.PatternLayout">
+      <!--      <param name="ConversionPattern" value="[%d{yy/MM/dd HH:mm:ss.SS}][%3t][%4p] - [%c{2}.%M] %m%n" />   -->
+            
+            <param name="ConversionPattern" value="%d [%20X{MES.MSGNAME}] [%20X{MES.TRXID}] [%3t] [%5p] - %m%n"/>
+        </layout>
+    </appender>
+
+<!-- INFO, WARN, DEBUG -->
+
+    <logger name="org.springframework">
+        <level value="WARN" />
+    </logger>
+    <!--
+    <logger name="org.springframework.jdbc.core.JdbcTemplate">
+        <level value="INFO" />
+    </logger>
+    -->
+    <logger name="com.tibco.tibrv">
+        <level value="INFO" />
+    </logger>
+    <logger name="kr.co.aim.greenframe.esb">
+        <level value="INFO" />
+    </logger>
+    <logger name="kr.co.aim.greentrack">
+        <level value="INFO" />
+    </logger>
+    <!-- log reduce -->
+    <!-- bpel activity logger -->
+    <logger name="kr.co.aim.greenframe.fos.greenflow.BpelExecutionEventAdaptor">
+        <level value="DEBUG" />
+    </logger>
+    <logger name="kr.co.aim.greenflow.core">
+        <level value="DEBUG" />
+    </logger>
+    <!-- SQL logger -->
+    <logger name="kr.co.aim.greenframe.orm">
+        <level value="DEBUG" />
+    </logger>
+    <!-- session logger -->
+    <logger name="kr.co.aim.greenframe.transaction">
+        <level value="DEBUG" />
+    </logger>
+    <!-- Custom event logger -->
+    <logger name="kr.co.aim.messolution.generic.eventHandler">
+        <level value="DEBUG" />
+    </logger>
+    <!-- XML message logger -->
+    <logger name="kr.co.aim.messolution.generic.master.MessageLogger">
+        <level value="DEBUG" />
+    </logger>
+    
+    <root>
+        <level value="DEBUG" />
+        <appender-ref ref="Console" />
+        <appender-ref ref="DailyRollingFile" />
+        <appender-ref ref="ERROR_RollingFile" />
+    </root>
+</log4j:configuration>
+

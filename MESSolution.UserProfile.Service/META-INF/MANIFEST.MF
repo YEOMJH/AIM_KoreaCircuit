@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: kr.co.aim.messolution.userprofile,
+ kr.co.aim.messolution.userprofile.service
+Bundle-ClassPath: .
+Bundle-Name: MESSolution.UserProfile.Service [service]
+Created-By: Aim System. Inc
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Extended.Object,
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.User.Service;bundle-version="1.1.0"
+Ant-Version: Apache Ant 1.7.0
+Bundle-Vendor: Aim System. Inc
+Eclipse-LazyStart: false
+Bundle-Version: 1.1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: MESSolution.UserProfile.Service
+

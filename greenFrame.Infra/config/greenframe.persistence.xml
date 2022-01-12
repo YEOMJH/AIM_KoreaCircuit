@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" init-method="createDataSource" destroy-method="close">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+        <!-- V2 PRD 
+         <property name="url" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=OFF)(FAILOVER=ON)
+        (ADDRESS=(PROTOCOL=TCP)(HOST=10.69.2.11)(PORT=1521)))
+        (CONNECT_DATA=(SERVICE_NAME=MESDB)(FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(retries=180)(delay=5))))" />
+        <property name="username" value="P1MESADM" 
+        <property name="password" value="adm1210" />
+		-->
+
+        <!-- V3 MES DEV -->
+        <property name="username" value="V3GIL" />
+        <property name="password" value="V3GIL" />
+        <property name="url" value="jdbc:oracle:thin:@LOCALHOST:1521:ORCL" /> 
+ 
+ 		<!-- V3 MES TST 
+        <property name="username" value="mestst" />
+        <property name="password" value="adm1200" />
+        <property name="url" value="jdbc:oracle:thin:@10.89.154.66:1521:orcl" />
+        -->
+        
+        <!--  maxActive : The maximum number of active connections that can be allocate d from this pool at the same time, or non-positive for no limit.  -->
+        <property name="maxActive" value="10" />
+
+        <!--  maxIdle : The maximum number of connections that can remain idle in the pool, without extra ones being released, or negative for no limit.  -->
+        <property name="maxIdle" value="-1" />
+
+        <!--  minIdle : The minimum number of active connections that can remain idle in the pool, without extra ones being created, or 0 to create none.  -->
+        <property name="minIdle" value="2" />
+
+        <!--  maxWait : The maximum number of milliseconds that the pool will wait (when there are no available connections) for a connection to be returned before throwing an exception, or -1 to wait indefinitely. -->
+        <property name="maxWait" value="5000" />
+
+        <!--  initialSize : The initial number of connections that are created when the pool is started.  -->
+        <property name="initialSize" value="4" />
+
+        <!--  validationQuery : The SQL query that will be used to validate connections from this pool before returning them to the caller. If specified, this query MUST be an SQL SELECT statement that returns at least one row.  -->
+        <property name="validationQuery" value="select 1 from dual" />
+
+        <!--  testOnBorrow : The indication of whether objects will be validated before being borrowed from the pool. If the object fails to validate, it will be dropped from the pool, and we will attempt to borrow another.  -->
+        <property name="testOnBorrow" value="true" />
+
+        <!--  minEvictableIdleTimeMillis : The minimum amount of time an object may sit idle in the pool before it is eligible for eviction by the idle object evictor (if any).  -->
+        <property name="minEvictableIdleTimeMillis" value="30000" />
+
+        <!--  timeBetweenEvictionRunsMillis : The number of milliseconds to sleep between runs of the idle object evictor thread. When non-positive, no idle object evictor thread will be run.  -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000" />
+
+    </bean>
+
+    <bean id="SqlTemplate" class="kr.co.aim.greenframe.orm.SqlTemplate">
+        <property name="dataSource" ref="dataSource" />
+        <property name="queryTimeout" value="5" />
+    </bean>
+
+    <bean id="TxDataSourceManager" class="kr.co.aim.greenframe.transaction.impl.TxDataSourceManagerImpl">
+        <property name="transactionManager">
+            <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+                <property name="dataSource" ref="dataSource" />
+            </bean>
+        </property>
+        <property name="propagationBehavior" value="PROPAGATION_NESTED" />
+        <property name="isolationLevel" value="ISOLATION_READ_COMMITTED" />
+        <property name="transactionTimeout" value="600" />
+        <property name="autoManaged" value="true" />
+    </bean>
+
+    <bean id="LobHandler" class="org.springframework.jdbc.support.lob.OracleLobHandler" >
+        <property name="nativeJdbcExtractor">
+            <bean class="org.springframework.jdbc.support.nativejdbc.CommonsDbcpNativeJdbcExtractor" />
+        </property>
+    </bean>
+</beans>

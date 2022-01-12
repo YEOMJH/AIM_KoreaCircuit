@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+    <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+        <property name="senderByMessage" ref="SenderByMessage" />
+    </bean>
+
+    <util:map id="SenderByMessage" map-class="java.util.HashMap">
+
+        <!-- TEX -->
+        <entry key="RequestTransportJobRequest" value="TEXSender"/>
+        <entry key="CancelTransportJobRequest" value="TEXSender"/>
+        <entry key="ChangeDestinationRequest" value="TEXSender"/>
+        <entry key="GetCarrierDataRequest" value="TEXSender"/>
+        <entry key="GetMaskDataRequest" value="TEXSender"/>
+        <entry key="GetMCSStateRequest" value="TEXSender"/>
+        <entry key="GetUnitStateRequest" value="TEXSender"/>
+        <entry key="GetInventoryMaskDataRequest" value="TEXSender"/>
+        <entry key="RequestMaskTransportJobRequest" value="TEXSender"/>
+		<entry key="CancelMaskTransportJobRequest" value="TEXSender"/>
+
+        <!-- PEM -->
+        <entry key="SorterJobCancelCommand" value="PEXSender"/>
+        <entry key="SorterJobListRequest" value="PEXSender"/>
+        <entry key="SorterJobStartCommand" value="PEXSender"/>
+        <entry key="OperationModeChanged" value="PEXSender"/>
+        <entry key="SoftwareVersionRequest" value="PEXSender"/>
+        <entry key="MaterialStateRequest" value="PEXSender"/>
+
+        <!-- RMS -->
+        <entry key="MainRecipeRequest" value="RMSSender"/>
+        <entry key="RecipeParameterRequest" value="RMSSender"/>
+    </util:map>
+
+</beans>
+

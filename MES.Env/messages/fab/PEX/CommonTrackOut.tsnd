@@ -1,0 +1,1028 @@
+8200
+;225.11.11.2
+
+BOEDT.B4.MES.DEVSanghyun.FAB.PEMsvr
+Sample
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>LotProcessEnd</MESSAGENAME>
+        <SHOPNAME>ARRAY</SHOPNAME>
+        <MACHINENAME>8AMPI01</MACHINENAME>
+        <TRANSACTIONID>20110315171257625524</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>BOEDT.B4.EIS.DEV.FAB.B4EISDEV</ORIGINALSOURCESUBJECTNAME>
+        <SOURCESUBJECTNAME>BOEDT.B4.MES.DEV.FAB.PEMsvr</SOURCESUBJECTNAME>
+        <TARGETSUBJECTNAME>BOEDT.B4.EIS.DEV.FAB.B4EISDEV</TARGETSUBJECTNAME>
+        <EVENTUSER>8AMPI01</EVENTUSER>
+        <EVENTCOMMENT></EVENTCOMMENT>
+    </Header>
+    <Body>
+        <MACHINENAME>8AMPI01</MACHINENAME>
+        <LOTNAME>8AWX290051</LOTNAME>
+        <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+        <CARRIERNAME>8ACN-0272</CARRIERNAME>
+        <CARRIERSTATE>FULL</CARRIERSTATE>
+        <CARRIERTYPE>Carrier</CARRIERTYPE>
+        <PORTNAME>P01</PORTNAME>
+        <PORTTYPE>PB</PORTTYPE>
+        <PORTUSETYPE>OO</PORTUSETYPE>
+        <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+        <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+        <PRODUCTQUANTITY>20</PRODUCTQUANTITY>
+        <ENGINEERSELECT>AUTO</ENGINEERSELECT>
+        <SLOTMAP>OOOOOOOOOOOOOOOOOOOO</SLOTMAP>
+        <INPUTPRODUCTMAP>OOOOOOOXXXXXXXXXXXXX</INPUTPRODUCTMAP>
+        <SAMPLINGPRODUCTMAP>NNNNNNNNNNNNNNNNNNNN</SAMPLINGPRODUCTMAP>
+        <MACHINERECIPENAME>32_GATE_PI</MACHINERECIPENAME>
+        <LOTGRADE>G</LOTGRADE>
+        <REMAINCRATEGLASSQUANTITY />
+        <SCRAPJUDGECOUNT />
+        <PRODUCTLIST>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A1</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>1</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>2</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A3</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>3</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A4</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>4</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>5</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>6</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A7</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>7</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A8</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>8</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051A9</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>9</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051AX</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>10</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B1</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>11</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>12</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B3</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>13</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B4</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>14</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>15</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>16</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B7</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>17</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B8</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>18</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051B9</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>19</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8AWX290051</LOTNAME>
+                <PRODUCTNAME>8AWX290051BX</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODE />
+                <PROCESSOPERATIONNAME>230P-00</PROCESSOPERATIONNAME>
+                <POSITION>20</POSITION>
+                <PRODUCTSPECNAME>B4A320WX1V401</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Production</PRODUCTIONTYPE>
+                <PRODUCTGRADE>G</PRODUCTGRADE>
+                <SUBPRODUCTGRADES>GGGGGGGGGGGGGGGGGG</SUBPRODUCTGRADES>
+                <SUBPRODUCTJUDGES />
+                <PRODUCTTHICKNESS>0.7</PRODUCTTHICKNESS>
+                <PRODUCTJUDGE />
+                <CRATENAME>8ACN-0272</CRATENAME>
+                <LOTSORTTYPE>LA</LOTSORTTYPE>
+                <GLASSSORTTYPE>GA</GLASSSORTTYPE>
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <PRODUCTDIRECTION />
+                <WORKORDER />
+                <GLASSMAKER>SAMSUNG CORNING</GLASSMAKER>
+                <INPUTFLAG>O</INPUTFLAG>
+                <PRODUCTRECIPE>32_GATE_PI</PRODUCTRECIPE>
+                <PREVIOUSUNITID />
+                <PREVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO />
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>N</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME />
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE />
+                <FINALCVDREPAIRTYPE />
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE />
+            </PRODUCT>
+        </PRODUCTLIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>

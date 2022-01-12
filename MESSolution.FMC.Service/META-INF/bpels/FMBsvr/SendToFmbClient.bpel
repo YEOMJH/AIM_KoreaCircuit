@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="SendToFmbClient.bpel">
+    <partnerLinks>
+        <partnerLink name="FmbService" partnerLinkType="bean:FmbService" />
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+    </partnerLinks>
+    <variables>
+        <variable name="MACHINENAME" messageType="java.lang.String" expression="getXmlData('SendToFmbClient', '//message/body/MACHINENAME')" />
+        <variable name="preFixSubject" messageType="java.lang.String"></variable>
+        <variable name="replySubject" messageType="java.lang.String"></variable>
+        <variable name="SendToFmbClient" messageType="org.jdom.Document"></variable>
+    </variables>
+    <sequence>
+        <receive name="SendToFmbClient" bounds="50,10,101,55">
+            <input variable="SendToFmbClient" />
+        </receive>
+        <invoke name="FmbService getPreFixSubject" type="invokebean" description="public abstract String getPreFixSubject(String arg1)" bounds="50,95,101,71" partnerLink="FmbService" partnerLinkType="FmbService" operation="getPreFixSubject" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replySubject" type="java.lang.String" />
+            <output variable="preFixSubject" />
+        </invoke>
+        <invoke name="FmbService getShopBay" type="invokebean" description="public abstract String getShopBay(String arg1, String arg2)" bounds="50,196,101,71" partnerLink="FmbService" partnerLinkType="FmbService" operation="getShopBay" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="preFixSubject" type="java.lang.String" />
+            <input variable="MACHINENAME" type="String" />
+            <output variable="replySubject" />
+        </invoke>
+        <invoke name="ESBService sendBySender" type="invokebean" description="public void sendBySender ( BOEHF.B3.MES.PRD.FAB.FMBC,org.jdom.Document SendToFmbClient, FMBCSender)" bounds="50,297,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendBySender" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replySubject" />
+            <input variable="SendToFmbClient" />
+            <input constant="FMBCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

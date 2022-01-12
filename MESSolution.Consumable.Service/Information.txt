@@ -1,0 +1,7 @@
+OSGi 기반의 프로젝트를 만드는 과정을 설명합니다.
+1. 프로젝트를 생성한 후, META-INF/MENIFEST.MF 파일에서 기본적으로 필요한 Import-Package 를 확인하십시요.
+       만일, 추가하고자 한다면 반드시 Target Platform 에 해당 번들을	 설치한 후에 작업을 해야만 합니다.
+2. OSGi 기반의 라이브러리가 아닌 경우에는 클래스 패스에 해당 라이브러리에 잡아주어야 합니다.
+3. 공개된 서비스를 사용하고자 한다면 nanoFrame 메뉴에서 Service Management 를 선택하여 작업할 수 있습니다.
+4. 서비스를 공개하고자 한다면, nanoFrame 메뉴에서  Define Service 를 선택하여 작업할 수 있습니다.
+5. 기타 기술적인 문의는 에임시스템 nanoFrame 개발팀에 문의하시기 바랍니다.

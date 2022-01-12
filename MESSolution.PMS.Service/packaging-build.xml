@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<project default="_packaging_generation_" name="Packaging Generator">
+	<property name="PLUGINID" value="MESSolution.PMS.Service" />
+    <property name="VERSION" value="1.1.0" />
+	<property name="REMOTE_CFG_PATH" value="/usr02/swcho/svr/lib" />
+	<property name="FTPIP" value="218.147.248.205" />
+	<property name="USERID" value="swcho" />
+	<property name="PASSWORD" value="swcho123" />
+	
+    <target name="_packaging_generation_" depends="U10001" />
+    <target name="clean" description="remove previous jar">
+        <delete file="../dist/${PLUGINID}-${VERSION}.jar" />
+    </target>
+    <target name="N10001" description="creating jar" depends="clean">
+        <jar destfile="../dist/${PLUGINID}-${VERSION}.jar" manifest="META-INF/MANIFEST.MF">
+            <zipfileset dir="META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="bin" includes="**/*.class" />
+            <zipfileset dir="src" includes="**/*.*" />
+        </jar>
+    </target>
+	<target name="U10001" description="Deploy JAR file with FTP upload" depends="N10001">
+		<ftp server="${FTPIP}" port="21" remotedir="${REMOTE_CFG_PATH}" userid="${USERID}" password="${PASSWORD}" binary="yes" verbose="true">
+			<fileset dir="../dist/">
+				<include name="${PLUGINID}-${VERSION}.jar" />
+			</fileset>
+		</ftp>
+	</target>
+			
+</project>
+

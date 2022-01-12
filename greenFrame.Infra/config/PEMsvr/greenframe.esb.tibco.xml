@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <bean id="MessageListener" class="kr.co.aim.greenframe.esb.tibco.DQListener">
+        <property name="service" value="8200" />
+        <property name="network" value=";225.11.11.2" />
+        <property name="daemon" value="" />
+        <property name="schedulerWeight" value="${schedulerWeight}"/>
+        <property name="workerWeight" value="${workerWeight}"/>
+        <property name="workerTasks" value="${workerTasks}"/>
+        <property name="subjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}" />
+    </bean>
+
+    <bean id="TibSender" class="kr.co.aim.greenframe.esb.tibco.CMRequester">
+        <property name="sendSubjectName" value="_LOCAL.${location}.${factory}.${cim}.${mode}.${shop}.PEXsvr" />
+        <property name="service" value="8500" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.5" />
+        <property name="timeLimit" value="1000" /> 
+    </bean>
+
+    <bean id="LocalSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="TibSender" />
+    </bean>
+
+    <bean id="GenericSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="TibSender" />
+    </bean>
+
+    <bean id="ToRMSSender" class="kr.co.aim.greenframe.esb.tibco.CMRequester">
+        <property name="sendSubjectName" value="_LOCAL.${location}.${factory}.${cim}.${mode}.${shop}.RMSsvr" />
+        <property name="service" value="8500" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.5" />
+        <property name="timeLimit" value="1000" />
+    </bean>
+    <bean id="RMSSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="ToRMSSender" />
+    </bean>
+</beans>
+

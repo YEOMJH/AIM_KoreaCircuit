@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<project default="_packaging_generation_" name="Packaging Generator">
+    <property name="SPECVERSION" value="1.0.0.2" />
+    <property name="VERSION" value="1.1.0" />
+    <target name="_packaging_generation_" depends="N10001" />
+    <target name="clean" description="remove previous jar">
+        <delete file="../dist/MESSolution.Product.Service-${VERSION}-SNAPSHOT.jar" />
+    </target>
+    <target name="N10001" description="creating jar" depends="clean">
+        <jar destfile="../dist/MESSolution.Product.Service-${VERSION}-SNAPSHOT.jar" manifest="META-INF/MANIFEST.MF">
+            <zipfileset dir="META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="bin" includes="**/*.class" />
+            <zipfileset dir="src" includes="**/*.*" />
+        </jar>
+    </target>
+</project>
+

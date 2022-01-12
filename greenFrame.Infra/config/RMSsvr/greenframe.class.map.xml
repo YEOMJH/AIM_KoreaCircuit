@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+    <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+        <property name="classMap" ref="ClassMap" />
+    </bean>
+
+    <util:map id="ClassMap" map-class="java.util.HashMap">
+
+		<entry key="MainRecipeRequest" value="kr.co.aim.messolution.recipe.event.MainRecipeRequest"/>
+		<entry key="MainRecipeReport" value="kr.co.aim.messolution.recipe.event.MainRecipeReport"/>
+		<entry key="RecipeParameterReply" value="kr.co.aim.messolution.recipe.event.RecipeParameterReply"/>
+		<entry key="RecipeParameterRequest" value="kr.co.aim.messolution.recipe.event.RecipeParameterRequest"/>
+		<entry key="RecipeChanged" value="kr.co.aim.messolution.recipe.event.RecipeChanged"/>
+		<entry key="CurrentRecipeChanged" value="kr.co.aim.messolution.recipe.event.CurrentRecipeChanged"/>
+		<entry key="RecipeParameterSend" value="kr.co.aim.messolution.recipe.event.RecipeParameterSend"/>
+		<entry key="RecipeCheckStartRequest" value="kr.co.aim.messolution.recipe.event.RecipeCheckStartRequest"/>	
+		<entry key="RecipeCheckRequest" value="kr.co.aim.messolution.recipe.event.RecipeCheckRequest"/>
+		<entry key="RecipeCheckResult" value="kr.co.aim.messolution.recipe.event.RecipeCheckResultRequest"/>
+		<entry key="RecipeCheckStartRequestForTension" value="kr.co.aim.messolution.recipe.event.RecipeCheckStartRequestForTension"/>	
+		<entry key="RecipeCheckRequestForTension" value="kr.co.aim.messolution.recipe.event.RecipeCheckRequestForTension"/>
+		<entry key="RecipeCheckResultForTension" value="kr.co.aim.messolution.recipe.event.RecipeCheckResultRequestForTension"/>
+		<entry key="RecipeParameterReplyByServer" value="kr.co.aim.messolution.recipe.event.RecipeParameterReplyByServer"/>
+    </util:map>
+
+</beans>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="RequestUpdateResult.bpel">
+    <partnerLinks>
+        <partnerLink name="RmsDb" partnerLinkType="bean:RmsDb" />
+        <partnerLink name="RmsTibrv" partnerLinkType="bean:RmsTibrv" />
+    </partnerLinks>
+    <variables>
+        <variable name="BINDV" messageType="java.lang.Object" expression="getChildNodesText('RequestUpdateResult', '//message/body/BINDV')" />
+        <variable name="QUERYID" messageType="java.lang.String" expression="getXmlData('RequestUpdateResult', '//message/body/QUERYID')" />
+        <variable name="replysubjectname" messageType="java.lang.String" expression="getXmlData('RequestUpdateResult', '//message/header/replysubjectname')" />
+        <variable name="RequestUpdateResult" messageType="org.jdom.Document"></variable>
+        <variable name="Result" messageType="org.jdom.Document"></variable>
+        <variable name="Subject" messageType="java.lang.String">ABC</variable>
+        <variable name="VERSION" messageType="java.lang.String" expression="getXmlData('RequestUpdateResult', '//message/body/VERSION')" />
+    </variables>
+    <sequence>
+        <receive name="RequestUpdateResult" bounds="171,37,101,55">
+            <input variable="RequestUpdateResult" />
+        </receive>
+        <assign name="parse" type="parse" messageFormat="RequestUpdateResult" bounds="174,148,101,35">
+            <source terminal="5,A" />
+            <copy>
+                <from expression="getXmlData('RequestUpdateResult', '//message/body/QUERYID')" />
+                <to variable="QUERYID" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('RequestUpdateResult', '//message/body/VERSION')" />
+                <to variable="VERSION" />
+            </copy>
+            <copy>
+                <from expression="getChildNodesText('RequestUpdateResult', '//message/body/BINDV')" />
+                <to variable="BINDV" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('RequestUpdateResult', '//message/header/replysubjectname')" />
+                <to variable="replysubjectname" />
+            </copy>
+        </assign>
+        <invoke name="RmsDb updateForBindv" type="invokebean" description="public abstract org.jdom.Document updateForBindv(org.jdom.Document arg1, String arg2, String arg3, Object arg4)" bounds="167,220,101,71" partnerLink="RmsDb" partnerLinkType="RmsDb" operation="updateForBindv" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="RequestUpdateResult" type="org.jdom.Document" />
+            <input variable="QUERYID" type="String" />
+            <input variable="VERSION" type="String" />
+            <input variable="BINDV" type="Object" />
+            <output variable="Result" />
+        </invoke>
+        <invoke name="RmsTibrv reply" type="invokebean" description="public abstract void reply(org.jdom.Document arg1)" bounds="163,312,101,71" partnerLink="RmsTibrv" partnerLinkType="RmsTibrv" operation="reply" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="Result" type="org.jdom.Document" />
+        </invoke>
+    </sequence>
+</process>
+

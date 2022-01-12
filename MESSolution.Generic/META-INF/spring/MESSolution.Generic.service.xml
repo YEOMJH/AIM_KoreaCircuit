@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns:p="http://www.springframework.org/schema/p" 
+		xmlns:util="http://www.springframework.org/schema/util" 
+		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd          http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+	<bean name="GenericServiceProxy" class="kr.co.aim.messolution.generic.GenericServiceProxy" />
+	<bean name="ESBService" class="kr.co.aim.messolution.generic.esb.ESBService" depends-on="ConstantMap" />
+	<bean name="CustomExpression" class="kr.co.aim.greenflow.expression.GreenFlowFunction" >
+		<property name="functionList">
+			<list>
+			  <bean id="stringFunction" class="kr.co.aim.greenflow.expression.extended.StringFunction" />
+			  <bean id="arrayFunction" class="kr.co.aim.greenflow.expression.extended.ArrayFunction" />
+			  <bean id="listFunction" class="kr.co.aim.greenflow.expression.extended.ListFunction" />
+			  <bean id="mapFunction" class="kr.co.aim.greenflow.expression.extended.MapFunction" />
+			  <bean id="objectFunction" class="kr.co.aim.greenflow.expression.extended.ObjectFunction" />
+			  <bean id="xmlFunction" class="kr.co.aim.greenflow.expression.extended.XmlFunction" />
+			  <bean id="conversionFunction" class="kr.co.aim.greenflow.expression.extended.ConversionFunction" />
+			  <bean id="customExpression" class="kr.co.aim.messolution.generic.expression.CustomExpression" />
+			</list>
+		</property>
+    </bean>
+    <bean name="EnumInfoUtil" class="kr.co.aim.messolution.generic.util.EnumInfoUtil" />
+    <bean name="MailAttachmentGenerator" class="kr.co.aim.messolution.generic.util.MailAttachmentGenerator" />
+    <bean name="EMailInterface" class="kr.co.aim.messolution.generic.util.EMailInterface" init-method="load" />
+    <bean name="SMSInterface" class="kr.co.aim.messolution.generic.util.SMSInterface" />
+    <bean name="EventInfoUtil" class="kr.co.aim.messolution.generic.util.EventInfoUtil" />
+	<bean name="ConvertUtil" class="kr.co.aim.messolution.generic.util.ConvertUtil"  />
+    <bean name="ErrorDefMap" class="kr.co.aim.messolution.generic.master.ErrorDefMap" init-method="load" depends-on="GenericServiceProxy" />
+    <bean name="ConstantMap" class="kr.co.aim.messolution.generic.master.ConstantMap" init-method="load" depends-on="GenericServiceProxy" />
+	<bean name="CommonValidation" class="kr.co.aim.messolution.generic.util.CommonValidation"  />
+	
+	<bean name="PolicyUtil" class="kr.co.aim.messolution.generic.util.PolicyUtil" />
+	<bean name="SpecUtil" class="kr.co.aim.messolution.generic.util.SpecUtil" />
+	<bean name="MessageLogger" class="kr.co.aim.messolution.generic.master.MessageLogger" depends-on="GenericServiceProxy" />
+	<bean name="MessageHistoryUtil" class="kr.co.aim.messolution.generic.util.MessageHistoryUtil" depends-on="GenericServiceProxy" />
+	
+	<bean name="MESSchedulerService" class="kr.co.aim.messolution.generic.scheduler.SchedulerService" depends-on="GenericServiceProxy" />
+	
+	<!-- <bean id="DColQueryTemplate" class="kr.co.aim.messolution.generic.SubQueryTemplate" /> -->
+	<bean id="QueryTemplate" class="kr.co.aim.messolution.generic.QueryTemplate" />
+	
+	<bean id="DBLogWriterManager" class="kr.co.aim.messolution.generic.util.dblog.DBLogWriterManager" init-method="init" />
+</beans>
+

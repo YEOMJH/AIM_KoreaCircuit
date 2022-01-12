@@ -1,0 +1,1136 @@
+2022-01-11 17:12:41,189 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.FMC.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,194 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Durable.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenFrame.formatter]  {META-INF/spring/*.xml, META-INF/spring/CNMsvr/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.RMS.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Port.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Alarm.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Machine.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenFrame.workflow]  {META-INF/spring/*.xml, META-INF/spring/CNMsvr/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.ProductRequest.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,209 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.ProcessGroup.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.TransportJob.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Consumable.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Query.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Lot.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Extended.Object]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Extended.Policy]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,225 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Extended.WebInterface]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,241 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.UserProfile.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,241 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.DSP.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,241 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.DataCollection.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,241 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.PMS.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,326 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Product.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,327 [                    ] [                    ] [Start Level Event Dispatcher] [DEBUG] [GreenFrameConfigurationScanner.java:getConfigFiles:101] - greenFrame Configuration Absolute Path: D:\Project\V3_Source\eclipse\config [greenFrame.Infra]
+2022-01-11 17:12:41,327 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameConfigurationScanner.java:getConfigFiles:107] - No Configurations in D:\Project\V3_Source\eclipse\config. Searching configurations from inside the bundle [greenFrame.Infra]
+2022-01-11 17:12:41,329 [                    ] [                    ] [Start Level Event Dispatcher] [DEBUG] [GreenFrameConfigurationScanner.java:getConfigFiles:101] - greenFrame Configuration Absolute Path: D:\Project\V3_Source\eclipse\config\CNMsvr [greenFrame.Infra]
+2022-01-11 17:12:41,330 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameConfigurationScanner.java:getConfigFiles:107] - No Configurations in D:\Project\V3_Source\eclipse\config\CNMsvr. Searching configurations from inside the bundle [greenFrame.Infra]
+2022-01-11 17:12:41,330 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenFrame.Infra]  {osgibundle:config/*.xml, osgibundle:config/CNMsvr/*.xml}
+2022-01-11 17:12:41,345 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [MESSolution.Generic]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,345 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.ProcessGroup.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,386 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Port.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,386 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Durable.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,386 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.User.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,396 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Factory.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,396 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Lot.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,396 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.ProductRequestPlan.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,416 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Recipe.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,447 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Consumable.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,447 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Behavior.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,455 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.ProductRequest.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,457 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.ProcessFlow.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,457 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Generic.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,467 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Alarm.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,467 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.TransportGroup.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,467 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Product.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,546 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.DataCollection.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,548 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.ProcessOperationSpec.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,548 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.SPCControl.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,548 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Name.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,558 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Object.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,558 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Policy.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:41,586 [                    ] [                    ] [Start Level Event Dispatcher] [ INFO] [GreenFrameOsgiApplicationContextCreator.java:createApplicationContext:38] - Discovered configurations in bundle [greenTrack.Machine.Service]  {osgibundle:/META-INF/spring/*.xml}
+2022-01-11 17:12:42,673 [                    ] [                    ] [SpringOsgiExtenderThread-71] [ INFO] [BpelProcessManager.java:createThreadPool:176] - Thead Pool [CORE=3 , MAX=5, QueueSize=0 , KEEP_ALIVE=500]
+2022-01-11 17:12:43,201 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select oad.typename, oad.position, oad.attributename, oad.primarykeyflag, oad.attributetype, oad.datatype, oad.defaultvalue,otd.extendedtflag 
+from objectattributedef oad, objecttypedef otd where oad.attributetype = 'Standard' and oad.typename = otd.typename order by typename, position]
+2022-01-11 17:12:43,201 [                    ] [                    ] [SpringOsgiExtenderThread-71] [ INFO] [CustomBpelExRepository.java:readBpels:223] - Target Bundle-Name [greenFrame.workflow] for greenFrame workflow service
+2022-01-11 17:12:43,217 [                    ] [                    ] [SpringOsgiExtenderThread-71] [ INFO] [AbstractBpelRepository.java:addBpelProcess:42] - add complete [{http://bpel.aim.co.kr/bpelj/}dispatching.bpel@0]
+2022-01-11 17:12:43,233 [                    ] [                    ] [SpringOsgiExtenderThread-71] [ WARN] [CustomBpelExRepository.java:startWatcher:393] - Could not create BpelWatcher
+2022-01-11 17:12:43,588 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 2286 rows
+2022-01-11 17:12:43,608 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select oad.typename, oad.position, oad.attributename, oad.primarykeyflag, oad.attributetype, oad.datatype, oad.defaultvalue,otd.extendedtflag 
+from objectattributedef oad, objecttypedef otd where oad.attributetype = 'ExtendedC' and oad.typename = otd.typename order by typename, position]
+2022-01-11 17:12:43,709 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 622 rows
+2022-01-11 17:12:43,719 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select oad.typename, oad.position, oad.attributename, oad.primarykeyflag, oad.attributetype, oad.datatype, oad.defaultvalue,otd.extendedtflag 
+from objectattributedef oad, objecttypedef otd where oad.attributetype = 'ExtendedT' and oad.typename = otd.typename order by typename, position]
+2022-01-11 17:12:43,719 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 0 rows
+2022-01-11 17:12:43,719 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [ObjectAttributeMap.java:load:125] - Completed to load ObjectAttributeMap
+2022-01-11 17:12:43,719 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [InfraServiceProxy.java:setApplicationContext:16] - Success Get AC
+2022-01-11 17:12:43,727 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select constantName, constantValue
+ from ConstantDef where cacheFlag = 'Y' ORDER BY constantName]
+2022-01-11 17:12:43,748 [                    ] [                    ] [SpringOsgiExtenderThread-91] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 172 rows
+2022-01-11 17:12:43,750 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [AbstractConstantMap.java:load:316] - Load AbstractConstantMap successfully.
+2022-01-11 17:12:43,750 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [ConstantMap.java:load:49] - Load Custom Common ConstantMap successfully.
+2022-01-11 17:12:43,821 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT EDV.ENUMVALUE AS MAPKEY, CD.constantValue AS MAPVALUE 
+ FROM ENUMDEF ED, ENUMDEFVALUE EDV, CONSTANTDEF CD 
+ WHERE ED.ENUMNAME = EDV.ENUMNAME AND ED.ENUMNAME = 'MailServerInfo' AND EDV.ENUMVALUE = CD.CONSTANTNAME(+) ORDER BY ENUMVALUE]
+2022-01-11 17:12:43,831 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 4 rows
+2022-01-11 17:12:43,963 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [GenericServiceProxy.java:setApplicationContext:35] - Success Get AC
+2022-01-11 17:12:43,973 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [TibDQAdaptor.java:open:300] - Advisory Listener initialized
+2022-01-11 17:12:44,022 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ConstantMap.java:load:1306] - ConstantDef load resultList :172
+2022-01-11 17:12:44,031 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [EventConfigurator.java:afterPropertiesSet:43] - event configurator initializing for [CNMsvr]
+2022-01-11 17:12:44,031 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [EventConfigurator.java:afterPropertiesSet:46] - ClassMap load result : 0 rows
+2022-01-11 17:12:44,031 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ConstantMap.java:load:1306] - ConstantDef load resultList :0
+2022-01-11 17:12:44,031 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:setApplicationContext:202] - Adujusting bundle dependency
+2022-01-11 17:12:44,094 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select ED.enumname, EV.enumvalue, ED.usage, ED.constantflag, EV.defaultflag, EV.description from enumdef ED, enumdefvalue EV 
+where ED.enumname = EV.enumname and ED.enumname != 'Usage' order by ED.usage]
+2022-01-11 17:12:44,094 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [DQListener.java:afterPropertiesSet:82] - ***********************************************************************************************
+2022-01-11 17:12:44,094 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [DQListener.java:afterPropertiesSet:83] - <MessageListener> SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.CNMsvr Service=8400, Network=;225.11.11.4, Daemon=, WorkerWeight=2, WorkerTasks=1, SchedulerWeight=20, SchedulerHeartbeat=3.0, SchedulerActivation=5.0
+2022-01-11 17:12:44,094 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [DQListener.java:afterPropertiesSet:102] - ***********************************************************************************************
+2022-01-11 17:12:44,110 [                    ] [                    ] [SpringOsgiExtenderThread-91] [ INFO] [TibDQAdaptor.java:open:429] - Initialized kr.co.aim.greenframe.esb.tibco.DQListener TIBCO Adaptor
+2022-01-11 17:12:44,263 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 2160 rows
+2022-01-11 17:12:44,295 [                    ] [                    ] [SpringOsgiExtenderThread-94] [ INFO] [EnumMap.java:load:82] - Loading to completed [size=2160]
+2022-01-11 17:12:44,295 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select * from objectbehaviorvalidation order by behaviorname]
+2022-01-11 17:12:44,365 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 1379 rows
+2022-01-11 17:12:44,365 [                    ] [                    ] [SpringOsgiExtenderThread-94] [ INFO] [ObjectBehaviorValidationMap.java:load:93] - Completed to load ObjectBehaviorValidationMap
+2022-01-11 17:12:44,375 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select factoryName, gradeType, grade, quantityFlag, initialFlag
+ from gradeDefinition order by factoryName, gradeType, grade]
+2022-01-11 17:12:44,393 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 132 rows
+2022-01-11 17:12:44,395 [                    ] [                    ] [SpringOsgiExtenderThread-94] [ INFO] [GradeMap.java:load:65] - Load GradeMap successfully.
+2022-01-11 17:12:44,405 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT behaviorname FROM objectbehavior WHERE defaultflag = 'Y']
+2022-01-11 17:12:44,405 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 1 rows
+2022-01-11 17:12:44,405 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [select * from objectbehaviorpolicy order by behaviorname, typename, operationname, position]
+2022-01-11 17:12:44,517 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 2058 rows
+2022-01-11 17:12:44,517 [                    ] [                    ] [SpringOsgiExtenderThread-94] [ INFO] [ObjectBehaviorPolicyMap.java:load:104] - Completed to load ObjectBehaviorPolicy
+2022-01-11 17:12:44,517 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT CDA.conditionName, CDA.attributeName, CDA.dataType, CDA.caption FROM POSConditionDef CD, POSConditionAttributeDef CDA WHERE CD.conditionName = CDA.conditionName ORDER BY CDA.conditionName, CDA.position]
+2022-01-11 17:12:44,525 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 67 rows
+2022-01-11 17:12:44,525 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT PD.policyName, PD.policyMultiplicity, PD.policyTypeName, PDA.attributeName, PDA.dataType, PDA.caption, PDA.primaryKeyFlag FROM POSPolicyDef PD, POSPolicyAttributeDef PDA WHERE PD.policyName = PDA.policyName ORDER BY PD.policyName, PDA.position]
+2022-01-11 17:12:44,525 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 150 rows
+2022-01-11 17:12:44,525 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT policyName, conditionName FROM POSPolicyConditionDef ORDER BY policyName, searchPosition]
+2022-01-11 17:12:44,535 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 37 rows
+2022-01-11 17:12:44,535 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT conditionName, policyName FROM POSPolicyConditionDef ORDER BY conditionName, viewPosition]
+2022-01-11 17:12:44,535 [                    ] [                    ] [SpringOsgiExtenderThread-94] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 37 rows
+2022-01-11 17:12:44,535 [                    ] [                    ] [SpringOsgiExtenderThread-94] [ INFO] [PosPolicyMap.java:load:85] - Completed to load PosPolicyMap
+2022-01-11 17:12:47,762 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = CNXsvr
+2022-01-11 17:12:47,770 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=_LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:12:47,770 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = PEXsvr
+2022-01-11 17:12:47,770 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=_LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.PEXsvr
+2022-01-11 17:12:47,770 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = TEXsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=_LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.TEXsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = RMSsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.RMSsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = QRYsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.QRYsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = TEMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.TEMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = FMCsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.FMCsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = RTD
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=_LOCAL.VISIONOX.V3.RTD.DEVsjlee.FAB.DSPsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = CNMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.CNMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = EDCsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=_LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.EDCsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = PEMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.PEMsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = SPC
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.SPC.DEVsjlee.FAB.All
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = FDC
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.FDC.DEVsjlee.FAB.All
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = MCS
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MCS.DEVsjlee.FAB.HIFsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = PMS
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.PMS.DEVsjlee.FAB.NM
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = R2R
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.R2R.DEVsjlee.FAB.*
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = IFS
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.IFSsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [ESBService.java:makeCustomServerLocalSubject:96] - serverName = FMB
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [ESBService.java:makeCustomServerLocalSubject:194] - Maked SubjectName=VISIONOX.V3.MES.DEVsjlee.FAB.FMBsvr
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [QueryTemplate.java:setApplicationContext:30] - Registered MES sql template in aspect exposure
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [QueryTemplate.java:setBundleContext:24] - Registered MES sql template in bundle
+2022-01-11 17:12:47,771 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT errorCode, kor_errorMsg, eng_errorMsg, cha_errorMsg, loc_errorMsg FROM CT_ERRORDEFINITION ORDER BY errorCode]
+2022-01-11 17:12:47,818 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 1028 rows
+2022-01-11 17:12:47,818 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logBeforeExecutingQuery:47] - SQL [SELECT errorCode, kor_errorMsg, eng_errorMsg, cha_errorMsg, loc_errorMsg FROM CT_ERRORDEFINITION ORDER BY errorCode]
+2022-01-11 17:12:47,847 [                    ] [                    ] [SpringOsgiExtenderThread-84] [DEBUG] [SQLLogUtil.java:logAfterExecutingQuery:67] - SQL query returned 1028 rows
+2022-01-11 17:12:47,862 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [SpecUtil.java:setApplicationContext:45] - MES Specipication Utility is loaded
+2022-01-11 17:12:47,862 [                    ] [                    ] [SpringOsgiExtenderThread-84] [ INFO] [MessageLogger.java:afterPropertiesSet:16] - Message logger bean registered
+2022-01-11 17:15:00,339 [                    ] [                    ] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:15:00,347 [           UserLogin] [20220111171500261606] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:15:00,347 [           UserLogin] [20220111171500261606] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171500261606 
+2022-01-11 17:15:00,347 [           UserLogin] [20220111171500261606] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171500261606</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1251.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:15:00,347 [           UserLogin] [20220111171500261606] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~partnerLinks@2
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~variables@3
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~faultHandlers@4
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~sequence@7
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~receive@8
+2022-01-11 17:15:00,378 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@1 :: dispatching{SEQ}0
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@1~invoke@9
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@1 :: executeWF
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@1
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ WARN] [BpelExecuter.java:invokeDispatchService:795] - class [dispatching] is required to load
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@6425adb6]
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:15:00,394 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171500261606</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1251.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@1 <SUCCESS>  Elapsed Time = 62 miliseconds
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:15:00,409 [           UserLogin] [20220111171500261606] [THREAD-ID=133] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:15:06,689 [           UserLogin] [20220111171500261606] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:15:06,690 [           UserLogin] [20220111171506681726] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171506681726 
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171506681726</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1253.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~partnerLinks@11
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~variables@12
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~faultHandlers@13
+2022-01-11 17:15:06,691 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~sequence@16
+2022-01-11 17:15:06,700 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:15:06,700 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:15:06,700 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~receive@17
+2022-01-11 17:15:06,700 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@10 :: dispatching{SEQ}0
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@10~invoke@18
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@10 :: executeWF
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@10
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@88dbcad]
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:15:06,702 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171506681726</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1253.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@10 <SUCCESS>  Elapsed Time = 19 miliseconds
+2022-01-11 17:15:06,710 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:15:06,712 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:15:06,713 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:15:06,713 [           UserLogin] [20220111171506681726] [THREAD-ID=134] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:17:07,273 [           UserLogin] [20220111171506681726] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171707273541 
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171707273541</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1255.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~partnerLinks@20
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~variables@21
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~faultHandlers@22
+2022-01-11 17:17:07,281 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~sequence@25
+2022-01-11 17:17:07,291 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~receive@26
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@19 :: dispatching{SEQ}0
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@19~invoke@27
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@19 :: executeWF
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@19
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@33eb63e8]
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171707273541</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1255.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:17:07,293 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:17:07,301 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:17:07,301 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@19 <SUCCESS>  Elapsed Time = 20 miliseconds
+2022-01-11 17:17:07,301 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:17:07,301 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:17:07,303 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:17:07,303 [           UserLogin] [20220111171707273541] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:17:41,982 [           UserLogin] [20220111171707273541] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:17:41,985 [           UserLogin] [20220111171741974052] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:17:41,985 [           UserLogin] [20220111171741974052] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171741974052 
+2022-01-11 17:17:41,985 [           UserLogin] [20220111171741974052] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171741974052</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1257.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:17:41,985 [           UserLogin] [20220111171741974052] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~partnerLinks@29
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~variables@30
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~faultHandlers@31
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~sequence@34
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~receive@35
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@28 :: dispatching{SEQ}0
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@28~invoke@36
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@28 :: executeWF
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@28
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:17:41,994 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@46567df0]
+2022-01-11 17:17:42,002 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:17:42,002 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171741974052</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1257.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@28 <SUCCESS>  Elapsed Time = 19 miliseconds
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:17:42,004 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:17:42,011 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:17:42,011 [           UserLogin] [20220111171741974052] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:18:25,837 [           UserLogin] [20220111171741974052] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:18:25,843 [           UserLogin] [20220111171825837552] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:18:25,844 [           UserLogin] [20220111171825837552] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171825837552 
+2022-01-11 17:18:25,845 [           UserLogin] [20220111171825837552] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171825837552</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1259.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~partnerLinks@38
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~variables@39
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~faultHandlers@40
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~sequence@43
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~receive@44
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@37 :: dispatching{SEQ}0
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@37~invoke@45
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@37 :: executeWF
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@37
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:18:25,846 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@49a406e9]
+2022-01-11 17:18:25,855 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:18:25,855 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:18:25,855 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:18:25,855 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171825837552</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1259.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@37 <SUCCESS>  Elapsed Time = 11 miliseconds
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:18:25,857 [           UserLogin] [20220111171825837552] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:19:15,639 [           UserLogin] [20220111171825837552] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:19:15,646 [           UserLogin] [20220111171915639638] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:19:15,646 [           UserLogin] [20220111171915639638] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111171915639638 
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171915639638</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125B.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~partnerLinks@47
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~variables@48
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~faultHandlers@49
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~sequence@52
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~receive@53
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@46 :: dispatching{SEQ}0
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@46~invoke@54
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@46 :: executeWF
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@46
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@3f256c64]
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:19:15,647 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:19:15,657 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171915639638</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125B.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@46 <SUCCESS>  Elapsed Time = 13 miliseconds
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:19:15,660 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:19:15,662 [           UserLogin] [20220111171915639638] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:20:52,587 [           UserLogin] [20220111171915639638] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:20:52,590 [           UserLogin] [20220111172052577203] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:20:52,591 [           UserLogin] [20220111172052577203] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172052577203 
+2022-01-11 17:20:52,591 [           UserLogin] [20220111172052577203] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172052577203</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125D.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:20:52,591 [           UserLogin] [20220111172052577203] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55
+2022-01-11 17:20:52,595 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~partnerLinks@56
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~variables@57
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~faultHandlers@58
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~sequence@61
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~receive@62
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@55 :: dispatching{SEQ}0
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@55~invoke@63
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@55 :: executeWF
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@55
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@6c8dd2b9]
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:20:52,597 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172052577203</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125D.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@55 <SUCCESS>  Elapsed Time = 14 miliseconds
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:20:52,605 [           UserLogin] [20220111172052577203] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:21:16,550 [           UserLogin] [20220111172052577203] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172116550745 
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172116550745</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125F.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~partnerLinks@65
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~variables@66
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~faultHandlers@67
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~sequence@70
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~receive@71
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@64 :: dispatching{SEQ}0
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@64~invoke@72
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@64 :: executeWF
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@64
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@15a31406]
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172116550745</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125F.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@64 <SUCCESS>  Elapsed Time = 0 miliseconds
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:21:16,559 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:21:16,574 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:21:16,574 [           UserLogin] [20220111172116550745] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172116550745] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172214331670 
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172214331670</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1261.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~partnerLinks@74
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~variables@75
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~faultHandlers@76
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~sequence@79
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~receive@80
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@73 :: dispatching{SEQ}0
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@73~invoke@81
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@73 :: executeWF
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@73
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:22:14,378 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@6d74a871]
+2022-01-11 17:22:14,394 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:22:14,394 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:22:14,394 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172214331670</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1261.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@73 <SUCCESS>  Elapsed Time = 152 miliseconds
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:22:14,530 [           UserLogin] [20220111172214331670] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:22:41,483 [           UserLogin] [20220111172214331670] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:22:41,485 [           UserLogin] [20220111172241467759] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:22:41,485 [           UserLogin] [20220111172241467759] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172241467759 
+2022-01-11 17:22:41,486 [           UserLogin] [20220111172241467759] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172241467759</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1263.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*******</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:22:41,486 [           UserLogin] [20220111172241467759] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~partnerLinks@83
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~variables@84
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~faultHandlers@85
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~sequence@88
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~receive@89
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@82 :: dispatching{SEQ}0
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@82~invoke@90
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@82 :: executeWF
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@82
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@2e787847]
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172241467759</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1263.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*******</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@82 <SUCCESS>  Elapsed Time = 3 miliseconds
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:22:41,489 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:22:41,504 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:22:41,504 [           UserLogin] [20220111172241467759] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:23:38,858 [           UserLogin] [20220111172241467759] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:23:38,864 [           UserLogin] [20220111172338856572] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:23:38,865 [           UserLogin] [20220111172338856572] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172338856572 
+2022-01-11 17:23:38,866 [           UserLogin] [20220111172338856572] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172338856572</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1265.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*******</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:23:38,868 [           UserLogin] [20220111172338856572] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~partnerLinks@92
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~variables@93
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~faultHandlers@94
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~sequence@97
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~receive@98
+2022-01-11 17:23:38,869 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@91 :: dispatching{SEQ}0
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@91~invoke@99
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@91 :: executeWF
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@91
+2022-01-11 17:23:38,876 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@421cccd]
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172338856572</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1265.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*******</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@91 <SUCCESS>  Elapsed Time = 10 miliseconds
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:23:38,878 [           UserLogin] [20220111172338856572] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:24:00,870 [           UserLogin] [20220111172338856572] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:24:00,879 [      ChangePassword] [20220111172400870394] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:24:00,879 [      ChangePassword] [20220111172400870394] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : ChangePassword 20220111172400870394 
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>ChangePassword</MESSAGENAME>
+        <TRANSACTIONID>20220111172400870394</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1265.2</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <OLDPASSWORD>*******</OLDPASSWORD>
+        <NEWPASSWORD>************</NEWPASSWORD>
+    </Body>
+</Message>
+
+
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~partnerLinks@101
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~variables@102
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~faultHandlers@103
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~sequence@106
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~receive@107
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@100 :: dispatching{SEQ}0
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@100~invoke@108
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@100 :: executeWF
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [ChangePassword.bpel], then do class invocation
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: ChangePassword.bpel@100
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:24:00,881 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@625e3dc7]
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>ChangePassword</MESSAGENAME>
+        <TRANSACTIONID>20220111172400870394</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1265.2</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <OLDPASSWORD>*******</OLDPASSWORD>
+        <NEWPASSWORD>************</NEWPASSWORD>
+    </Body>
+</Message>
+
+
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: ChangePassword.bpel@100 <SUCCESS>  Elapsed Time = 8 miliseconds
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:24:00,889 [      ChangePassword] [20220111172400870394] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED
+2022-01-11 17:24:09,616 [      ChangePassword] [20220111172400870394] [Tibrv Dispatcher] [DEBUG] [SMessageUtil.java:getDocumentFromTibrvMsg:121] - existing original source subject : 
+2022-01-11 17:24:09,621 [           UserLogin] [20220111172409608764] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:71] - [MessageListener] execute
+2022-01-11 17:24:09,622 [           UserLogin] [20220111172409608764] [Tibrv Dispatcher] [ INFO] [MessageFormatter.java:onBundleMessage:80] - RCRQ : UserLogin 20220111172409608764 
+2022-01-11 17:24:09,623 [           UserLogin] [20220111172409608764] [Tibrv Dispatcher] [DEBUG] [MessageFormatter.java:onBundleMessage:100] - RCRQ : <?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172409608764</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1267.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>************</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:24:09,626 [           UserLogin] [20220111172409608764] [Tibrv Dispatcher] [DEBUG] [BpelProcess.java:accept:149] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [PartnerLinks.java:accept:25] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~partnerLinks@110
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Variables.java:accept:23] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~variables@111
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [FaultHandler.java:accept:48] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~faultHandlers@112
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~sequence@115
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:beginTransaction:136] - Transaction has been started. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED, 600 Sec
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 1 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Activity.java:accept:556] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~receive@116
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@109 :: dispatching{SEQ}0
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Invoke.java:accept:103] - accept {http://bpel.aim.co.kr/bpelj/}dispatching.bpel@109~invoke@117
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecutionEventAdaptor.java:onStart:330] - *** ACTIVITY START :: dispatching.bpel@109 :: executeWF
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [BpelExecuter.java:executeWF:546] - Could not find [UserLogin.bpel], then do class invocation
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:548] - ===============================================================================================
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:549] - ***** EVENT STARTED :: UserLogin.bpel@109
+2022-01-11 17:24:09,628 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:550] - ===============================================================================================
+2022-01-11 17:24:09,637 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [InvokeUtils.java:getMethod:86] - [execute] [[Ljava.lang.Class;@3b66480f]
+2022-01-11 17:24:09,637 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:16] - XML message in
+2022-01-11 17:24:09,637 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Dispatch.java:getSender:45] - Sender is not specified so that redirect to default sender[LocalSender]
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [GenericServiceProxy.java:getGenericSender:81] - senderName = LocalSender
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [CMRequester.java:send:187] - TIBCO Message Completed
+>> SubjectName = _LOCAL.VISIONOX.V3.MES.DEVsjlee.FAB.CNXsvr
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:282] - senderName = LocalSender
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [ESBService.java:sendBySender:283] -  SEND : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172409608764</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1267.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>************</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+</Message>
+
+
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [Dispatch.java:doWorks:34] - XML message out
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:566] - ===============================================================================================
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:567] - ***** EVENT COMPLETED :: UserLogin.bpel@109 <SUCCESS>  Elapsed Time = 13 miliseconds
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:568] - ===============================================================================================
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [BpelExecuter.java:executeWF:576] - pararell end
+2022-01-11 17:24:09,639 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [DEBUG] [GreenFrameTransactionManagerImpl.java:logTransactionRef:324] - There is(are) 0 Transaction reference(s) left that should be committed or rolled back.
+2022-01-11 17:24:09,645 [           UserLogin] [20220111172409608764] [THREAD-ID=135] [ INFO] [GreenFrameTransactionManagerImpl.java:checkFinalAction:336] - Transaction has been committed. PROPAGATION_NESTED, ISOLATION_READ_COMMITTED

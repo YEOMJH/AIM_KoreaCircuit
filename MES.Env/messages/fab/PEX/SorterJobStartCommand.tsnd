@@ -1,0 +1,63 @@
+8500
+;225.11.11.5
+
+_LOCAL.YUNGU.V2.MES.DEVPLY.FAB.PEXsvr
+Sample
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>SorterJobStartCommand</MESSAGENAME>
+        <TRANSACTIONID>20200120110618143687</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.7F000001.5E19370D2A1FE.4</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>ply</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+        <SENDER>PEXSender</SENDER>
+    </Header>
+    <Body>
+        <MACHINENAME>2ASS01</MACHINENAME>
+        <JOBNAME>2ASS01191219171647</JOBNAME>
+        <FROMLOTLIST>
+            <FROMLOT>
+                <LOTNAME>L2P9C13A1AA</LOTNAME>
+                <PORTNAME>P01</PORTNAME>
+                <CARRIERNAME>AN0007</CARRIERNAME>
+                <SORTERPRODUCTLIST>
+                    <SORTERPRODUCT>
+                        <PRODUCTNAME>L2P9C13A101</PRODUCTNAME>
+                        <FROMPOSITION>1</FROMPOSITION>
+                        <FROMSLOTPOSITION />
+                        <TOPORTNAME>P02</TOPORTNAME>
+                        <TOCARRIERNAME>AN0005</TOCARRIERNAME>
+                        <TOPOSITION>1</TOPOSITION>
+                        <TOSLOTPOSITION />
+                        <TURNFLAG>N</TURNFLAG>
+                        <TURNDEGREE>90</TURNDEGREE>
+                        <SCRAPFLAG>N</SCRAPFLAG>
+                        <CUTFLAG />
+                    </SORTERPRODUCT>
+                </SORTERPRODUCTLIST>
+            </FROMLOT>
+        </FROMLOTLIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>
+
+<Message>
+    <Header>
+        <MESSAGENAME>SorterJobStartCommand</MESSAGENAME>
+        <TRANSACTIONID>20200120110618143687</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.7F000001.5E19370D2A1FE.4</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>ply</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <MACHINENAME>2ASS01</MACHINENAME>
+        <JOBNAME>2ASS01191219171647</JOBNAME>
+    </Body>
+</Message>

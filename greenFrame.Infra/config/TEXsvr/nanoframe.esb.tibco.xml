@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <bean id="LOCALListener" class="kr.co.aim.greenframe.esb.tibco.DQListener">
+        <property name="service" value="8500" />
+        <property name="network" value=";225.11.11.5" />
+        <property name="daemon" value="" />
+        <property name="schedulerWeight" value="${schedulerWeight}"/>
+        <property name="workerWeight" value="${workerWeight}"/>
+        <property name="workerTasks" value="${workerTasks}"/>
+        <!-- <property name="subjectName" value="${location}.${factory}.${cim}.${mode}.GEN.${svr}" /> -->
+        <property name="subjectName" value="_LOCAL.${location}.${factory}.${cim}.${mode}.${shop}.${svr}" />
+        <property name="queueName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.${dq}" />
+    </bean>
+
+    <bean id="ToHIFSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="GREENMES.VISIONOX.V3.JSLEE.*.HIFsvr.REQ" />
+        <!-- <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.REQ" /> -->
+        <property name="service" value="8300" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.3" />
+    </bean>
+    <bean id="HIFSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="ToHIFSender" />
+	</bean>
+
+	<bean id="ToFMCSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.FMCsvr" />
+        <property name="service" value="8800" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.8" />
+    </bean>
+    <bean id="FMCSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="ToFMCSender" />
+    </bean>
+
+    <bean id="ToOICSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.REQ" />
+        <property name="service" value="8400" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.4" />
+    </bean>
+    <bean id="OICSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="ToOICSender" />
+    </bean>
+
+	<bean id="TibSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.REQ" />
+        <property name="service" value="8500" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.5" />
+    </bean>
+
+    <bean id="LocalSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="TibSender" />
+	</bean>
+
+    <bean id="GenericSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="TibSender" />
+	</bean>
+
+	<bean id="ToDSPSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+	    <property name="sendSubjectName" value="_LOCAL.${location}.${factory}.RTD.${mode}.${shop}.DSPsvr" />
+	    <!-- <property name="sendSubjectName" value="GVO.A1.RTD.PRD.GEN.DSPsvr" /> -->
+	    <property name="service" value="8500" />
+	    <property name="daemon" value="" />
+	    <property name="network" value=";225.11.11.5" />
+	</bean>
+    <bean id="DSPSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="ToDSPSender" />
+    </bean>
+
+	<bean id="TEXSender" class="kr.co.aim.greenframe.esb.GenericSender">
+		<property name="requester" ref="ToTEXSender" />
+	</bean>
+    <bean id="ToTEXSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.TEXsvr" />
+        <property name="service" value="8500" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.5" />
+    </bean>
+
+</beans>
+

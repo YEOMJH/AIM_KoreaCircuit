@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:osgi="http://www.springframework.org/schema/osgi"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+	<!-- Consumable -->
+	<bean id="ConsumableSplitPolicy" class="kr.co.aim.mes.consumable.policy.SplitPolicy" />
+  	<bean id="ConsumableDecrementQuantityPolicy" class="kr.co.aim.mes.consumable.policy.DecrementQuantityPolicy" />
+  	<bean id="ConsumableIncrementQuantityPolicy" class="kr.co.aim.mes.consumable.policy.IncrementQuantityPolicy" />
+  	<bean id="ConsumableMakeNotAvailablePolicy" class="kr.co.aim.mes.consumable.policy.MakeNotAvailablePolicy" />
+  	
+  	<!-- Durable -->
+  	<!-- 
+  	<bean id="DurableIncrementTimeUsedPolicy" class="kr.co.aim.mes.durable.policy.IncrementTimeUsedPolicy" />
+  	<bean id="DurableDecrementTimeUsedPolicy" class="kr.co.aim.mes.durable.policy.DecrementTimeUsedPolicy" />
+  	<bean id="DurableIncrementDurationUsedPolicy" class="kr.co.aim.mes.durable.policy.IncrementDurationUsedPolicy" />
+  	<bean id="DurableDecrementDurationUsedPolicy" class="kr.co.aim.mes.durable.policy.DecrementDurationUsedPolicy" />
+  	 -->
+  	 
+  	<!-- Lot -->
+  	<bean id="MakeLoggedOutPolicy" class="kr.co.aim.mes.lot.policy.MakeLoggedOutPolicy" />
+  	<!-- 
+	<bean id="LotAssignNewProductsPolicy" class="kr.co.aim.mes.lot.policy.AssignNewProductsPolicy" />
+	<bean id="LotAssignProductsPolicy" class="kr.co.aim.mes.lot.policy.AssignProductsPolicy" />
+	<bean id="LotDeassignProductsPolicy" class="kr.co.aim.mes.lot.policy.DeassignProductsPolicy" />
+	<bean id="LotTransferProductsToLotPolicy" class="kr.co.aim.mes.lot.policy.TransferProductsToLotPolicy" />
+  	 -->
+  	 
+</beans>

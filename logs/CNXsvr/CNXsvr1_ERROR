@@ -1,0 +1,642 @@
+2022-01-11 17:15:00,608 [           UserLogin] [20220111171500261606] [THREAD-ID=129] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:15:00,624 [           UserLogin] [20220111171500261606] [THREAD-ID=129] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:15:00,630 [           UserLogin] [20220111171500261606] [THREAD-ID=129] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1251.1
+2022-01-11 17:15:00,630 [           UserLogin] [20220111171500261606] [THREAD-ID=129] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171500261606</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1251.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:15:00,630 [           UserLogin] [20220111171500261606] [THREAD-ID=129] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:15:00,692 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171500261606,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171500261606</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1251.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111171500630000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171500630000', '20220111171500261606', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171500261606</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1251.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:15:06,732 [           UserLogin] [20220111171506681726] [THREAD-ID=130] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:15:06,732 [           UserLogin] [20220111171506681726] [THREAD-ID=130] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:15:06,742 [           UserLogin] [20220111171506681726] [THREAD-ID=130] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1253.1
+2022-01-11 17:15:06,742 [           UserLogin] [20220111171506681726] [THREAD-ID=130] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171506681726</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1253.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:15:06,742 [           UserLogin] [20220111171506681726] [THREAD-ID=130] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:15:06,750 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171506681726,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171506681726</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1253.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111171506742000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171506742000', '20220111171506681726', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171506681726</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1253.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:17:07,334 [           UserLogin] [20220111171707273541] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:17:07,334 [           UserLogin] [20220111171707273541] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:17:07,344 [           UserLogin] [20220111171707273541] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1255.1
+2022-01-11 17:17:07,344 [           UserLogin] [20220111171707273541] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171707273541</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1255.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:17:07,344 [           UserLogin] [20220111171707273541] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:17:07,344 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171707273541,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171707273541</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1255.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111171707340000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171707340000', '20220111171707273541', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171707273541</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1255.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:17:42,035 [           UserLogin] [20220111171741974052] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:17:42,035 [           UserLogin] [20220111171741974052] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:17:42,043 [           UserLogin] [20220111171741974052] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1257.1
+2022-01-11 17:17:42,043 [           UserLogin] [20220111171741974052] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171741974052</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1257.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:17:42,043 [           UserLogin] [20220111171741974052] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:17:42,045 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171741974052,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171741974052</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1257.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+,timeKey=20220111171742039000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171742039000', '20220111171741974052', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171741974052</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1257.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:18:25,887 [           UserLogin] [20220111171825837552] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:18:25,887 [           UserLogin] [20220111171825837552] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:18:25,897 [           UserLogin] [20220111171825837552] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1259.1
+2022-01-11 17:18:25,897 [           UserLogin] [20220111171825837552] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171825837552</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1259.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:18:25,897 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171825837552,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171825837552</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1259.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111171825893000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171825893000', '20220111171825837552', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171825837552</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1259.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:18:25,897 [           UserLogin] [20220111171825837552] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:19:22,580 [           UserLogin] [20220111171915639638] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:19:30,709 [           UserLogin] [20220111171915639638] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:19:30,717 [           UserLogin] [20220111171915639638] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F125B.1
+2022-01-11 17:19:30,717 [           UserLogin] [20220111171915639638] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171915639638</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125B.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:19:30,717 [           UserLogin] [20220111171915639638] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:19:30,717 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111171915639638,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171915639638</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125B.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111171930717000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111171930717000', '20220111171915639638', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111171915639638</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125B.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:21:05,183 [           UserLogin] [20220111172052577203] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [1] : Invalid Password.
+2022-01-11 17:21:05,187 [           UserLogin] [20220111172052577203] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][1]ErrorUserInvalidPasswordException
+2022-01-11 17:21:05,188 [           UserLogin] [20220111172052577203] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F125D.1
+2022-01-11 17:21:05,188 [           UserLogin] [20220111172052577203] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172052577203</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125D.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][1]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:21:05,188 [           UserLogin] [20220111172052577203] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:21:05,188 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][1]ErrorUserInvalidPasswordException,eventUser=,transactionId=20220111172052577203,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172052577203</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125D.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111172105188000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', '', '20220111172105188000', '20220111172052577203', '172.21.192.1', '[hklee][1]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172052577203</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F125D.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER />
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>1</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:23:33,681 [           UserLogin] [20220111172241467759] [THREAD-ID=131] [ERROR] - [USER-0002]User [hklee] Password [123qwer] : Invalid Password.
+2022-01-11 17:23:33,690 [           UserLogin] [20220111172241467759] [THREAD-ID=131] [ERROR] - [USER-0003][hklee][123qwer]ErrorUserInvalidPasswordException
+2022-01-11 17:23:33,692 [           UserLogin] [20220111172241467759] [THREAD-ID=131] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1263.1
+2022-01-11 17:23:33,692 [           UserLogin] [20220111172241467759] [THREAD-ID=131] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172241467759</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1263.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>*******</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+        <RETURNMESSAGE>[hklee][123qwer]ErrorUserInvalidPasswordException</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:23:33,692 [           UserLogin] [20220111172241467759] [THREAD-ID=131] [ERROR] - CustomException: kr.co.aim.messolution.userprofile.event.UserLogIn.doWorks(UserLogIn.java:57)
+2022-01-11 17:23:33,692 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=[hklee][123qwer]ErrorUserInvalidPasswordException,eventUser=hklee,transactionId=20220111172241467759,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172241467759</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1263.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>123qwer</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+,timeKey=20220111172333692000,eventName=UserLogin,serverName=CNXsvrCNXsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('CNXsvrCNXsvr1', 'UserLogin', 'hklee', '20220111172333692000', '20220111172241467759', '172.21.192.1', '[hklee][123qwer]ErrorUserInvalidPasswordException', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>UserLogin</MESSAGENAME>
+        <TRANSACTIONID>20220111172241467759</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1263.1</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <USERID>hklee</USERID>
+        <PASSWORD>123qwer</PASSWORD>
+        <UINAME>OIC</UINAME>
+        <LOCALNAME>DESKTOP-HNA4036</LOCALNAME>
+        <WORKSTATIONNAME>172.21.192.1</WORKSTATIONNAME>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <LOGGEDINUIVERSION>UNDEPLOYED</LOGGEDINUIVERSION>
+    </Body>
+    <Return>
+        <RETURNCODE>USER-0003</RETURNCODE>
+    </Return>
+</Message>
+
+') ]

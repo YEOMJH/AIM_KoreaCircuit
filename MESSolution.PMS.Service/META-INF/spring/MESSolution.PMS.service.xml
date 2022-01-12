@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd          http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+	<bean name="MaintenanceGroupService" class="kr.co.aim.messolution.pms.service.MaintenanceGroupServiceImpl" />
+	<bean name="MaintenanceSpecService" class="kr.co.aim.messolution.pms.service.MaintenanceSpecServiceImpl" />
+	<bean name="MaintenanceSpecItemService" class="kr.co.aim.messolution.pms.service.MaintenanceSpecItemServiceImpl" />
+	<bean name="MaintenanceOrderService" class="kr.co.aim.messolution.pms.service.MaintenanceOrderServiceImpl" />
+	<bean name="MaintenanceOrderItemService" class="kr.co.aim.messolution.pms.service.MaintenanceOrderItemServiceImpl" />
+	
+</beans>
+

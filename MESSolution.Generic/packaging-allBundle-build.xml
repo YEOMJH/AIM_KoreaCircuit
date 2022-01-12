@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<project default="_packaging_generation_" name="Packaging Generator" basedir="../">
+    <property name="SPECVERSION" value="1.0.0.2" />
+    <property name="VERSION" value="1.1.0" />
+	<property name="VERSION_KERNEL" value="1.0.0" />
+    <target name="_packaging_generation_" depends="N10001" />
+    <target name="clean" description="remove previous jar">
+		<delete>
+			<fileset dir="dist" includes="**/*.*"/>
+		</delete>
+    </target>
+    <target name="N10001" description="creating jar" depends="clean">
+        <jar destfile="dist/MESSolution.Generic-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Generic/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Generic/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Generic/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Generic/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Alarm.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Alarm.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Alarm.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Alarm.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Alarm.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Consumable.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Consumable.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Consumable.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Consumable.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Consumable.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.DataCollection.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.DataCollection.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.DataCollection.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.DataCollection.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.DataCollection.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Durable.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Durable.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Durable.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Durable.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Durable.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Extended.Object-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Extended.Object/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Extended.Object/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Extended.Object/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Extended.Object/src" includes="**/*.*" />
+        </jar>
+    	<jar destfile="dist/MESSolution.Extended.Policy-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Extended.Policy/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.Extended.Policy/META-INF/spring" prefix="META-INF/spring">
+    	        <include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.Extended.Policy/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.Extended.Policy/src" includes="**/*.*" />
+    	</jar>
+    	<jar destfile="dist/MESSolution.Extended.WebInterface-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Extended.WebInterface/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.Extended.WebInterface/META-INF/spring" prefix="META-INF/spring">
+    	        <include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.Extended.WebInterface/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.Extended.WebInterface/src" includes="**/*.*" />
+    		<zipfileset dir="MESSolution.Extended.WebInterface/ext_lib" prefix="ext_lib" includes="**/*.jar" />
+    	</jar>
+		<jar destfile="dist/MESSolution.Lot.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Lot.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Lot.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Lot.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Lot.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Machine.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Machine.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Machine.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Machine.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Machine.Service/src" includes="**/*.*" />
+        </jar>
+    	<jar destfile="dist/MESSolution.PMS.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.PMS.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.PMS.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.PMS.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.PMS.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Port.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Port.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Port.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Port.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Port.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.ProcessGroup.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.ProcessGroup.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.ProcessGroup.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.ProcessGroup.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.ProcessGroup.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Product.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Product.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Product.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Product.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Product.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.ProductRequest.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.ProductRequest.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.ProductRequest.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.ProductRequest.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.ProductRequest.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.Query.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Query.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.Query.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.Query.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.Query.Service/src" includes="**/*.*" />
+        </jar>
+		<jar destfile="dist/MESSolution.TransportJob.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.TransportJob.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.TransportJob.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="MESSolution.TransportJob.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.TransportJob.Service/src" includes="**/*.*" />
+        </jar>
+    	<jar destfile="dist/MESSolution.DSP.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.DSP.Service/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.DSP.Service/META-INF/spring" prefix="META-INF/spring">
+    	        <include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.DSP.Service/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.DSP.Service/src" includes="**/*.*" />
+    	</jar>
+		<jar destfile="dist/MESSolution.UserProfile.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.UserProfile.Service/META-INF/MANIFEST.MF">
+            <zipfileset dir="MESSolution.UserProfile.Service/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+		    <zipfileset dir="MESSolution.UserProfile.Service/bin" includes="**/*.class" />
+            <zipfileset dir="MESSolution.UserProfile.Service/src" includes="**/*.*" />
+        </jar>
+    	<jar destfile="dist/MESSolution.Timer.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.Timer.Service/META-INF/MANIFEST.MF">
+    		<zipfileset dir="MESSolution.Timer.Service/META-INF/spring" prefix="META-INF/spring">
+    	        <include name="**/*.xml" />
+    	    </zipfileset>
+    		<zipfileset dir="MESSolution.Timer.Service/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.Timer.Service/src" includes="**/*.*" />
+    	</jar>
+    	<jar destfile="dist/MESSolution.RMS.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.RMS.Service/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.RMS.Service/META-INF/spring" prefix="META-INF/spring">
+    	    	<include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.RMS.Service/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.RMS.Service/src" includes="**/*.*" />
+    	</jar>
+    	<jar destfile="dist/MESSolution.FMC.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.FMC.Service/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.FMC.Service/META-INF/spring" prefix="META-INF/spring">
+    	    	<include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.FMC.Service/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.FMC.Service/src" includes="**/*.*" />
+    	</jar>
+    	
+    	<!--
+    	<jar destfile="dist/MESSolution.FMC.Service-${VERSION}-SNAPSHOT.jar" manifest="MESSolution.FMC.Service/META-INF/MANIFEST.MF">
+    	    <zipfileset dir="MESSolution.FMC.Service/META-INF/spring" prefix="META-INF/spring">
+    	    	<include name="**/*.xml" />
+    	    </zipfileset>
+    	    <zipfileset dir="MESSolution.FMC.Service/bin" includes="**/*.class" />
+    	    <zipfileset dir="MESSolution.FMC.Service/src" includes="**/*.*" />
+    	</jar>
+    	-->
+		<!--
+		<jar destfile="dist/nanoFrame.formatter-${VERSION}.jar" manifest="nanoFrame.formatter/META-INF/MANIFEST.MF">
+            <zipfileset dir="nanoFrame.formatter/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.xml" />
+            </zipfileset>
+            <zipfileset dir="nanoFrame.formatter/bin" includes="**/*.class" />
+            <zipfileset dir="nanoFrame.formatter/src" includes="**/*.*" />
+        </jar>
+		-->
+		
+    	<!--
+		<jar destfile="dist/nanoFrame.Infra-${VERSION}.jar" manifest="nanoFrame.Infra/META-INF/MANIFEST.MF">
+            <zipfileset dir="nanoFrame.Infra/bin" includes="**/*.class" />
+            <zipfileset dir="nanoFrame.Infra/src" includes="**/*.*" />
+        </jar>
+    	-->
+		
+		<!--
+    	<jar destfile="dist/nanoFrame.kernel-${VERSION_KERNEL}.jar"  manifest="nanoFrame.kernel/META-INF/MANIFEST.MF">
+			<zipfileset dir="nanoFrame.kernel/bin" 
+				includes="**/*.class" 
+			/>
+			<zipfileset dir="nanoFrame.kernel/src" 
+				includes="**/*.*" 
+			/>
+			<zipfileset dir="nanoFrame.kernel/lib" prefix="lib"
+				includes="**/*.jar" 
+			/>
+		</jar>
+		-->
+    	<!--
+		<jar destfile="dist/nanoFrame.logger-${VERSION}.jar" manifest="nanoFrame.logger/META-INF/MANIFEST.MF">
+            <zipfileset dir="nanoFrame.logger/bin" includes="**/*.class" />
+            <zipfileset dir="nanoFrame.logger/src" includes="**/*.*" />
+				<zipfileset dir="nanoFrame.logger/" includes="log4j.xml" />
+        </jar>
+        -->
+		<!--
+		<jar destfile="dist/nanoFrame.workflow-${VERSION}.jar" manifest="nanoFrame.workflow/META-INF/MANIFEST.MF">
+            <zipfileset dir="nanoFrame.workflow/bin" includes="**/*.class" />
+			<zipfileset dir="nanoFrame.workflow/META-INF/bpels" prefix="META-INF/bpels">
+                <include name="**/*.*" />
+            </zipfileset>
+			<zipfileset dir="nanoFrame.workflow/META-INF/spring" prefix="META-INF/spring">
+                <include name="**/*.*" />
+            </zipfileset>
+            <zipfileset dir="nanoFrame.workflow/src" includes="**/*.*" />
+        </jar>
+		-->
+    </target>
+</project>

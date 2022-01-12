@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="UserLogout.bpel">
+    <partnerLinks>
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+        <partnerLink name="UserProfileServiceImpl" partnerLinkType="bean:UserProfileServiceImpl" />
+    </partnerLinks>
+    <variables>
+        <variable name="error" messageType="java.lang.Exception"></variable>
+        <variable name="EVENTCOMMENT" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/EVENTCOMMENT')" />
+        <variable name="EVENTUSER" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/EVENTUSER')" />
+        <variable name="LANGUAGE" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/LANGUAGE')" />
+        <variable name="LOGGEDINUIVERSION" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/LOGGEDINUIVERSION')" />
+        <variable name="messagename" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/header/messagename')" />
+        <variable name="replysubjectname" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/header/replysubjectname')" />
+        <variable name="UINAME" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/UINAME')" />
+        <variable name="USERID" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/USERID')" />
+        <variable name="UserLogout" messageType="org.jdom.Document"></variable>
+        <variable name="WORKSTATIONNAME" messageType="java.lang.String" expression="getXmlData('UserLogout', '//message/body/WORKSTATIONNAME')" />
+    </variables>
+    <faultHandlers name="faultHandlers" bounds="444,80,260,160">
+        <catchAll name="catchAll" type="catchAll" bounds="81,36,111,105">
+            <invoke name="ESBService sendErrorBySender" type="invokebean" description="public void sendErrorBySender(String replySubject, org.jdom.Document doc, String lanuage, Exception e, String senderName)" bounds="19,19,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendErrorBySender" ignoreThrow="false" fork="false">
+                <input variable="replysubjectname" type="java.lang.String" />
+                <input variable="UserLogout" type="org.jdom.Document" />
+                <input variable="LANGUAGE" type="String" />
+                <input variable="error" />
+                <input constant="FMBCSender" type="java.lang.String" />
+            </invoke>
+        </catchAll>
+    </faultHandlers>
+    <sequence>
+        <receive name="UserLogout" bounds="180,50,101,55">
+            <input variable="UserLogout" />
+        </receive>
+        <assign name="parse" type="parse" bounds="177,129,101,35">
+            <source terminal="5,A" />
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/header/messagename')" />
+                <to variable="messagename" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/header/replysubjectname')" />
+                <to variable="replysubjectname" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/USERID')" />
+                <to variable="USERID" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/UINAME')" />
+                <to variable="UINAME" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/WORKSTATIONNAME')" />
+                <to variable="WORKSTATIONNAME" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/LOGGEDINUIVERSION')" />
+                <to variable="LOGGEDINUIVERSION" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/EVENTUSER')" />
+                <to variable="EVENTUSER" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/EVENTCOMMENT')" />
+                <to variable="EVENTCOMMENT" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('UserLogout', '//message/body/LANGUAGE')" />
+                <to variable="LANGUAGE" />
+            </copy>
+        </assign>
+        <invoke name="UserProfileServiceImpl logOut" type="invokebean" description="public void logOut(String userId, String uiName, String workStationName)&#xA;&#x9;&#x9;throws kr.co.aim.greentrack.generic.exception.InvalidStateTransitionSignal, kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal, kr.co.aim.greentrack.generic.exception.NotFoundSignal, kr.co.aim.greentrack.generic.exception.DuplicateNameSignal" bounds="179,183,101,71" partnerLink="UserProfileServiceImpl" partnerLinkType="UserProfileServiceImpl" operation="logOut" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="USERID" type="java.lang.String" />
+            <input variable="UINAME" type="String" />
+            <input variable="WORKSTATIONNAME" type="String" />
+            <fault faultName="catchAll" variable="error" />
+        </invoke>
+        <invoke name="ESBService sendReplyBySender" type="invokebean" description="public void sendReplyBySender(String replySubject, org.jdom.Document doc, String senderName)" bounds="183,300,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendReplyBySender" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replysubjectname" type="java.lang.String" />
+            <input variable="UserLogout" type="org.jdom.Document" />
+            <input constant="FMBCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

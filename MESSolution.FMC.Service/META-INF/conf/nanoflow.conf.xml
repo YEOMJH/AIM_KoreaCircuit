@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<beans path="D:\nanoFrame\MESSolution\MESSolution.Generic\bin">
+		<bean id="GenericServiceProxy" class="kr.co.aim.messolution.generic.GenericServiceProxy" />
+		<bean id="ReplyMessage" class="kr.co.aim.messolution.generic.reply.ReplyMessage" />
+		<bean id="TxnManager" class="kr.co.aim.messolution.generic.transaction.TxnManager" />
+		<bean id="CustomExpression" class="kr.co.aim.messolution.generic.expression.CustomExpression" />
+		<bean id="EventInfoUtil" class="kr.co.aim.messolution.generic.util.EventInfoUtil" />
+		<bean id="ObjectMaker" class="kr.co.aim.messolution.generic.util.ObjectMaker" />
+		<bean id="PolicyUtil" class="kr.co.aim.messolution.generic.util.PolicyUtil" />
+	</beans>
+	<beans path="D:\nanoFrame\MESSolution\MESSolution.Lot.Service\bin">
+		<bean id="LotServiceImpl" class="kr.co.aim.messolution.lot.service.LotServiceImpl" />
+		<bean id="LotServiceUtil" class="kr.co.aim.messolution.lot.service.LotServiceUtil" />
+	</beans>
+	<beans path="D:\nanoFrame\MESSolution\MESSolution.Machine.Service\bin">
+		<bean id="MachineServiceImpl" class="kr.co.aim.messolution.machine.service.MachineServiceImpl" />
+	</beans>
+	<beans path="D:\nanoFrame\MESSolution\MESSolution.UserProfile.Service\bin">
+		<bean id="UserProfileServiceImpl" class="kr.co.aim.messolution.userprofile.service.UserProfileServiceImpl" />
+		<bean id="UserProfileServiceUtil" class="kr.co.aim.messolution.userprofile.service.UserProfileServiceUtil" />
+	</beans>
+</resources>
+

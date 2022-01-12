@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="MES_LIB_UPLOAD" default="upload" basedir=".">
+	
+	<!-- DEV
+	    <property name="ftp.server" value="10.69.2.135" />
+	    <property name="ftp.port" value="22" />
+	    <property name="ftp.home.dir" value="/home/mesdev/lib/target.mes" />
+	    <property name="ftp.userid" value="mesdev" />
+	    <property name="ftp.pw" value="adm1200" /> --> 
+	
+	<!-- TEST 
+	    <property name="ftp.server" value="10.69.2.139" />
+	    <property name="ftp.port" value="22" />
+	    <property name="ftp.home.dir" value="/home/mestst/lib/target.mes" />
+	    <property name="ftp.userid" value="mestst" />
+	    <property name="ftp.pw" value="adm1200" />  -->
+	
+	<!-- PRD -->
+		    <property name="ftp.server" value="10.73.17.10" />
+		    <property name="ftp.port" value="22" />
+		    <property name="ftp.home.dir" value="/home/mesadm/lib/target.mes" />
+		    <property name="ftp.userid" value="mesadm" />
+		    <property name="ftp.pw" value="adm1210" /> 
+	
+	<!-- PRD 51,52
+    <property name="ftp.server" value="10.69.2.51" />
+	<property name="ftp.server2" value="10.69.2.52" />
+    <property name="ftp.port" value="22" />
+    <property name="ftp.home.dir" value="/home/mesadm/lib/target.mes" />
+    <property name="ftp.userid" value="mesadm" />
+    <property name="ftp.pw" value="adm1210" /> --> 
+	
+    <taskdef name="ssh" classname="com.sshtools.ant.Ssh" />
+    
+    <target name="upload">
+        <ssh host="${ftp.server}" port="${ftp.port}"
+             username="${ftp.userid}"
+             password="${ftp.pw}"
+             version="2">
+             
+             <sftp action="put" remotedir="${ftp.home.dir}" verbose="true">
+				<fileset dir="../dist/">
+					<include name="MESSolution*.jar" />
+				</fileset>
+             </sftp>
+        </ssh>
+    	
+    	<!-- PRD 51,52
+    	<ssh host="${ftp.server2}" port="${ftp.port}"
+    	    username="${ftp.userid}"
+    	    password="${ftp.pw}"
+    	    version="2">
+    		             
+    	    <sftp action="put" remotedir="${ftp.home.dir}" verbose="true">
+    			<fileset dir="../dist/">
+    				<include name="MESSolution*.jar" />
+    			</fileset>
+    	    </sftp>
+    	</ssh> -->
+    	
+    </target>
+</project>

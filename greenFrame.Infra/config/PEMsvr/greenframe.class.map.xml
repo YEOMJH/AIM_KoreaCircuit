@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+    <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+        <property name="senderByMessage" ref="SenderByMessage" />
+    </bean>
+
+    <util:map id="SenderByMessage" map-class="java.util.HashMap">
+
+        <entry key="MainRecipeRequest" value="RMSSender"/>
+		<entry key="MainRecipeReport" value="RMSSender"/>
+		<entry key="MainRecipeReportAsync" value="RMSSender"/>
+		<entry key="RecipeParameterReply" value="RMSSender"/>
+		<entry key="RecipeParameterReplyAsync" value="RMSSender"/>
+		<entry key="RecipeParameterRequest" value="RMSSender"/>
+		<entry key="RecipeChanged" value="RMSSender"/>
+		<entry key="RecipeCheckRequest" value="RMSSender"/>
+		<entry key="RecipeValidRequest" value="RMSSender"/>
+		<entry key="RecipeParameterValidRequest" value="RMSSender"/>
+		<entry key="RecipeValidReply" value="RMSSender"/>
+		<entry key="RecipeParameterValidReply" value="RMSSender"/>
+		<entry key="CurrentRecipeChanged" value="RMSSender"/>
+		<entry key="RecipeCheckStartRequest" value="RMSSender"/>
+		<entry key="RecipeCheckResult" value="RMSSender"/>
+		<entry key="CheckRecipeRequest" value="RMSSender"/>
+		<entry key="CheckRecipeRequestAsync" value="RMSSender"/>
+		<entry key="RecipeCheckStartReply" value="RMSSender"/>
+		<entry key="RecipeValidationReply" value="RMSSender"/>
+		<entry key="RecipeParameterSend" value="RMSSender"/>
+		<entry key="RecipeParameterValidEnd" value="RMSSender"/>
+
+    </util:map>
+
+</beans>
+

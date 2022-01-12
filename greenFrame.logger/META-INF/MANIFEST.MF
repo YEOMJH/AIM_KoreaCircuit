@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Aim System. Inc
+Ant-Version: Apache Ant 1.7.0
+Eclipse-LazyStart: true
+Fragment-Host: com.springsource.org.apache.log4j;bundle-version="1.2.16"
+Bundle-ClassPath: .
+Bundle-Version: 1.1.0
+Bundle-Name: greenFrame.logger [logger]
+Created-By: Aim System. Inc
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: greenFrame.logger
+Export-Package: kr.co.aim.greenframe.logger,
+ kr.co.aim.greenframe.logger.appender
+

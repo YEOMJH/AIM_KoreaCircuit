@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MESSolution.Port.Service [service]
+Bundle-SymbolicName: MESSolution.Port.Service
+Bundle-Version: 1.1.0
+Bundle-ClassPath: .
+Bundle-Vendor: Aim System. Inc
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Export-Package: kr.co.aim.messolution.port,
+ kr.co.aim.messolution.port.event,
+ kr.co.aim.messolution.port.service
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Durable.Service;bundle-version="1.1.0",
+ MESSolution.Consumable.Service;bundle-version="1.1.0",
+ MESSolution.TransportJob.Service,
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Consumable.Service;bundle-version="1.1.0",
+ greenTrack.Durable.Service;bundle-version="1.1.0",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.Lot.Service;bundle-version="1.1.0",
+ greenTrack.Machine.Service;bundle-version="1.1.0",
+ greenTrack.Port.Service;bundle-version="1.1.0",
+ greenTrack.ProductRequest.Service,
+ MESSolution.ProductRequest.Service;bundle-version="1.1.0"
+Eclipse-LazyStart: false
+Created-By: Aim System. Inc
+Ant-Version: Apache Ant 1.7.0
+Import-Package: kr.co.aim.messolution.extended.object,
+ kr.co.aim.messolution.extended.object.management.data,
+ kr.co.aim.messolution.extended.object.management.impl,
+ kr.co.aim.messolution.extended.webinterface,
+ kr.co.aim.messolution.extended.webinterface.service,
+ kr.co.aim.messolution.lot,
+ kr.co.aim.messolution.lot.service,
+ kr.co.aim.messolution.machine,
+ kr.co.aim.messolution.machine.service,
+ kr.co.aim.messolution.port.service,
+ kr.co.aim.messolution.productrequest,
+ kr.co.aim.messolution.productrequest.service,
+ kr.co.aim.greentrack.productrequest,
+ kr.co.aim.greentrack.productrequest.management,
+ kr.co.aim.greentrack.productrequest.management.data,
+ kr.co.aim.greentrack.productrequest.management.info

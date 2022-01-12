@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="UserLogin.bpel">
+    <partnerLinks>
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+        <partnerLink name="UserProfileServiceImpl" partnerLinkType="bean:UserProfileServiceImpl" />
+        <partnerLink name="UserProfileServiceUtil" partnerLinkType="bean:UserProfileServiceUtil" />
+    </partnerLinks>
+    <variables>
+        <variable name="error" messageType="java.lang.Exception"></variable>
+        <variable name="errorMessage" messageType="java.lang.String"></variable>
+        <variable name="language" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/LANGUAGE')" />
+        <variable name="password" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/PASSWORD')" />
+        <variable name="replySubjectName" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/header/replysubjectname')" />
+        <variable name="returnElement" messageType="org.jdom.Element"></variable>
+        <variable name="uiName" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/UINAME')" />
+        <variable name="userId" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/USERID')" />
+        <variable name="workStationName" messageType="java.lang.String" expression="getXmlData('xml.Data', '//message/body/WORKSTATIONNAME')" />
+        <variable name="xml.Data" messageType="org.jdom.Document"></variable>
+    </variables>
+    <faultHandlers name="faultHandlers" bounds="506,144,299,284">
+        <catchAll name="catchAll" type="catchAll" bounds="50,39,146,163">
+            <invoke name="ESBService sendErrorBySender" type="invokebean" description="public void sendErrorBySender(String replySubject, org.jdom.Document doc, String lanuage, Exception e, String senderName)" bounds="16,28,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendErrorBySender" ignoreThrow="false" fork="false">
+                <input variable="replySubjectName" type="java.lang.String" />
+                <input variable="xml.Data" type="org.jdom.Document" />
+                <input variable="language" type="String" />
+                <input variable="error" />
+                <input constant="FMBCSender" type="java.lang.String" />
+            </invoke>
+        </catchAll>
+    </faultHandlers>
+    <sequence>
+        <receive name="UserLogin" bounds="180,50,101,55">
+            <input variable="xml.Data" />
+        </receive>
+        <invoke name="UserProfileServiceImpl login" type="invokebean" description="public void login (java.lang.String userId,java.lang.String password,java.lang.String uiName,java.lang.String workStationName)" bounds="180,230,101,71" partnerLink="UserProfileServiceImpl" partnerLinkType="UserProfileServiceImpl" operation="login" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="userId" type="java.lang.String" />
+            <input variable="password" type="java.lang.String" />
+            <input variable="uiName" type="java.lang.String" />
+            <input variable="workStationName" type="java.lang.String" />
+            <fault faultName="catchAll" variable="error" />
+        </invoke>
+        <invoke name="UserProfileServiceUtil createUserProfileElement" type="invokebean" description="public Element createUserProfileElement (java.lang.String userId)" bounds="180,368,101,71" partnerLink="UserProfileServiceUtil" partnerLinkType="UserProfileServiceUtil" operation="createUserProfileElement" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="userId" type="java.lang.String" />
+            <output variable="returnElement" />
+        </invoke>
+        <invoke name="ESBService sendReplyBySender" type="invokebean" description="public void sendReplyBySender(String replySubject, org.jdom.Document doc, org.jdom.Element element, String senderName)&#xA;&#x9;&#x9;throws java.lang.Exception" bounds="180,498,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendReplyBySender" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replySubjectName" type="java.lang.String" />
+            <input variable="xml.Data" type="org.jdom.Document" />
+            <input variable="returnElement" type="org.jdom.Element" />
+            <input constant="FMBCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

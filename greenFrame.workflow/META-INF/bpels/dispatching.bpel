@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="dispatching.bpel">
+    <partnerLinks>
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+        <partnerLink name="BpelExecuter" partnerLinkType="bean:BpelExecuter" />
+    </partnerLinks>
+    <variables>
+        <variable name="error" messageType="java.lang.Exception"></variable>
+        <variable name="language" messageType="java.lang.String" expression="getXmlData('message', '//Message/Header/LANGUAGE')" />
+        <variable name="lotData" messageType="kr.co.aim.greentrack.lot.management.data.Lot"></variable>
+        <variable name="message" messageType="org.jdom.Document"></variable>
+        <variable name="msg" messageType="java.lang.String"></variable>
+        <variable name="replySubjectName" messageType="java.lang.String" expression="getXmlData('message', '//Message/Header/ORIGINALSOURCESUBJECTNAME')" />
+    </variables>
+    <faultHandlers name="faultHandlers" bounds="358,29,505,270">
+        <catchAll name="catchAll" type="catchAll" bounds="39,69,392,153">
+            <invoke name="ESBService sendErrorBySender" type="invokebean" description="public void sendErrorBySender(String replySubject, org.jdom.Document doc, String lanuage, Exception e, String senderName)" bounds="36,4,300,92" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendErrorBySender" operationDesc="public void sendErrorBySender(String replySubject, org.jdom.Document doc, String lanuage, Exception e, String senderName)" ignoreThrow="false" fork="false">
+                <input variable="replySubjectName" type="java.lang.String" />
+                <input variable="message" type="org.jdom.Document" />
+                <input variable="language" type="java.lang.String" />
+                <input variable="error" type="java.lang.Exception" />
+                <input constant="OICSender" type="java.lang.String" />
+            </invoke>
+        </catchAll>
+    </faultHandlers>
+    <sequence>
+        <receive name="dispatching{SEQ}0" bounds="50,30,117,65">
+            <input variable="message" type="org.jdom.Document" />
+        </receive>
+        <invoke name="executeWF" type="invokebean" description="public void executeWF (org.jdom.Document xml.Data)" bounds="61,139,100,92" partnerLink="BpelExecuter" partnerLinkType="BpelExecuter" operation="executeWF" operationDesc="public void executeWF (org.jdom.Document xml.Data)" ignoreThrow="false" fork="false">
+            <source idx="0" terminal="5,A" />
+            <input variable="message" type="org.jdom.Document" />
+            <fault faultName="catchAll" variable="error" />
+        </invoke>
+    </sequence>
+</process>
+

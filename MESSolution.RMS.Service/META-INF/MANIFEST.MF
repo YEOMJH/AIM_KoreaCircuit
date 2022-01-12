@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MESSolution.RMS.Service [RMS]
+Bundle-SymbolicName: MESSolution.RMS.Service
+Bundle-Version: 1.1.0
+Bundle-Vendor: CSW
+Created-By: Aim System. Inc
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Extended.Object;bundle-version="1.1.0",
+ MESSolution.Machine.Service;bundle-version="1.1.0",
+ MESSolution.Lot.Service;bundle-version="1.1.0",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Durable.Service;bundle-version="1.1.0",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.Lot.Service;bundle-version="1.1.0",
+ greenTrack.Machine.Service;bundle-version="1.1.0",
+ greenTrack.ProcessFlow.Service;bundle-version="1.1.0",
+ greenTrack.ProcessOperationSpec.Service;bundle-version="1.1.0",
+ greenTrack.Recipe.Service;bundle-version="1.1.0",
+ greenTrack.User.Service;bundle-version="1.1.0"
+Export-Package: kr.co.aim.messolution.recipe,
+ kr.co.aim.messolution.recipe.event,
+ kr.co.aim.messolution.recipe.service
+Import-Package: kr.co.aim.messolution.durable,
+ kr.co.aim.messolution.durable.service,
+ kr.co.aim.messolution.extended.webinterface,
+ kr.co.aim.messolution.extended.webinterface.service,
+ kr.co.aim.messolution.port,
+ kr.co.aim.messolution.port.service,
+ kr.co.aim.messolution.processgroup,
+ kr.co.aim.messolution.product,
+ kr.co.aim.messolution.product.service,
+ kr.co.aim.greentrack.port,
+ kr.co.aim.greentrack.port.management.data,
+ kr.co.aim.greentrack.processflow,
+ kr.co.aim.greentrack.processflow.management,
+ kr.co.aim.greentrack.processflow.management.data,
+ kr.co.aim.greentrack.processoperationspec,
+ kr.co.aim.greentrack.processoperationspec.management,
+ kr.co.aim.greentrack.processoperationspec.management.data,
+ kr.co.aim.greentrack.product,
+ kr.co.aim.greentrack.product.management,
+ kr.co.aim.greentrack.product.management.data
+

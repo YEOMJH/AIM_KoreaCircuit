@@ -1,0 +1,18 @@
+package kr.co.aim.messolution.datacollection.event;
+
+import kr.co.aim.messolution.generic.GenericServiceProxy;
+import kr.co.aim.messolution.generic.errorHandler.CustomException;
+import kr.co.aim.messolution.generic.eventHandler.AsyncHandler;
+
+import org.jdom.Document;
+
+public class SPCControlLimitCNX extends AsyncHandler {
+ 
+	@Override
+	public void doWorks(Document doc)
+		throws CustomException  
+	{		
+		String replySubject = GenericServiceProxy.getESBServive().makeCustomServerLocalSubject("EDCsvr");
+		GenericServiceProxy.getESBServive().sendReplyBySender(replySubject, doc, "EDCSender");
+	}
+}

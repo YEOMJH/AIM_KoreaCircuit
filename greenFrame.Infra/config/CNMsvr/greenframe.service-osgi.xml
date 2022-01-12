@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+ 	
+	<osgi:service ref="MessageListener" interface="kr.co.aim.greenframe.esb.tibco.DQListener" />
+<!--	<osgi:service ref="COMMONListener" interface="kr.co.aim.greenframe.esb.tibco.SubscribeListener" />
+    <osgi:service ref="COMMONSender" interface="kr.co.aim.greenframe.esb.GenericSender"/>
+	<osgi:service ref="TibSender" interface="kr.co.aim.greenframe.esb.tibco.CMRequester"/>
+-->    
+
+</beans>
+

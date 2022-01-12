@@ -1,0 +1,149 @@
+8200
+;225.11.11.2
+
+YUNGU.V2.MES.DEV.FAB.PEMsvr
+
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>TrayGroupProcessEndForClave</MESSAGENAME>
+        <SHOPNAME>PostCell</SHOPNAME>
+        <TRANSACTIONID>20200407154946661241</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>SOMSAP_TEST3</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>2PCT03</EVENTUSER>
+        <EVENTCOMMENT />
+    </Header>
+    <Body>
+        <MACHINENAME>2PCT03</MACHINENAME>
+        <PORTNAME>P01</PORTNAME>
+        <PORTTYPE>PU</PORTTYPE>
+        <PORTUSETYPE>OO</PORTUSETYPE>
+        <TRAYGROUPNAME>TESTTRAY01</TRAYGROUPNAME>
+        <PRODUCTSPECNAME>G2639QB101FC-007E</PRODUCTSPECNAME>
+        <PRODUCTSPECVERSION>00001</PRODUCTSPECVERSION>
+        <PROCESSFLOWNAME>PMP599HD2222</PROCESSFLOWNAME>
+        <PROCESSFLOWVERSION>00001</PROCESSFLOWVERSION>
+        <PROCESSOPERATIONNAME>35000</PROCESSOPERATIONNAME>
+        <PROCESSOPERATIONVERSION>00001</PROCESSOPERATIONVERSION>
+        <MACHINERECIPENAME>AutoClave001</MACHINERECIPENAME>
+        <WORKORDER>CLAVETEST</WORKORDER>
+        <QUANTITY>2</QUANTITY>
+        <TRAYLIST>
+            <TRAY>
+                <TRAYNAME>TESTTRAY02</TRAYNAME>
+                <POSITION>2</POSITION>
+                <PRODUCTQUANTITY>8</PRODUCTQUANTITY>
+                <PANELLIST>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL001</PANELNAME>
+                        <POSITION>A01</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL002</PANELNAME>
+                        <POSITION>A02</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL003</PANELNAME>
+                        <POSITION>A03</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL004</PANELNAME>
+                        <POSITION>A04</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL005</PANELNAME>
+                        <POSITION>B01</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL006</PANELNAME>
+                        <POSITION>B02</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL007</PANELNAME>
+                        <POSITION>B03</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL008</PANELNAME>
+                        <POSITION>B04</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                </PANELLIST>
+            </TRAY>
+            <TRAY>
+                <TRAYNAME>TESTTRAY03</TRAYNAME>
+                <POSITION>1</POSITION>
+                <PRODUCTQUANTITY>8</PRODUCTQUANTITY>
+                <PANELLIST>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL009</PANELNAME>
+                        <POSITION>A01</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL010</PANELNAME>
+                        <POSITION>A02</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL011</PANELNAME>
+                        <POSITION>A03</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL012</PANELNAME>
+                        <POSITION>A04</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL013</PANELNAME>
+                        <POSITION>B01</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL014</PANELNAME>
+                        <POSITION>B02</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL015</PANELNAME>
+                        <POSITION>B03</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                    <PANEL>
+                        <PANELNAME>TESTPANEL016</PANELNAME>
+                        <POSITION>B04</POSITION>
+                        <PRODUCTJUDGE>G</PRODUCTJUDGE>
+                        <PRODUCTGRADE />
+                    </PANEL>
+                </PANELLIST>
+            </TRAY>
+        </TRAYLIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>

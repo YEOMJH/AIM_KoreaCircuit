@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="ControlStateChanged.bpel">
+    <partnerLinks>
+        <partnerLink name="FmbService" partnerLinkType="bean:FmbService" />
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+    </partnerLinks>
+    <variables>
+        <variable name="ControlStateChanged" messageType="org.jdom.Document"></variable>
+        <variable name="CONTROLSTATENAME" messageType="java.lang.String" expression="getXmlData('ControlStateChanged', '//message/body/CONTROLSTATENAME')" />
+        <variable name="MACHINENAME" messageType="java.lang.String" expression="getXmlData('ControlStateChanged', '//message/body/MACHINENAME')" />
+        <variable name="preFixSubject" messageType="java.lang.String"></variable>
+        <variable name="replySubject" messageType="java.lang.String"></variable>
+    </variables>
+    <sequence>
+        <receive name="ControlStateChanged" bounds="50,10,101,55">
+            <input variable="ControlStateChanged" />
+        </receive>
+        <assign name="parse" type="parse" messageFormat="ControlStateChanged" bounds="50,95,101,35">
+            <source terminal="5,A" />
+            <copy>
+                <from expression="getXmlData('ControlStateChanged', '//message/body/CONTROLSTATENAME')" />
+                <to variable="CONTROLSTATENAME" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('ControlStateChanged', '//message/body/MACHINENAME')" />
+                <to variable="MACHINENAME" />
+            </copy>
+        </assign>
+        <invoke name="FmbService getPreFixSubject" type="invokebean" description="public abstract String getPreFixSubject(String arg1)" bounds="50,160,101,71" partnerLink="FmbService" partnerLinkType="FmbService" operation="getPreFixSubject" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replySubject" type="java.lang.String" />
+            <output variable="preFixSubject" />
+        </invoke>
+        <invoke name="FmbService getShopBay" type="invokebean" description="public abstract String getShopBay(String arg1, String arg2)" bounds="50,261,101,71" partnerLink="FmbService" partnerLinkType="FmbService" operation="getShopBay" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="preFixSubject" type="java.lang.String" />
+            <input variable="MACHINENAME" type="String" />
+            <output variable="replySubject" />
+        </invoke>
+        <switch name="switch" bounds="84,362,33,33" type="switch">
+            <source terminal="5,A" />
+            <switchstart name="switchstart" type="switchstart" bounds="45,411,110,19" />
+            <case name="case" type="case" condition="getVariable('CONTROLSTATENAME')='REMOTE'" bounds="70,460,60,19">
+                <source terminal="5,A" />
+                <expression name="expression" type="expression" bounds="50,509,101,35">
+                    <source terminal="5,A" />
+                    <function value="setXmlData('ControlStateChanged','//CONTROLSTATENAME','OnLineRemote')" />
+                </expression>
+            </case>
+            <case name="case" type="case" condition="getVariable('CONTROLSTATENAME')='LOCAL'" bounds="171,460,60,19">
+                <source terminal="5,A" />
+                <expression name="expression" type="expression" bounds="151,509,101,35">
+                    <source terminal="5,A" />
+                    <function value="setXmlData('ControlStateChanged','//CONTROLSTATENAME','OnLineLocal')" />
+                </expression>
+            </case>
+            <case name="case" type="case" condition="getVariable('CONTROLSTATENAME')='OFFLINE'" bounds="291,460,60,19">
+                <source terminal="5,A" />
+                <expression name="expression" type="expression" bounds="271,509,101,35">
+                    <source terminal="5,A" />
+                    <function value="setXmlData('ControlStateChanged','//CONTROLSTATENAME','OffLine')" />
+                </expression>
+            </case>
+            <switchend name="switchend" type="switchend" bounds="266,564,110,19">
+                <source terminal="5,A" />
+                <source terminal="5,A" />
+                <source terminal="5,A" />
+            </switchend>
+        </switch>
+        <invoke name="ESBService sendBySender" type="invokebean" description="public void sendBySender ( BOEHF.B3.MES.PRD.FAB.FMBC,org.jdom.Document ControlStateChanged, FMBCSender)" bounds="271,613,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendBySender" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replySubject" />
+            <input variable="ControlStateChanged" />
+            <input constant="FMBCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

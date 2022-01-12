@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+    
+    
+    <osgi:service ref="ProcessGroupServiceImpl" interface="kr.co.aim.messolution.processgroup.service.ProcessGroupServiceImpl" />
+    
+    <osgi:service ref="ProcessGroupServiceUtil" interface="kr.co.aim.messolution.processgroup.service.ProcessGroupServiceUtil" />
+    
+     <osgi:service ref="ProcessGroupInfoUtil" interface="kr.co.aim.messolution.processgroup.service.ProcessGroupInfoUtil" />
+    		
+</beans>
+

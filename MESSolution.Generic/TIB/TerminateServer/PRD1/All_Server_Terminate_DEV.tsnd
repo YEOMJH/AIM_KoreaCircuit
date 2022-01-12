@@ -1,0 +1,26 @@
+
+
+tcp:10.70.1.71:7500
+Default.SUBJECT
+StopAutoReadBpel
+false
+3.0
+step 01;
+subject _LOCAL.BOEHF.B3.MES.DEV.FAB.EVISOR.${Value};
+
+body
+<message>
+    <header>
+        <messagename>TerminateAfterManagement</messagename>
+        <transactionid>20100202174559546875</transactionid>
+    </header>
+    <body>
+        <SERVERNAME>${Value}</SERVERNAME>
+        <EVENTUSER>kimilgab</EVENTUSER>
+        <EVENTCOMMENT></EVENTCOMMENT>
+        <LANGUAGE>English</LANGUAGE>
+    </body>
+</message>
+;
+send;
+wait 10;

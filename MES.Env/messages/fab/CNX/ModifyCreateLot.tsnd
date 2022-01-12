@@ -1,0 +1,93 @@
+8400
+;225.11.11.4
+
+YUNGU.V2.MES.DEVhslee89.FAB.CNMsvr
+
+false
+3.0
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>ModifyCreateLot</MESSAGENAME>
+        <TRANSACTIONID>20181029135433751230</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.0A44C13E.5BD65BC90127.5</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hslee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <FACTORYNAME>ARRAY</FACTORYNAME>
+        <PRODUCTSPECNAME>Y2622WV101GB001</PRODUCTSPECNAME>
+        <PRODUCTSPECVERSION>00001</PRODUCTSPECVERSION>
+        <PRODUCTREQUESTNAME>HJ-0427-Y</PRODUCTREQUESTNAME>
+        <PLANDATE>2018-04-27 15:00:00.0</PLANDATE>
+        <MACHINENAME>2AUU01</MACHINENAME>
+        <LOTLIST>
+            <LOT>
+                <LOTNAME>L2D8728B2AA</LOTNAME>
+                <PRODUCTQUANTITY>7</PRODUCTQUANTITY>
+                <POSITION>17</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A4AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A4AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A4AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A9AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A9AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A9AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>1</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A5AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8518A3AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A5AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8518A3AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8428A5AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+            <LOT>
+                <LOTNAME>L2D8518A3AA</LOTNAME>
+                <PRODUCTQUANTITY>26</PRODUCTQUANTITY>
+                <POSITION>2</POSITION>
+            </LOT>
+        </LOTLIST>
+    </Body>
+</Message>

@@ -1,0 +1,37 @@
+8400
+;225.11.11.4
+
+YUNGU.V2.MES.DEVPark.FAB.CNMsvr
+
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>CreateFrame</MESSAGENAME>
+        <TRANSACTIONID>20180307173126290125</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.0A4616D0.5A9F60C20586.5</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>shpark</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <FRAMELIST>
+            <FRAME>
+                <FACTORYNAME>OLED</FACTORYNAME>
+                <FRAMENAME>TC2R599FMA07</FRAMENAME>
+                <FRAMESPECNAME>TEST_FRAMESPEC02</FRAMESPECNAME>
+                <FRAMETYPE>CM</FRAMETYPE>
+            </FRAME>
+            <FRAME>
+                <FACTORYNAME>OLED</FACTORYNAME>
+                <FRAMENAME>TC2R599FMA08</FRAMENAME>
+                <FRAMESPECNAME>TEST_FRAMESPEC03</FRAMESPECNAME>
+                <FRAMETYPE>CM</FRAMETYPE>
+            </FRAME>
+        </FRAMELIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>

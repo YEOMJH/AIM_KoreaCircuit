@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+	
+	<!-- Qtime schedule service 
+    <bean name="ProductQtimeCalculationTimer" class="kr.co.aim.messolution.timer.job.ProductQtimeCalculationTimer" />  -->
+    
+    <!-- custom schedule service -->
+    <bean name="WorkOrderCalcutaionTimer" class="kr.co.aim.messolution.timer.job.WorkOrderCalcutaionTimer"/>
+	<bean name="MaterialQTimeMonitor" class="kr.co.aim.messolution.timer.job.MaterialQtimeTimer"/>
+	<bean name="ReviewStationQtimeMonitor" class="kr.co.aim.messolution.timer.job.ReviewStationQtimeTimer" />
+	<bean name="ReviewStationOLEDOfflineQtimeMonitor" class="kr.co.aim.messolution.timer.job.ReviewStationOLEDOfflineQtimeTimer" />
+	<bean name="QueueTimeMonitor" class="kr.co.aim.messolution.timer.job.QueueTimer"/>
+	<bean name="WIPCalculator" class="kr.co.aim.messolution.timer.job.WIPCalculationTimer"/>
+	<bean name="CSTCalculator" class="kr.co.aim.messolution.timer.job.CSTCalculationTimer"/>
+	<bean name="CSTSleepMonitor" class="kr.co.aim.messolution.timer.job.CSTSleepCalcutaionTimer"/>
+	<bean name="TransportJobMonitor" class="kr.co.aim.messolution.timer.job.TransportJobTimer"/>
+	<bean name="BorroTimeMonitor" class="kr.co.aim.messolution.timer.job.BorroTimer"/>
+	<bean name="RecipeTimeMonitor" class="kr.co.aim.messolution.timer.job.RecipeCalculationTimer" />
+	<bean name="MessageRepeatMonitor" class="kr.co.aim.messolution.timer.job.MessageRepeat" />
+	<bean name="ReserveCSTTransferTimerMonitor" class="kr.co.aim.messolution.timer.job.ReserveCSTTransferTimer" />
+	<bean name="BorrowPanelMonitor" class="kr.co.aim.messolution.timer.job.BorrowPanelTimer" />
+	<bean name="ReserveCSTUnloadMonitor" class="kr.co.aim.messolution.timer.job.ReserveCSTUnloadTimer" />
+	<bean name="OAINTReceiveMonitor" class="kr.co.aim.messolution.timer.job.OAINTReceiveTimer" />
+    <bean name="OAQCReceiveMonitor" class="kr.co.aim.messolution.timer.job.OAQCReceiveTimer" />
+    <bean name="CheckCSTLastCleanDateMonitor" class="kr.co.aim.messolution.timer.job.CheckCSTLastCleanDateTimer" />
+    <bean name="OAScrapReceiveMonitor" class="kr.co.aim.messolution.timer.job.OASCRAPPRODUCTTimer" />
+    <bean name="ComponentMonitorTimer" class="kr.co.aim.messolution.timer.job.ComponentMonitorTimer"/>
+    <bean name="NamingRuleMonitorTimer" class="kr.co.aim.messolution.timer.job.NamingRuleMonitorTimer"/>
+	<bean name="ProcessingMonitorTimer" class="kr.co.aim.messolution.timer.job.ProcessingMonitorTimer"/>
+	<bean name="OrganicExpirationMonitor" class="kr.co.aim.messolution.timer.job.OrganicExpirationTimer" />
+    <bean name="ReserveCSTTransferForFTEBPMonitor" class="kr.co.aim.messolution.timer.job.ReserveCSTTransferForFTEBPTimer" />
+    <bean name="FirstGlassPhotoQueueMonitor" class="kr.co.aim.messolution.timer.job.FirstGlassPhotoQueueTimer"/>
+    <bean name="OperationChangedReportMonitor" class="kr.co.aim.messolution.timer.job.OperationChangedReport" />
+    <bean name="MachineIdleCalcutaionTimerMonitor" class="kr.co.aim.messolution.timer.job.MachineIdleCalcutaionTimer" />
+    <bean name="AbnormalEQPMonitor" class="kr.co.aim.messolution.timer.job.AbnormalEQPTimer" />
+    <bean name="AutoCloseWOTimerMonitor" class="kr.co.aim.messolution.timer.job.AutoCloseWOTimer" />
+    <bean name="LongTimeNoRunTrayGroupTimer" class="kr.co.aim.messolution.timer.job.LongTimeNoRunTrayGroupTimer" />
+    
+	<!-- WMS I/F -->
+	<bean name="AutoMaterialReleaseHoldTimer" class="kr.co.aim.messolution.timer.job.AutoMaterialReleaseHoldTimer" />
+	
+	<!-- MDM I/F -->
+	<bean name="MDM_MAT001_MaterialReceive" class="kr.co.aim.messolution.timer.job.MDM_MAT001_MaterialReceive" />
+	<bean name="MDM_PL002_MachineSpecReport" class="kr.co.aim.messolution.timer.job.MDM_PL002_MachineSpecReport" />
+	<bean name="MDM_PL003_OperationSpecReport" class="kr.co.aim.messolution.timer.job.MDM_PL003_OperationSpecReport" />
+	<bean name="MDM_PL004_ProductSpecReport" class="kr.co.aim.messolution.timer.job.MDM_PL004_ProductSpecReport" />
+	<bean name="MDM_PL005_DefectCodeReceive" class="kr.co.aim.messolution.timer.job.MDM_PL005_DefectCodeReceive" />
+	<bean name="MDM_PL006_ReasonCodeReceive" class="kr.co.aim.messolution.timer.job.MDM_PL006_ReasonCodeReceive" />
+	<bean name="MDM_PL008_EnumDefValueReceive" class="kr.co.aim.messolution.timer.job.MDM_PL008_EnumDefValueReceive" />
+	<bean name="MDM_PL010_ReasonCodeReport" class="kr.co.aim.messolution.timer.job.MDM_PL010_ReasonCodeReport" />
+	
+	<!-- SAP I/F -->
+	<bean name="MES_SAPIF_WOINFO_ReceiveWO" class="kr.co.aim.messolution.timer.job.MES_SAPIF_WOINFO_ReceiveWO" />
+	<bean name="MES_SAPIF_WOBOM_ReceiveBOM" class="kr.co.aim.messolution.timer.job.MES_SAPIF_WOBOM_ReceiveBOM" />
+	<bean name="ProductionSummaryTimer" class="kr.co.aim.messolution.timer.job.MES_SAPIF_PP003_ProductionSummary" />
+	<bean name="ZPP_MES_ORDEROFF_ESB" class="kr.co.aim.messolution.timer.job.ZPP_MES_ORDEROFF_ESB" />
+	
+	<bean name="OledMaskMonitor" class="kr.co.aim.messolution.timer.job.OledMaskCalculationTimer"/>
+	<bean name="TFEMaskMonitor" class="kr.co.aim.messolution.timer.job.TFEMaskCalculationTimer"/>
+	
+	<bean name="InventoryZoneDataMonitor" class="kr.co.aim.messolution.timer.job.InventoryZoneDataRequestTimer"/>
+		
+	<!--
+	<bean name="AlarmCatchMonitor" class="kr.co.aim.messolution.timer.job.AlarmCatchTimer"/> 
+	-->
+</beans>
+

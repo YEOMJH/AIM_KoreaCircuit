@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extend Policy Service
+Bundle-SymbolicName: MESSolution.Extended.Policy
+Bundle-Version: 1.1.0
+Bundle-Vendor: AIM Systems, Inc.
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.osgi;bundle-version="3.3.2",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Lot.Service;bundle-version="1.1.0",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Behavior.Service;bundle-version="1.1.0",
+ greenTrack.Consumable.Service;bundle-version="1.1.0",
+ greenTrack.Durable.Service;bundle-version="1.1.0",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.Lot.Service;bundle-version="1.1.0",
+ greenTrack.Policy.Service;bundle-version="1.1.0",
+ greenTrack.ProcessGroup.Service;bundle-version="1.1.0",
+ greenTrack.Product.Service;bundle-version="1.1.0"
+Export-Package: kr.co.aim.mes.consumable.policy,
+ kr.co.aim.mes.durable.policy,
+ kr.co.aim.mes.lot.policy
+Import-Package: kr.co.aim.greentrack.productrequest.management.data,
+ kr.co.aim.greentrack.productrequest.management.info,
+ kr.co.aim.greentrack.productrequest.management.policy

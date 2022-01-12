@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+    <bean id="MessageListener" class="kr.co.aim.greenframe.esb.tibco.DQListener">
+        <property name="service" value="8900" />
+        <property name="network" value=";225.11.11.9" />
+        <property name="daemon" value="" />
+        <property name="schedulerWeight" value="${schedulerWeight}"/>
+        <property name="workerWeight" value="${workerWeight}"/>
+        <property name="workerTasks" value="${workerTasks}"/>
+        <property name="subjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}" />
+    </bean>
+    
+    <bean id="ToEISSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.REQ" />
+        <property name="service" value="8200" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.2" />
+    </bean>
+    <bean id="EISSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="ToEISSender" />
+    </bean>
+    
+    <bean id="GenericSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="EISSender" />
+    </bean>
+
+    <bean id="TibSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.REQ" />
+        <property name="service" value="8900" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.9" />
+    </bean>
+
+    <bean id="LocalSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="TibSender" />
+    </bean>    
+
+    <bean id="ToOICSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.${svr}.REQ" />
+        <property name="service" value="8400" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.4" />
+    </bean>
+    <bean id="OICSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="ToOICSender" />
+    </bean>
+
+    <bean id="ToQRYSender" class="kr.co.aim.greenframe.esb.tibco.DefaultRequester">
+        <property name="sendSubjectName" value="${location}.${factory}.${cim}.${mode}.${shop}.REQ" />
+        <property name="service" value="8800" />
+        <property name="daemon" value="" />
+        <property name="network" value=";225.11.11.8" />
+    </bean>
+    <bean id="QRYSender" class="kr.co.aim.greenframe.esb.GenericSender">
+        <property name="requester" ref="ToQRYSender" />
+    </bean>
+</beans>

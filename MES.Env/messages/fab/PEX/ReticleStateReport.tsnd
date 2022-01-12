@@ -1,0 +1,42 @@
+8200
+;225.11.11.2
+
+BOEDT.B4.MES.DEV.FAB.PEXsvr
+Sample
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>ReticleStateReport</MESSAGENAME>
+        <SHOPNAME>ARRAY</SHOPNAME>
+        <MACHINENAME>8APPH02</MACHINENAME>
+        <TRANSACTIONID>20110505152708924169</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>BOEDT.B4.EIS.DEV.FAB.B4EISFABDEV</ORIGINALSOURCESUBJECTNAME>
+        <SOURCESUBJECTNAME>BOEDT.B4.EIS.DEV.FAB.B4EISFABDEV</SOURCESUBJECTNAME>
+        <TARGETSUBJECTNAME>BOEDT.B4.MES.DEV.FAB.PEMsvr</TARGETSUBJECTNAME>
+        <EVENTUSER>8APPH02-EXPO</EVENTUSER>
+        <EVENTCOMMENT>ReticleStateReport</EVENTCOMMENT>
+        <INPUTSET />
+        <listener>PEMListener</listener>
+    </Header>
+    <Body>
+        <MACHINENAME>8APPH02</MACHINENAME>
+        <UNITLIST>
+            <UNIT>
+                <UNITNAME>8APPH02-EXPO</UNITNAME>
+                <RETICLELIST>
+                    <RETICLE>
+                        <RETICLENAME>CF_00006</RETICLENAME>
+                        <POSITION>01</POSITION>
+                        <RETICLESTATE />
+                        <RETICLEUSEDCOUNT />
+                    </RETICLE>
+                </RETICLELIST>
+            </UNIT>
+        </UNITLIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>

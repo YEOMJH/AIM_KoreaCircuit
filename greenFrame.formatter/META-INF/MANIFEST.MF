@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Spring-Context: META-INF/spring/*.xml, META-INF/spring/${svr}/*.xml
+Export-Package: kr.co.aim.greenframe.template.formatter
+Bundle-ClassPath: .
+Bundle-Name: greenFrame.formatter [formatter]
+Created-By: Aim System. Inc
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ com.springsource.net.sf.cglib;bundle-version="2.1.3",
+ MESSolution.Generic;bundle-version="1.1.0",
+ greenFrame.workflow;bundle-version="1.1.0",
+ com.springsource.org.apache.log4j;bundle-version="1.2.16",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4"
+Ant-Version: Apache Ant 1.7.0
+Bundle-Vendor: Aim System. Inc
+Eclipse-LazyStart: false
+Bundle-Version: 1.1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: greenFrame.formatter
+Import-Package: com.tibco.tibrv
+

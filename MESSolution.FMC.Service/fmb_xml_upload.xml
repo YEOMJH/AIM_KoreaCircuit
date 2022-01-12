@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<project name="bpel FtpUpload" default="uploadXml" basedir="../nanoFrame.Infra/config">
+    <target name="uploadXml" description="Deploy File FTP Upload to DEV Server">
+
+		  
+<!--
+		  <ftp server="10.70.1.72" port="21" remotedir="/usr01/mesfab/cmd/config/FMBsvr" userid="mesfab" password="adm1210" binary="no" verbose="true" >
+			  <fileset dir="FMBsvr">
+				<include name="**/*.xml"/>
+			  </fileset>
+		  </ftp>
+		  <ftp server="10.70.1.71" port="21" remotedir="/usr01/mesfab/cmd/config/FMBsvr" userid="mesfab" password="adm1210" binary="no" verbose="true" >
+			  <fileset dir="FMBsvr">
+				<include name="**/*.xml"/>
+			  </fileset>
+		  </ftp>
+-->
+		  <ftp server="10.70.1.73" port="21" remotedir="/usr01/mesmod/cmd/config/FMBsvr" userid="mesmod" password="adm1211" binary="no" verbose="true" >
+			  <fileset dir="FMBsvr">
+				<include name="**/*.xml"/>
+			  </fileset>
+		  </ftp>
+		  <ftp server="10.70.1.74" port="21" remotedir="/usr01/mesmod/cmd/config/FMBsvr" userid="mesmod" password="adm1211" binary="no" verbose="true" >
+			  <fileset dir="FMBsvr">
+				<include name="**/*.xml"/>
+			  </fileset>
+		  </ftp>
+
+	<!--	  <ftp server="10.70.3.11" port="21" remotedir="/usr01/devmod/bpels/PEXsvr" userid="devmod" password="adm1214" binary="no" verbose="true" >
+			  <fileset dir="PEXsvr">
+				<include name="**/*.bpel"/>
+			  </fileset>
+		  </ftp>
+		  <ftp server="10.70.3.11" port="21" remotedir="/usr01/devmod/bpels/QRYsvr" userid="devmod" password="adm1214" binary="no" verbose="true" >
+			  <fileset dir="QRYsvr">
+				<include name="**/*.bpel"/>
+			  </fileset>
+		  </ftp>
+		  <ftp server="10.70.3.11" port="21" remotedir="/usr01/devmod/bpels/CNMsvr" userid="devmod" password="adm1214" binary="no" verbose="true" >
+			  <fileset dir="CNMsvr">
+				<include name="**/*.bpel"/>
+			  </fileset>
+		  </ftp>
+	-->
+	</target>
+</project>

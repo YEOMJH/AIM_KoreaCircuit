@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+	<osgi:service ref="dataSource" interface="javax.sql.DataSource"/>
+
+	<osgi:service ref="TxDataSourceManager" >
+		<osgi:interfaces>
+			<value>kr.co.aim.greenframe.transaction.TransactionManager</value>
+			<value>kr.co.aim.greenframe.transaction.TxDataSourceManager</value>
+		</osgi:interfaces>
+	</osgi:service>
+
+	<osgi:service ref="SqlTemplate"      interface="kr.co.aim.greenframe.orm.SqlTemplate" />
+	<osgi:service ref="SqlMesTemplate"   interface="kr.co.aim.greentrack.generic.orm.SqlMesTemplate" />	
+
+	<osgi:service ref="OrmStandardEngine" interface="kr.co.aim.greenframe.orm.OrmStandardEngine" />
+
+	<osgi:service ref="ObjectAttributeMap" interface="kr.co.aim.greenframe.orm.ObjectAttributeMap" />
+
+	<osgi:service ref="BundleMessageEventAdaptor" interface="kr.co.aim.greenframe.event.BundleMessageEventAdaptor"/>
+
+	<osgi:service ref="GenericSender" interface="kr.co.aim.greenframe.esb.GenericSender" />
+
+    <osgi:service ref="LobHandler" interface="org.springframework.jdbc.support.lob.LobHandler" />
+
+	<osgi:service ref="InfraServiceProxy" interface="kr.co.aim.greenframe.infra.InfraServiceProxy" />
+
+	<osgi:service ref="ConstantMap" interface="kr.co.aim.greentrack.generic.master.AbstractConstantMap" />
+
+</beans>
+

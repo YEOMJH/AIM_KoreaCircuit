@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="WipCountReport.bpel">
+    <partnerLinks>
+        <partnerLink name="Db" partnerLinkType="bean:Db" />
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+    </partnerLinks>
+    <variables>
+        <variable name="result" messageType="org.jdom.Document"></variable>
+        <variable name="WipCountReport" messageType="org.jdom.Document"></variable>
+    </variables>
+    <sequence>
+        <receive name="WipCountReport" bounds="180,50,101,55">
+            <input variable="WipCountReport" />
+        </receive>
+        <invoke name="Db getWipCountDocument" type="invokebean" description="public abstract org.jdom.Document getWipCountDocument(org.jdom.Document arg1, String arg2, String arg3)" bounds="333,137,101,71" partnerLink="Db" partnerLinkType="Db" operation="getWipCountDocument" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="WipCountReport" type="org.jdom.Document" />
+            <input constant="WipQuery" type="java.lang.String" />
+            <input constant="0001" type="java.lang.String" />
+            <output variable="result" />
+        </invoke>
+        <invoke name="ESBService sendBySender" type="invokebean" description="public void sendBySender(String subject, org.jdom.Document doc, String senderName)" bounds="194,220,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendBySender" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input constant="BOEHF.B3.MES.PRD.FAB.FMC" type="java.lang.String" />
+            <input variable="result" type="org.jdom.Document" />
+            <input constant="FMCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

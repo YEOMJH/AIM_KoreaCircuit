@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+	<bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+		<property name="classMap" ref="ClassMap" />
+	</bean> 
+
+	<util:map id="ClassMap" map-class="java.util.HashMap">
+	
+	    <entry key="PickInfoRequest" value="kr.co.aim.messolution.lot.event.Tray.PickInfoRequest" />
+	    <entry key="PickEndReport" value="kr.co.aim.messolution.lot.event.Tray.PickEndReport" />
+
+	    <entry key="CheckOLEDMaskRequest" value="kr.co.aim.messolution.durable.event.OledMask.CheckOLEDMaskRequest" />
+	    <entry key="MachineDownProductReport" value="kr.co.aim.messolution.product.event.MachineDownProductReport" />
+	    
+	    <entry key="CoverTrayGroupInfoDownloadRequest" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayGroupInfoDownloadRequest" />
+	    <entry key="CoverTrayGroupProcessCanceled" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayGroupProcessCanceled" />
+	    <entry key="CoverTrayGroupProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayGroupProcessStarted" />
+	    <entry key="CoverTrayProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayProcessStarted" />
+	    <entry key="CoverTrayGroupProcessAbort" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayGroupProcessAbort" />
+	    <entry key="CoverTrayProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayProcessEnd" />
+	    <entry key="CoverTrayGroupProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.CoverTrayGroupProcessEnd" />
+	
+	    <entry key="CleanModeChanged" value="kr.co.aim.messolution.machine.event.CleanModeChanged" />
+	    <entry key="CleanModeReport" value="kr.co.aim.messolution.machine.event.CleanModeReport" />
+	
+		<entry key="IMSAreYouThereRequest" value="kr.co.aim.messolution.machine.event.IMS.IMSAreYouThereRequest" />
+		<entry key="IMSCommunicationStateChanged" value="kr.co.aim.messolution.machine.event.IMS.IMSCommunicationStateChanged" />
+		<entry key="IMSSubjectReport" value="kr.co.aim.messolution.machine.event.IMS.IMSSubjectReport" />
+		<entry key="IMSMaskLocationChanged" value="kr.co.aim.messolution.durable.event.IMS.IMSMaskLocationChanged" />
+		<entry key="IMSMaskMapDownloadRequest" value="kr.co.aim.messolution.durable.event.IMS.IMSMaskMapDownloadRequest" />
+		<entry key="IMSMaskRoomStatusReport" value="kr.co.aim.messolution.durable.event.IMS.IMSMaskRoomStatusReport" />
+		<entry key="IMSCreateMaskSendReply" value="kr.co.aim.messolution.durable.event.IMS.IMSCreateMaskSendReply" />
+		<entry key="IMSMaskChangeInfoReply" value="kr.co.aim.messolution.durable.event.IMS.IMSMaskChangeInfoReply" />
+		<entry key="IMSCancelCreateMaskSendReply" value="kr.co.aim.messolution.durable.event.IMS.IMSCancelCreateMaskSendReply" />
+	
+	    <entry key="CreateTrayRequest" value="kr.co.aim.messolution.lot.event.Tray.CreateTrayRequest"/>
+	    
+	    <entry key="R2RFeedbackDEPTimeUpdateReport" value="kr.co.aim.messolution.recipe.event.R2RFeedbackDEPTimeUpdateReport"/>
+	    <entry key="MaskOffsetChangeReport" value="kr.co.aim.messolution.durable.event.OledMask.MaskOffsetChangeReport"/>
+
+	    <entry key="LamiFilmInfoRequest" value="kr.co.aim.messolution.consumable.event.LamiFilmInfoRequest"/>
+	    <entry key="KitMaterialStateReport" value="kr.co.aim.messolution.durable.event.KitMaterialStateReport"/>
+	    
+	    <entry key="TrayGroupInfoDownloadRequestForClave" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupInfoDownloadRequestForClave"/>
+	    <entry key="TrayGroupProcessCanceledForClave" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessCanceledForClave"/>
+	    <entry key="TrayGroupProcessEndForClave" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessEndForClave"/>
+	    <entry key="TrayGroupProcessStartedForClave" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessStartedForClave"/>
+	   <!-- <entry key="TrayGroupScrapReport" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupScrapReport"/>-->
+	  
+	    <entry key="ComponentTrayGroupInSubUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayGroupInSubUnit"/>
+	    <entry key="ComponentTrayGroupInUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayGroupInUnit"/>
+	    <entry key="ComponentTrayGroupOutSubUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayGroupOutSubUnit"/>
+	    <entry key="ComponentTrayGroupOutUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayGroupOutUnit"/>
+	    <entry key="ComponentTrayInUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayInUnit"/>
+	    <entry key="ComponentTrayOutUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayOutUnit"/>
+	    <entry key="ComponentTrayInSubUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayInSubUnit"/>
+	    <entry key="ComponentTrayOutSubUnit" value="kr.co.aim.messolution.lot.event.Tray.ComponentTrayOutSubUnit"/>
+	    
+	    <entry key="MaskPPAInspectionReport" value="kr.co.aim.messolution.durable.event.OledMask.MaskPPAInspectionReport"/>
+	    <entry key="CreateOLEDMaskReport" value="kr.co.aim.messolution.durable.event.OledMask.CreateOLEDMaskReport"/>
+	    <entry key="ValidateStickRequest" value="kr.co.aim.messolution.durable.event.OledMask.ValidateStickRequest"/>
+	    <entry key="StickInspectionReport" value="kr.co.aim.messolution.durable.event.OledMask.StickInspectionReport"/>
+	    <entry key="AssignMaskStickReport" value="kr.co.aim.messolution.durable.event.OledMask.AssignMaskStickReport"/>
+	    <entry key="DeassignMaskStickReport" value="kr.co.aim.messolution.durable.event.OledMask.DeassignMaskStickReport"/>
+	    <entry key="StickInfoRequest" value="kr.co.aim.messolution.durable.event.OledMask.StickInfoRequest"/>
+	    <entry key="OLEDMaskPackingReport" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskPackingReport"/>
+	    
+	    
+	    <entry key="SorterJobCancelCommand" value="kr.co.aim.messolution.lot.event.SorterJobCancelCommand"/>
+		<entry key="SorterJobCancelCommandReply" value="kr.co.aim.messolution.lot.event.SorterJobCancelCommandReply"/>
+	  
+	    <entry key="SorterJobListReply" value="kr.co.aim.messolution.lot.event.SorterJobListReply"/>
+		<entry key="SorterJobListRequest" value="kr.co.aim.messolution.lot.event.SorterJobListRequest"/>
+		
+		<entry key="SoftwareVersionReply" value="kr.co.aim.messolution.machine.event.SoftwareVersionReply"/>
+		<entry key="SoftwareVersionRequest" value="kr.co.aim.messolution.machine.event.SoftwareVersionRequest"/>
+		
+		<!-- Alarm -->
+		<entry key="AlarmReport" value="kr.co.aim.messolution.alarm.event.AlarmReport"/>
+		<entry key="AlarmSetListRequest" value="kr.co.aim.messolution.alarm.event.AlarmSetListRequest"/>
+		<entry key="AlarmSetListReply" value="kr.co.aim.messolution.alarm.event.AlarmSetListReply"/>
+
+		<!-- Initial -->
+		<entry key="AreYouThereRequest" value="kr.co.aim.messolution.machine.event.AreYouThereRequest"/>
+		<entry key="CommunicationStateChanged" value="kr.co.aim.messolution.machine.event.CommunicationStateChanged"/>
+		<entry key="TerminalMessageSend" value="kr.co.aim.messolution.machine.event.TerminalMessageSend"/>
+		<entry key="SubjectReport" value="kr.co.aim.messolution.machine.event.SubjectReport"/>
+		<entry key="OpCallSend" value="kr.co.aim.messolution.machine.event.OpCallSend"/>
+
+		<!-- Cassette -->
+		<entry key="CleanCSTEnd" value="kr.co.aim.messolution.durable.event.CleanCSTEnd"/>
+		<entry key="CleanCSTStart" value="kr.co.aim.messolution.durable.event.CleanCSTStart"/>
+		<entry key="CSTInSubUnit" value="kr.co.aim.messolution.durable.event.CSTInSubUnit"/>
+		<entry key="CSTOutSubUnit" value="kr.co.aim.messolution.durable.event.CSTOutSubUnit"/>
+		<entry key="CSTInUnit" value="kr.co.aim.messolution.durable.event.CSTInUnit"/>
+		<entry key="CSTOutUnit" value="kr.co.aim.messolution.durable.event.CSTOutUnit"/>
+		<entry key="CleanMaskCSTEnd" value="kr.co.aim.messolution.durable.event.OledMask.CleanMaskCSTEnd"/>
+		<entry key="CleanMaskCSTStart" value="kr.co.aim.messolution.durable.event.OledMask.CleanMaskCSTStart"/>
+		<entry key="MaskCSTInUnit" value="kr.co.aim.messolution.durable.event.OledMask.MaskCSTInUnit"/>
+		<entry key="MaskCSTOutUnit" value="kr.co.aim.messolution.durable.event.OledMask.MaskCSTOutUnit"/>
+		<entry key="MaskCSTInSubUnit" value="kr.co.aim.messolution.durable.event.OledMask.MaskCSTInSubUnit"/>
+		<entry key="MaskCSTOutSubUnit" value="kr.co.aim.messolution.durable.event.OledMask.MaskCSTOutSubUnit"/>
+		
+
+		<!-- Unpacker -->
+		<entry key="CrateLoadComplete" value="kr.co.aim.messolution.port.event.CrateLoadComplete"/>
+		<entry key="CrateLoadRequest" value="kr.co.aim.messolution.port.event.CrateLoadRequest"/>
+		<entry key="CratePortAccessModeChanged" value="kr.co.aim.messolution.port.event.CratePortAccessModeChanged"/>
+		<entry key="CratePortDisableReport" value="kr.co.aim.messolution.port.event.CratePortDisableReport"/>
+		<entry key="CratePortEnableReport" value="kr.co.aim.messolution.port.event.CratePortEnableReport"/>
+		<entry key="CratePortStateReport" value="kr.co.aim.messolution.port.event.CratePortStateReport"/>
+		<entry key="CratePortTypeChanged" value="kr.co.aim.messolution.port.event.CratePortTypeChanged"/>
+		<entry key="CratePortUseTypeChanged" value="kr.co.aim.messolution.port.event.CratePortUseTypeChanged"/>
+		<entry key="CrateUnloadComplete" value="kr.co.aim.messolution.port.event.CrateUnloadComplete"/>
+		<entry key="ScrapCrateReport" value="kr.co.aim.messolution.consumable.event.ScrapCrateReport"/>
+		<entry key="UnScrapCrateReport" value="kr.co.aim.messolution.consumable.event.UnScrapCrateReport"/>
+		<entry key="ValidateCrateRequest" value="kr.co.aim.messolution.consumable.event.ValidateCrateRequest"/>
+		<entry key="UnpackerProcessEnd" value="kr.co.aim.messolution.lot.event.UnpackerProcessEnd"/>
+		<entry key="TrackInOutLot" value="kr.co.aim.messolution.lot.event.CNX.TrackInOutLot"/>
+
+		<!-- Machine -->
+		<entry key="MachineStateChanged" value="kr.co.aim.messolution.machine.event.MachineStateChanged"/>
+		<entry key="MachineStateReport" value="kr.co.aim.messolution.machine.event.MachineStateReport"/>
+		<entry key="DspModeChangeReport" value="kr.co.aim.messolution.machine.event.DspModeChangeReport"/>
+		<entry key="UnitStateChanged" value="kr.co.aim.messolution.machine.event.UnitStateChanged"/>
+		<entry key="UnitStateReport" value="kr.co.aim.messolution.machine.event.UnitStateReport"/>	
+		<entry key="SubUnitStateChanged" value="kr.co.aim.messolution.machine.event.SubUnitStateChanged"/>
+		<entry key="SubUnitStateReport" value="kr.co.aim.messolution.machine.event.SubUnitStateReport"/>
+		<entry key="SubSubUnitStateChanged" value="kr.co.aim.messolution.machine.event.SubSubUnitStateChanged"/>
+		<entry key="SubSubUnitStateReport" value="kr.co.aim.messolution.machine.event.SubSubUnitStateReport"/>
+		<entry key="MachineStateRequest" value="kr.co.aim.messolution.machine.event.MachineStateRequest"/>
+		<entry key="MachineStateReply" value="kr.co.aim.messolution.machine.event.MachineStateReply"/>	
+		<entry key="UnitStateRequest" value="kr.co.aim.messolution.machine.event.UnitStateRequest"/>
+		<entry key="UnitStateReply" value="kr.co.aim.messolution.machine.event.UnitStateReply"/>	
+		<entry key="SubUnitStateRequest" value="kr.co.aim.messolution.machine.event.SubUnitStateRequest"/>
+		<entry key="SubUnitStateReply" value="kr.co.aim.messolution.machine.event.SubUnitStateReply"/>	
+		<entry key="SubSubUnitStateRequest" value="kr.co.aim.messolution.machine.event.SubSubUnitStateRequest"/>
+		<entry key="SubSubUnitStateReply" value="kr.co.aim.messolution.machine.event.SubSubUnitStateReply"/>
+		<entry key="OperationModeRequest" value="kr.co.aim.messolution.machine.event.OperationModeRequest"/>
+		<entry key="OperationModeReport" value="kr.co.aim.messolution.machine.event.OperationModeReport"/>
+		<entry key="OperationModeChanged" value="kr.co.aim.messolution.machine.event.OperationModeChanged"/>
+		<entry key="OperationModeChangeReply" value="kr.co.aim.messolution.machine.event.OperationModeChangeReply"/>
+		<entry key="CheckQTimeRequest" value="kr.co.aim.messolution.lot.event.CheckQTimeRequest"/>
+		<entry key="SoftwareVersionChangeReport" value="kr.co.aim.messolution.machine.event.SoftwareVersionChangeReport"/>
+		
+		<!-- Port -->
+		<entry key="PortAccessModeChanged" value="kr.co.aim.messolution.port.event.PortAccessModeChanged"/>
+		<entry key="PortDisableReport" value="kr.co.aim.messolution.port.event.PortDisableReport"/>
+		<entry key="PortEnableReport" value="kr.co.aim.messolution.port.event.PortEnableReport"/>
+		<entry key="PortStateReport" value="kr.co.aim.messolution.port.event.PortStateReport"/>
+		<entry key="PortStateChanged" value="kr.co.aim.messolution.port.event.PortStateChanged"/>
+		<entry key="PortTypeChanged" value="kr.co.aim.messolution.port.event.PortTypeChanged"/>
+		<entry key="PortUseTypeChanged" value="kr.co.aim.messolution.port.event.PortUseTypeChanged"/>
+		<entry key="LoadRequest" value="kr.co.aim.messolution.port.event.LoadRequest"/>
+		<entry key="LoadComplete" value="kr.co.aim.messolution.port.event.LoadComplete"/>
+		<entry key="UnloadRequest" value="kr.co.aim.messolution.port.event.UnloadRequest"/>
+		<entry key="UnloadComplete" value="kr.co.aim.messolution.port.event.UnloadComplete"/>
+		<entry key="CratePortStateRequest" value="kr.co.aim.messolution.port.event.CratePortStateRequest"/>
+		<entry key="CratePortStateReply" value="kr.co.aim.messolution.port.event.CratePortStateReply"/>
+		<entry key="PortStateRequest" value="kr.co.aim.messolution.port.event.PortStateRequest"/>
+		<entry key="PortStateReply" value="kr.co.aim.messolution.port.event.PortStateReply"/>
+			
+		<!-- Product -->
+		<entry key="ComponentInIndexer" value="kr.co.aim.messolution.product.event.ComponentInIndexer"/>
+		<entry key="ComponentInSubUnit" value="kr.co.aim.messolution.product.event.ComponentInSubUnit"/>
+		<entry key="ComponentInSubSubUnit" value="kr.co.aim.messolution.product.event.ComponentInSubSubUnit"/>
+		<entry key="ComponentInUnit" value="kr.co.aim.messolution.product.event.ComponentInUnit"/>
+		<entry key="ComponentLineIn" value="kr.co.aim.messolution.product.event.ComponentLineIn"/>
+		<entry key="ComponentLineOut" value="kr.co.aim.messolution.product.event.ComponentLineOut"/>
+		<entry key="ComponentOutIndexer" value="kr.co.aim.messolution.product.event.ComponentOutIndexer"/>
+		<entry key="ComponentOutSubUnit" value="kr.co.aim.messolution.product.event.ComponentOutSubUnit"/>
+		<entry key="ComponentOutSubSubUnit" value="kr.co.aim.messolution.product.event.ComponentOutSubSubUnit"/>
+		<entry key="ComponentOutUnit" value="kr.co.aim.messolution.product.event.ComponentOutUnit"/>
+		<entry key="ComponentTurn" value="kr.co.aim.messolution.product.event.ComponentTurn"/>
+		<entry key="ComponentScrap" value="kr.co.aim.messolution.product.event.ComponentScrap"/>
+		<entry key="ComponentUnscrap" value="kr.co.aim.messolution.product.event.ComponentUnscrap"/>
+		<entry key="ComponentPalletInUnit" value="kr.co.aim.messolution.product.event.ComponentPalletInUnit"/>
+		<entry key="ComponentPalletOutUnit" value="kr.co.aim.messolution.product.event.ComponentPalletOutUnit"/>
+		<entry key="ComponentOLEDMaskInIndexer" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskInIndexer"/>
+		<entry key="ComponentOLEDMaskInUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskInUnit"/>
+		<entry key="ComponentOLEDMaskInSubUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskInSubUnit"/>
+		<entry key="ComponentOLEDMaskInSubSubUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskInSubSubUnit"/>
+		<entry key="ComponentOLEDMaskOutIndexer" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskOutIndexer"/>
+		<entry key="ComponentOLEDMaskOutUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskOutUnit"/>
+		<entry key="ComponentOLEDMaskOutSubUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskOutSubUnit"/>
+		<entry key="ComponentOLEDMaskOutSubSubUnit" value="kr.co.aim.messolution.product.event.ComponentOLEDMaskOutSubSubUnit"/>
+        <entry key="ComponentPanelInTray" value="kr.co.aim.messolution.product.event.ComponentPanelInTray"/>
+        <entry key="ComponentPanelOutTray" value="kr.co.aim.messolution.product.event.ComponentPanelOutTray"/>
+        <entry key="ComponentPanelListScrap" value="kr.co.aim.messolution.product.event.ComponentPanelListScrap"/>
+        <entry key="ComponentPanelInSubUnit" value="kr.co.aim.messolution.product.event.ComponentPanelInSubUnit"/>
+        <entry key="ComponentPanelOutSubUnit" value="kr.co.aim.messolution.product.event.ComponentPanelOutSubUnit"/>
+        <entry key="VCRReadReport" value="kr.co.aim.messolution.lot.event.VCRReadReport"/>
+        <entry key="ComponentPanelInUnit" value="kr.co.aim.messolution.product.event.ComponentPanelInUnit"/>
+        <entry key="ComponentPanelOutUnit" value="kr.co.aim.messolution.product.event.ComponentPanelOutUnit"/>
+        <entry key="ProductOLEDMaskInfoDownloadRequest" value="kr.co.aim.messolution.product.event.ProductOLEDMaskInfoDownloadRequest"/>
+        <entry key="LastGlassOutIndexer" value="kr.co.aim.messolution.product.event.LastGlassOutIndexer"/>
+        <entry key="Mask3CDInspectionReport" value="kr.co.aim.messolution.product.event.Mask3CDInspectionReport"/>
+        <entry key="MaskFrameInspectionReport" value="kr.co.aim.messolution.product.event.MaskFrameInspectionReport"/>
+        <entry key="LOIRecipeRequest" value="kr.co.aim.messolution.product.event.LOIRecipeRequest"/>
+        <entry key="KeyProcessDataReport" value="kr.co.aim.messolution.product.event.KeyProcessDataReport"/>
+
+		<!-- Lot -->
+		<entry key="LotProcessStarted" value="kr.co.aim.messolution.lot.event.LotProcessStarted"/>
+		<entry key="LotProcessEnd" value="kr.co.aim.messolution.lot.event.LotProcessEnd"/>
+		<entry key="LotProcessAbort" value="kr.co.aim.messolution.lot.event.LotProcessAbort"/>
+		<entry key="LotProcessCanceled" value="kr.co.aim.messolution.lot.event.LotProcessCanceled"/>
+		<entry key="CuttingReport" value="kr.co.aim.messolution.lot.event.CuttingReport"/>
+		<entry key="LotInfoDownLoadRequest" value="kr.co.aim.messolution.lot.event.LotInfoDownloadRequest"/>
+
+		<!-- EDC -->
+		<entry key="LotProcessData" value="kr.co.aim.messolution.datacollection.event.LotProcessDataPEX"/>
+		<entry key="ProductProcessData" value="kr.co.aim.messolution.datacollection.event.ProductProcessDataPEX"/>
+		
+		
+		<!-- Sorter -->
+		<entry key="SorterJobStartCommand" value="kr.co.aim.messolution.lot.event.SorterJobStartCommand"/>
+		<entry key="SorterJobStartCommandReply" value="kr.co.aim.messolution.lot.event.SorterJobStartCommandReply"/>
+		<entry key="SorterJobCanceled" value="kr.co.aim.messolution.lot.event.SorterJobCanceled"/>
+		<entry key="SorterJobAborted" value="kr.co.aim.messolution.lot.event.SorterJobAborted"/>
+		<entry key="SorterJobEnded" value="kr.co.aim.messolution.lot.event.SorterJobEnded"/>
+		<entry key="SorterJobStarted" value="kr.co.aim.messolution.lot.event.SorterJobStarted"/>
+		<entry key="SorterJobPrepareRequest" value="kr.co.aim.messolution.lot.event.SorterJobPrepareRequest"/>
+		<entry key="SorterJobPrepareReply" value="kr.co.aim.messolution.lot.event.SorterJobPrepareReply"/>
+		<entry key="ValidateSorterJobRequest" value="kr.co.aim.messolution.lot.event.ValidateSorterJobRequest"/>
+		<entry key="SorterJobListReport" value="kr.co.aim.messolution.lot.event.SorterJobListReport"/>
+		
+		
+		<!-- MaskArea -->
+		<entry key="MaskProcessStarted" value="kr.co.aim.messolution.durable.event.MaskProcessStarted"/>
+		<entry key="MaskProcessAbort" value="kr.co.aim.messolution.durable.event.MaskProcessAbort"/>
+		<entry key="MaskInIndexer" value="kr.co.aim.messolution.durable.event.MaskInIndexer"/>
+		<entry key="MaskOutIndexer" value="kr.co.aim.messolution.durable.event.MaskOutIndexer"/>
+		<entry key="MaskInUnit" value="kr.co.aim.messolution.durable.event.MaskInUnit"/>
+		<entry key="MaskOutUnit" value="kr.co.aim.messolution.durable.event.MaskOutUnit"/>
+		<entry key="MaskInSubUnit" value="kr.co.aim.messolution.durable.event.MaskInSubUnit"/>
+		<entry key="MaskOutSubUnit" value="kr.co.aim.messolution.durable.event.MaskOutSubUnit"/>
+		<entry key="ExposureFeedBackReport" value="kr.co.aim.messolution.durable.event.ExposureFeedBackReport"/>
+		<entry key="PhotoMaskStateChanged" value="kr.co.aim.messolution.durable.event.PhotoMaskStateChanged"/>
+		<entry key="PhotoMaskStateReport" value="kr.co.aim.messolution.durable.event.PhotoMaskStateReport"/>
+		<entry key="MaskStateReport" value="kr.co.aim.messolution.lot.event.MaskStateReport"/>
+		<entry key="OLEDMaskCSTInfoDownLoadRequest" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTInfoDownLoadRequest"/>
+		<entry key="OLEDMaskInfoDownLoadRequest" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskInfoDownLoadRequest"/>
+		<entry key="OLEDMaskProcessStarted" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskProcessStarted"/>
+		<entry key="OLEDMaskProcessEnd" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskProcessEnd"/>
+		<entry key="OLEDMaskCreateInfoDownloadRequest" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCreateInfoDownloadRequest"/>
+		<entry key="OLEDMaskCSTProcessStarted" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTProcessStarted"/>
+		<entry key="OLEDMaskCSTProcessCanceled" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTProcessCanceled"/>
+		<entry key="OLEDMaskStateChanged" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskStateChanged"/>
+		<entry key="OLEDMaskCSTInfoReport" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTInfoReport"/>
+		<entry key="OLEDMaskUseReport" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskUseReport"/>
+		<entry key="OLEDMaskCSTProcessAbort" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTProcessAbort"/>
+		<entry key="OLEDMaskProcessAbort" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskProcessAbort"/>
+		<entry key="OLEDMaskCSTProcessEnd" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskCSTProcessEnd"/>
+		<entry key="OLEDMaskInfoDownLoadSend" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskInfoDownLoadSend"/>
+		<entry key="OLEDMaskProcessCanceled" value="kr.co.aim.messolution.durable.event.OledMask.OLEDMaskProcessCanceled"/>
+		<entry key="MaskCNCInspectionReport" value="kr.co.aim.messolution.durable.event.MaskCNCInspectionReport"/>
+		<entry key="MaskLoadRequest" value="kr.co.aim.messolution.durable.event.OledMask.MaskLoadRequest"/>
+		<entry key="MaskLoadComplete" value="kr.co.aim.messolution.durable.event.OledMask.MaskLoadComplete"/>
+		<entry key="MaskUnloadRequest" value="kr.co.aim.messolution.durable.event.OledMask.MaskUnloadRequest"/>
+		<entry key="MaskUnloadComplete" value="kr.co.aim.messolution.durable.event.OledMask.MaskUnloadComplete"/>
+		
+
+
+        <!-- Material -->
+        <entry key="MaterialInfoRequest" value="kr.co.aim.messolution.consumable.event.MaterialInfoRequest"/>
+        <entry key="MaterialStateReport" value="kr.co.aim.messolution.durable.event.MaterialStateReport"/>
+        <entry key="MaterialStateChanged" value="kr.co.aim.messolution.durable.event.MaterialStateChanged"/>
+        <entry key="MaterialStateRequest" value="kr.co.aim.messolution.durable.event.MaterialStateRequest"/>
+        <entry key="LamiFilmInfoRequest" value="kr.co.aim.messolution.consumable.event.LamiFilmInfoRequest"/>
+        <entry key="ValidateLamiFilmRequest" value="kr.co.aim.messolution.consumable.event.ValidateLamiFilmRequest"/> 
+        <entry key="ValidateMaterialRequest" value="kr.co.aim.messolution.durable.event.ValidateMaterialRequest"/> 
+        <entry key="AssignPalletReport" value="kr.co.aim.messolution.durable.event.AssignPalletReport"/>
+        <entry key="AssignLamiFilmReport" value="kr.co.aim.messolution.consumable.event.AssignLamiFilmReport"/>
+        <entry key="AssignMaskSheetReport" value="kr.co.aim.messolution.durable.event.AssignMaskSheetReport"/>
+        <entry key="DLAPackingReport" value="kr.co.aim.messolution.durable.event.DLAPackingReport"/>
+        <entry key="PhotoMaskJudgeReport" value="kr.co.aim.messolution.durable.event.PhotoMaskJudgeReport"/>
+		<entry key="LamiFilmScrapReport" value="kr.co.aim.messolution.consumable.event.LamiFilmScrapReport"/>
+		<entry key="KitMaterialOnEQPReport" value="kr.co.aim.messolution.consumable.event.KitMaterialOnEQPReport"/>
+		<entry key="KitMaterialStateReport" value="kr.co.aim.messolution.durable.event.KitMaterialStateReport"/>
+		<entry key="UnKitMaterialOnEQPReport" value="kr.co.aim.messolution.consumable.event.UnKitMaterialOnEQPReport"/>
+
+
+        <!-- WorkOrder -->
+		<entry key="WorkOrderRequest" value="kr.co.aim.messolution.port.event.WorkOrderRequest"/>
+		<entry key="WorkOrderStarted" value="kr.co.aim.messolution.port.event.WorkOrderStarted"/>
+		<entry key="WorkOrderEnd" value="kr.co.aim.messolution.port.event.WorkOrderEnd"/>        
+
+        <!-- Stress Test
+        <entry key="StressTestInputLot" value="kr.co.aim.messolution.lot.event.StressTest.StressTestInputLot"/>
+        <entry key="CreateLot" value="kr.co.aim.messolution.lot.event.StressTest.CreateLot"/>
+        <entry key="ReleaseLot" value="kr.co.aim.messolution.lot.event.StressTest.ReleaseLot"/>
+        <entry key="LotProcessStarted" value="kr.co.aim.messolution.lot.event.StressTest.LotProcessStarted"/> 
+        <entry key="ComponentOutIndexer" value="kr.co.aim.messolution.lot.event.StressTest.ComponentOutIndexer"/> 
+        <entry key="ComponentInUnit" value="kr.co.aim.messolution.lot.event.StressTest.ComponentInUnit"/>
+        <entry key="ComponentOutUnit" value="kr.co.aim.messolution.lot.event.StressTest.ComponentOutUnit"/>    
+        <entry key="ComponentInIndexer" value="kr.co.aim.messolution.lot.event.StressTest.ComponentInIndexer"/>
+        <entry key="LotProcessEnd" value="kr.co.aim.messolution.lot.event.StressTest.LotProcessEnd"/>           
+        -->
+         
+	    <!-- Tray, TrayGroup -->
+        <entry key="TrayGroupInfoDownloadRequest" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupInfoDownloadRequest"/>
+        <entry key="TrayGroupProcessAbort" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessAbort"/>
+        <entry key="TrayGroupProcessCanceled" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessCanceled"/>
+        <entry key="TrayGroupProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessStarted"/>
+        <entry key="TrayGroupProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.TrayGroupProcessEnd"/>
+        <entry key="TrayInfoDownloadRequest" value="kr.co.aim.messolution.lot.event.Tray.TrayInfoDownloadRequest"/>
+        <entry key="TrayProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.TrayProcessEnd"/>
+        <entry key="TrayProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.TrayProcessStarted"/>
+        <entry key="PanelProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.PanelProcessStarted"/>
+        <entry key="PanelProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.PanelProcessEnd"/>
+        <entry key="AVIResultReport" value="kr.co.aim.messolution.lot.event.Tray.AVIResultReport"/>
+        <entry key="BatchPanelProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.BatchPanelProcessStarted"/>
+        <entry key="SVIPanelJudge" value="kr.co.aim.messolution.lot.event.Tray.SVIPanelJudgeReport"/>
+        
+        <!-- OED -->
+        <entry key="ValidationOEDRequest" value="kr.co.aim.messolution.lot.event.ValidationOEDRequest"/>
+		<entry key="ELAOEDReport" value="kr.co.aim.messolution.lot.event.ELAOEDReport"/>
+		<entry key="ValidateELAConditionRequest" value="kr.co.aim.messolution.lot.event.ValidateELAConditionRequest"/>
+		<entry key="OEDParameterDownloadReply" value="kr.co.aim.messolution.lot.event.OEDParameterDownloadReply"/>
+		
+		<!-- PostCell Packing -->
+		<entry key="PackingTrayGroupInfoDownloadRequest" value="kr.co.aim.messolution.lot.event.Tray.PackingTrayGroupInfoDownloadRequest"/>
+        <entry key="PackingTrayGroupProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.PackingTrayGroupProcessStarted"/>
+        <entry key="PackingIDRequest" value="kr.co.aim.messolution.lot.event.Tray.PackingIDRequest"/>
+        <entry key="PackingPanelReport" value="kr.co.aim.messolution.lot.event.Tray.PackingPanelReport"/>
+        <entry key="PackingTrayGroupProcessCanceled" value="kr.co.aim.messolution.lot.event.Tray.PackingTrayGroupProcessCanceled"/>
+        <entry key="PackingTrayProcessStarted" value="kr.co.aim.messolution.lot.event.Tray.PackingTrayProcessStarted"/>
+        <entry key="PackingTrayProcessEnd" value="kr.co.aim.messolution.lot.event.Tray.PackingTrayProcessEnd"/>
+
+	</util:map>
+</beans>
+

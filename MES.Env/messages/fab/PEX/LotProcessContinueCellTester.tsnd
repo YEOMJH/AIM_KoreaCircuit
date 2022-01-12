@@ -1,0 +1,1027 @@
+8200
+;225.11.11.2
+
+BOEDT.B4.MES.DEVSanghyun.FAB.PEMsvr
+Sample
+false
+3.0
+<Message>
+    <Header>
+        <MESSAGENAME>LotProcessContinueCellTester</MESSAGENAME>
+        <SHOPNAME>CELL</SHOPNAME>
+        <MACHINENAME>8CXRT01</MACHINENAME>
+        <TRANSACTIONID>20110917231159747486</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.0A5AF869.4DFC2A3A2F558.188</ORIGINALSOURCESUBJECTNAME>
+        <SOURCESUBJECTNAME>BOEDT.B4.EIS.PRD.FAB.EISFAB14</SOURCESUBJECTNAME>
+        <TARGETSUBJECTNAME>BOEDT.B4.MES.PRD.FAB.PEMsvr</TARGETSUBJECTNAME>
+        <EVENTUSER>8CXRT01</EVENTUSER>
+        <EVENTCOMMENT>LotProcessContinueCellTester</EVENTCOMMENT>
+        <INPUTSET />
+        <listener>PEMListener</listener>
+    </Header>
+    <Body>
+        <MACHINENAME>8CXRT01</MACHINENAME>
+        <LOTNAME />
+        <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+        <CARRIERNAME>8PCS-0135</CARRIERNAME>
+        <CARRIRETYPE>2COLPANEL</CARRIRETYPE>
+        <PORTNAME>P04</PORTNAME>
+        <PORTTYPE>PU</PORTTYPE>
+        <PORTUSETYPE>SB</PORTUSETYPE>
+        <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+        <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+        <PRODUCTQUANTITY>20</PRODUCTQUANTITY>
+        <ENGINEERSELECT />
+        <SLOTMAP>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXOOOOOOOOOOOOOOOOOOOO</SLOTMAP>
+        <INPUTPRODUCTMAP>EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPPPPPP</INPUTPRODUCTMAP>
+        <SAMPLEINGPRODUCTMAP>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYYYYYYYYYYYYYYYYYYYY</SAMPLEINGPRODUCTMAP>
+        <MACHINERECIPENAME>31</MACHINERECIPENAME>
+        <LOTGRADE>G</LOTGRADE>
+        <PRODUCTLIST>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B5A3</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>141</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A4</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B5B2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>142</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A4</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80092B6B6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>143</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005D2</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B7A5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>144</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A8</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B9C5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>145</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A5</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>A</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B9B3</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>146</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A5</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100B9C2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>147</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011A5</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>N</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>F</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100BXB6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>148</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005AX</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100BXA6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>149</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005AX</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100BXC5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>150</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005AX</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80092B6C5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>151</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005D2</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>A</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100BXC2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>152</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005AX</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>A</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>N</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80100BXB2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>153</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>0</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005AX</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083A8B6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>154</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005C7</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083A8A6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>155</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>F</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>F</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90005C7</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>A</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083AXB2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>156</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>F</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>F</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90011D8</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE>X</GATECVDREPAIRTYPE>
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083B2A6</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>157</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>N</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>N</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90008B8</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083B2C5</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>158</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>F</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>F</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90008B8</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900064TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80083B2C3</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>159</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>F</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>F</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>2</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90008B8</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE />
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE />
+                <SDCVDREPAIRTYPE />
+                <FINALCUTREPAIRTYPE>A</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE />
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+            <PRODUCT>
+                <LOTNAME>8TWX1900058TRA</LOTNAME>
+                <PRODUCTNAME>8AWXE80095B3B2</PRODUCTNAME>
+                <MODELTYPE>FFS</MODELTYPE>
+                <OPERATIONMODENAME />
+                <PROCESSOPERATIONNAME>8500</PROCESSOPERATIONNAME>
+                <POSITION>160</POSITION>
+                <PRODUCTSPECNAME>B4P320WX7VP01</PRODUCTSPECNAME>
+                <PRODUCTIONTYPE>Develop</PRODUCTIONTYPE>
+                <PRODUCTGRADE>F</PRODUCTGRADE>
+                <SUBPRODUCTGRADES />
+                <SUBPRODUCTJUDGES />
+                <PRODUCTDIRECTION />
+                <PRODUCTTHICKNESS />
+                <PRODUCTJUDGE>F</PRODUCTJUDGE>
+                <CRATENAME />
+                <LOTSORTTYPE />
+                <GLASSSORTTYPE />
+                <PANELSORTTYPE>PA</PANELSORTTYPE>
+                <WORKORDER />
+                <GLASSMAKER />
+                <INPUTFLAG>Y</INPUTFLAG>
+                <PRODUCTRECIPE>31</PRODUCTRECIPE>
+                <PRIVIOUSUNITID />
+                <PRIVIOUSRECIPENAME />
+                <REWORKCOUNT>1</REWORKCOUNT>
+                <DUMMYUSEDCOUNT />
+                <PROCESSINGINFO>P</PROCESSINGINFO>
+                <FLOWMODENAME />
+                <FLOWUNITLIST />
+                <SAMPLINGFLAG>Y</SAMPLINGFLAG>
+                <SAMPLINGUNITLIST />
+                <PROCESSEDUNITLIST />
+                <PAIRLOTNAME />
+                <PAIRPRODUCTNAME>8FWXD90010B5</PAIRPRODUCTNAME>
+                <PAIRPRODUCTSPECNAME />
+                <PAIRPRODUCTIONTYPE />
+                <PAIRPOSITION />
+                <PAIRSUBPRODUCTGRADES />
+                <PAIRSUBPRODUCTJUDGES />
+                <GATECUTREPAIRTYPE>X</GATECUTREPAIRTYPE>
+                <GATECVDREPAIRTYPE />
+                <SDCUTREPAIRTYPE>X</SDCUTREPAIRTYPE>
+                <SDCVDREPAIRTYPE>X</SDCVDREPAIRTYPE>
+                <FINALCUTREPAIRTYPE>X</FINALCUTREPAIRTYPE>
+                <FINALCVDREPAIRTYPE>X</FINALCVDREPAIRTYPE>
+                <ARRAYTESTPRODUCTJUDGE>G</ARRAYTESTPRODUCTJUDGE>
+                <ASSYPRODUCTJUDGE>G</ASSYPRODUCTJUDGE>
+            </PRODUCT>
+        </PRODUCTLIST>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>

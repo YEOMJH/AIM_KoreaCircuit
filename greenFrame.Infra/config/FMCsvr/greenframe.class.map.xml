@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+ 
+        <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+		<property name="classMap" ref="ClassMap" />
+        </bean> 
+
+	<util:map id="ClassMap" map-class="java.util.HashMap">
+                <entry key="UserLogIn" value="kr.co.aim.messolution.userprofile.event.UserLogIn"/>
+                <entry key="RequestQueryResult" value="kr.co.aim.messolution.query.event.Query"/>
+                <!-- offline -->
+                <entry key="ChangeMachineState" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="ChangeCOMState" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="ChangePortState" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="ChangePortAccessMode" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="ChangePortType" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="ChangePortUseType" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <!-- online -->
+                <entry key="CommunicationStateChanged" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="MachineStateChanged" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="SubUnitStateChanged" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="UnitStateChanged" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="PortAccessModeChanged" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="PortDisableReport" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="PortEnableReport" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="LoadComplete" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="UnloadComplete" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <!-- scheduler -->
+                <entry key="PublishWIPCounts" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+                <entry key="PublishSTKCSTCounts" value="kr.co.aim.messolution.fmb.event.BypassReport"/>
+	</util:map>
+	
+</beans>
+

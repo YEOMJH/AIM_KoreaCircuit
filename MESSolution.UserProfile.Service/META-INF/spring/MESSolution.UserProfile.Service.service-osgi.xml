@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+    
+    <osgi:service ref="EncryptUtil" interface="kr.co.aim.greentrack.user.management.impl.EncryptUtil" />
+    
+     <osgi:service ref="UserProfileMenuHistoryService" interface="kr.co.aim.messolution.userprofile.service.UserProfileMenuHistoryService" />
+    <osgi:service ref="UserInvisibleButtonHistService" interface="kr.co.aim.messolution.userprofile.service.UserInvisibleButtonHistService" />
+    <osgi:service ref="UserInvisibleButtonService" interface="kr.co.aim.messolution.userprofile.service.UserInvisibleButtonService" />
+    <osgi:service ref="UserProfileHistoryService" interface="kr.co.aim.messolution.userprofile.service.UserProfileHistoryService" />
+    <osgi:service ref="UserProfileServiceImpl" interface="kr.co.aim.messolution.userprofile.service.UserProfileServiceImpl" />
+    <osgi:service ref="UserProfileServiceUtil" interface="kr.co.aim.messolution.userprofile.service.UserProfileServiceUtil" />
+
+</beans>
+

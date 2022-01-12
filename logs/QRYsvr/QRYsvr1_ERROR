@@ -1,0 +1,554 @@
+2022-01-11 17:07:54,319 [                    ] [                    ] [SpringOsgiExtenderThread-81] [ERROR] - Application context refresh failed (OsgiBundleXmlApplicationContext(bundle=MESSolution.Generic, config=osgibundle:/META-INF/spring/*.xml))
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean#5': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ConstantMap' defined in URL [bundleentry://279.fwk953255194/META-INF/spring/MESSolution.Generic.service.xml]: Invocation of init method failed; nested exception is kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:473)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$1600(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$4.run(AbstractDelegatedExecutionApplicationContext.java:355)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.completeRefresh(AbstractDelegatedExecutionApplicationContext.java:320)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$CompleteRefreshTask.run(DependencyWaiterApplicationContextExecutor.java:132)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ConstantMap' defined in URL [bundleentry://279.fwk953255194/META-INF/spring/MESSolution.Generic.service.xml]: Invocation of init method failed; nested exception is kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:473)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean.afterPropertiesSet(OsgiServiceFactoryBean.java:167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1335)
+	... 17 more
+Caused by: kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at kr.co.aim.greenframe.util.bundle.BundleUtil.getBundleServiceClass(BundleUtil.java:197)
+	at kr.co.aim.greenframe.util.bundle.BundleUtil.getBundleServiceClass(BundleUtil.java:151)
+	at kr.co.aim.greentrack.generic.GenericServiceProxy.getConstantMap(GenericServiceProxy.java:79)
+	at kr.co.aim.messolution.generic.master.ConstantMap.load(ConstantMap.java:1303)
+	at kr.co.aim.messolution.generic.master.ConstantMap.afterPropertiesSet(ConstantMap.java:1295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1335)
+	... 29 more
+2022-01-11 17:07:54,666 [                    ] [                    ] [SpringOsgiExtenderThread-92] [ERROR] - Application context refresh failed (OsgiBundleXmlApplicationContext(bundle=greenTrack.Generic.Service, config=osgibundle:/META-INF/spring/*.xml))
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean#4': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'CommonValidate' defined in URL [bundleentry://346.fwk953255194/META-INF/spring/greentrack.generic.service.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [kr.co.aim.greentrack.generic.validation.CommonValidate]: Constructor threw exception; nested exception is kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:473)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$1600(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$4.run(AbstractDelegatedExecutionApplicationContext.java:355)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.completeRefresh(AbstractDelegatedExecutionApplicationContext.java:320)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$CompleteRefreshTask.run(DependencyWaiterApplicationContextExecutor.java:132)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'CommonValidate' defined in URL [bundleentry://346.fwk953255194/META-INF/spring/greentrack.generic.service.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [kr.co.aim.greentrack.generic.validation.CommonValidate]: Constructor threw exception; nested exception is kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:883)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:839)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean.afterPropertiesSet(OsgiServiceFactoryBean.java:167)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1335)
+	... 17 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [kr.co.aim.greentrack.generic.validation.CommonValidate]: Constructor threw exception; nested exception is kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:115)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:61)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:877)
+	... 30 more
+Caused by: kr.co.aim.greenframe.exception.greenFrameErrorSignal: NoDefineServiceBean: kr.co.aim.greentrack.generic.master.AbstractConstantMap
+	at kr.co.aim.greenframe.util.bundle.BundleUtil.getBundleServiceClass(BundleUtil.java:197)
+	at kr.co.aim.greenframe.util.bundle.BundleUtil.getBundleServiceClass(BundleUtil.java:151)
+	at kr.co.aim.greentrack.generic.GenericServiceProxy.getConstantMap(GenericServiceProxy.java:79)
+	at kr.co.aim.greentrack.generic.validation.CommonValidate.initializeCDLOperations(CommonValidate.java:196)
+	at kr.co.aim.greentrack.generic.validation.CommonValidate.<init>(CommonValidate.java:186)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:100)
+	... 32 more
+2022-01-11 17:24:48,348 [      GetQueryResult] [20220111172448175311] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-02019: 원격 데이터베이스 접속을 위한 접속 기술자를 찾을 수 없습니다.
+] DataKey=[] SQL=[SELECT factoryName,productSpecName,processFlowName,processOperationName,machineName,afterProcessOperName, 'E' FLAG
+    FROM CT_CHANGERECIPE@INVALID D
+WHERE 1=1]
+2022-01-11 17:25:07,963 [      GetQueryResult] [20220111172507708350] [THREAD-ID=124] [ERROR] - [SYS-0012]Query[GetDurableList 10099] is not found
+2022-01-11 17:25:07,974 [      GetQueryResult] [20220111172507708350] [THREAD-ID=124] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1268.17
+2022-01-11 17:25:07,974 [      GetQueryResult] [20220111172507708350] [THREAD-ID=124] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172507708350</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.17</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST')</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:25:07,974 [      GetQueryResult] [20220111172507708350] [THREAD-ID=124] [ERROR] - CustomException: kr.co.aim.messolution.query.service.QueryServiceImpl.getQueryResult(QueryServiceImpl.java:112)
+kr.co.aim.messolution.query.event.Query.doWorks(Query.java:59)
+2022-01-11 17:25:07,983 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=Query[GetDurableList 10099] is not found,eventUser=hklee,transactionId=20220111172507708350,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172507708350</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.17</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST')</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+,timeKey=20220111172507972000,eventName=GetQueryResult,serverName=QRYsvrQRYsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('QRYsvrQRYsvr1', 'GetQueryResult', 'hklee', '20220111172507972000', '20220111172507708350', '172.21.192.1', 'Query[GetDurableList 10099] is not found', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172507708350</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.17</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST')</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:25:19,570 [      GetQueryResult] [20220111172519415265] [THREAD-ID=124] [ERROR] - [SYS-0012]Query[GetDurableList 10099] is not found
+2022-01-11 17:25:19,573 [      GetQueryResult] [20220111172519415265] [THREAD-ID=124] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1268.22
+2022-01-11 17:25:19,573 [      GetQueryResult] [20220111172519415265] [THREAD-ID=124] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172519415265</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.22</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <DURABLESTATE>Available</DURABLESTATE>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>A-TEST-E</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DURABLESTATE =:DURABLESTATE  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:25:19,573 [      GetQueryResult] [20220111172519415265] [THREAD-ID=124] [ERROR] - CustomException: kr.co.aim.messolution.query.service.QueryServiceImpl.getQueryResult(QueryServiceImpl.java:112)
+kr.co.aim.messolution.query.event.Query.doWorks(Query.java:59)
+2022-01-11 17:25:19,578 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=Query[GetDurableList 10099] is not found,eventUser=hklee,transactionId=20220111172519415265,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172519415265</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.22</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <DURABLESTATE>Available</DURABLESTATE>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>A-TEST-E</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DURABLESTATE =:DURABLESTATE  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>
+
+,timeKey=20220111172519573000,eventName=GetQueryResult,serverName=QRYsvrQRYsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('QRYsvrQRYsvr1', 'GetQueryResult', 'hklee', '20220111172519573000', '20220111172519415265', '172.21.192.1', 'Query[GetDurableList 10099] is not found', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172519415265</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.22</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <DURABLESTATE>Available</DURABLESTATE>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>A-TEST-E</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DURABLESTATE =:DURABLESTATE  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:25:26,614 [      GetQueryResult] [20220111172526441475] [THREAD-ID=124] [ERROR] - [SYS-0012]Query[GetDurableList 10099] is not found
+2022-01-11 17:25:26,626 [      GetQueryResult] [20220111172526441475] [THREAD-ID=124] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1268.26
+2022-01-11 17:25:26,626 [      GetQueryResult] [20220111172526441475] [THREAD-ID=124] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172526441475</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.26</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:25:26,627 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=Query[GetDurableList 10099] is not found,eventUser=hklee,transactionId=20220111172526441475,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172526441475</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.26</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+,timeKey=20220111172526623000,eventName=GetQueryResult,serverName=QRYsvrQRYsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('QRYsvrQRYsvr1', 'GetQueryResult', 'hklee', '20220111172526623000', '20220111172526441475', '172.21.192.1', 'Query[GetDurableList 10099] is not found', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172526441475</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.26</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+            <DURABLESPECNAME>AN</DURABLESPECNAME>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DURABLESPECNAME =:DURABLESPECNAME  AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:25:26,627 [      GetQueryResult] [20220111172526441475] [THREAD-ID=124] [ERROR] - CustomException: kr.co.aim.messolution.query.service.QueryServiceImpl.getQueryResult(QueryServiceImpl.java:112)
+kr.co.aim.messolution.query.event.Query.doWorks(Query.java:59)
+2022-01-11 17:25:30,962 [      GetQueryResult] [20220111172530792268] [THREAD-ID=124] [ERROR] - [SYS-0012]Query[GetDurableList 10099] is not found
+2022-01-11 17:25:30,976 [      GetQueryResult] [20220111172530792268] [THREAD-ID=124] [ERROR] -  SERP : Subject=_INBOX.AC15C001.61DD303F1268.29
+2022-01-11 17:25:30,976 [      GetQueryResult] [20220111172530792268] [THREAD-ID=124] [ERROR] -  SERP : Message=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172530792268</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.29</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>SYS-0012</RETURNCODE>
+        <RETURNMESSAGE>Query[GetDurableList 10099] is not found</RETURNMESSAGE>
+    </Return>
+</Message>
+
+
+2022-01-11 17:25:30,976 [      GetQueryResult] [20220111172530792268] [THREAD-ID=124] [ERROR] - CustomException: kr.co.aim.messolution.query.service.QueryServiceImpl.getQueryResult(QueryServiceImpl.java:112)
+kr.co.aim.messolution.query.event.Query.doWorks(Query.java:59)
+2022-01-11 17:25:30,976 [                    ] [                    ] [ERRORMESSAGELOGGING] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [Unknown] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[errorMessage=Query[GetDurableList 10099] is not found,eventUser=hklee,transactionId=20220111172530792268,messageLog=<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172530792268</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.29</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>
+
+,timeKey=20220111172530974000,eventName=GetQueryResult,serverName=QRYsvrQRYsvr1,ip=172.21.192.1] SQL=[INSERT INTO CT_ERRORMESSAGELOG 		(SERVERNAME, EVENTNAME, EVENTUSER, TIMEKEY, TRANSACTIONID, IP, ERRORMESSAGE, MESSAGELOG) VALUES ('QRYsvrQRYsvr1', 'GetQueryResult', 'hklee', '20220111172530974000', '20220111172530792268', '172.21.192.1', 'Query[GetDurableList 10099] is not found', '<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+    <Header>
+        <MESSAGENAME>GetQueryResult</MESSAGENAME>
+        <TRANSACTIONID>20220111172530792268</TRANSACTIONID>
+        <ORIGINALSOURCESUBJECTNAME>_INBOX.AC15C001.61DD303F1268.29</ORIGINALSOURCESUBJECTNAME>
+        <EVENTUSER>hklee</EVENTUSER>
+        <EVENTCOMMENT />
+        <LANGUAGE>English</LANGUAGE>
+    </Header>
+    <Body>
+        <QUERYID>GetDurableList</QUERYID>
+        <VERSION>10099</VERSION>
+        <BINDV>
+            <FACTORYNAME>ARRAY</FACTORYNAME>
+            <DEPARTMENT>PHT-P</DEPARTMENT>
+        </BINDV>
+        <BINDP>
+            <CONDITION>AND D.DURABLESTATE IN ('InUse','NotInUse', 'Available','NotAvailable')  AND (D.DEPARTMENT !='FABAN' OR D.DEPARTMENT IS NULL) AND D.DURABLETYPE IN ('SheetCST','BufferCST') AND D.DEPARTMENT  =:DEPARTMENT</CONDITION>
+        </BINDP>
+    </Body>
+    <Return>
+        <RETURNCODE>0</RETURNCODE>
+        <RETURNMESSAGE />
+    </Return>
+</Message>
+
+') ]
+2022-01-11 17:29:22,804 [      GetQueryResult] [20220111172922591319] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[JOBNAME=3ASS01210323204210] SQL=[SELECT JOBNAME,
+       PRODUCTNAME,
+       MACHINENAME,
+       FROMLOTNAME,
+       FROMCARRIERNAME,
+       FROMPORTNAME,
+       FROMPOSITION,
+       TOLOTNAME,
+       TOCARRIERNAME,
+       TOPORTNAME,
+       TOPOSITION,
+       SORTPRODUCTSTATE,
+       SCRAPFLAG,
+       CUTFLAG,
+       TURNFLAG,
+       TURNDEGREE
+  FROM CT_SORTJOBPRODUCT
+ WHERE JOBNAME = '3ASS01210323204210']
+2022-01-11 17:29:25,483 [      GetQueryResult] [20220111172925434991] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[JOBNAME=3AFS04201117170255] SQL=[SELECT JOBNAME,
+       PRODUCTNAME,
+       MACHINENAME,
+       FROMLOTNAME,
+       FROMCARRIERNAME,
+       FROMPORTNAME,
+       FROMPOSITION,
+       TOLOTNAME,
+       TOCARRIERNAME,
+       TOPORTNAME,
+       TOPOSITION,
+       SORTPRODUCTSTATE,
+       SCRAPFLAG,
+       CUTFLAG,
+       TURNFLAG,
+       TURNDEGREE
+  FROM CT_SORTJOBPRODUCT
+ WHERE JOBNAME = '3AFS04201117170255']
+2022-01-11 17:29:26,499 [      GetQueryResult] [20220111172926468348] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[JOBNAME=3AFS04201116143121] SQL=[SELECT JOBNAME,
+       PRODUCTNAME,
+       MACHINENAME,
+       FROMLOTNAME,
+       FROMCARRIERNAME,
+       FROMPORTNAME,
+       FROMPOSITION,
+       TOLOTNAME,
+       TOCARRIERNAME,
+       TOPORTNAME,
+       TOPOSITION,
+       SORTPRODUCTSTATE,
+       SCRAPFLAG,
+       CUTFLAG,
+       TURNFLAG,
+       TURNDEGREE
+  FROM CT_SORTJOBPRODUCT
+ WHERE JOBNAME = '3AFS04201116143121']
+2022-01-11 17:29:27,406 [      GetQueryResult] [20220111172927366307] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[JOBNAME=3ASS01201107183755] SQL=[SELECT JOBNAME,
+       PRODUCTNAME,
+       MACHINENAME,
+       FROMLOTNAME,
+       FROMCARRIERNAME,
+       FROMPORTNAME,
+       FROMPOSITION,
+       TOLOTNAME,
+       TOCARRIERNAME,
+       TOPORTNAME,
+       TOPOSITION,
+       SORTPRODUCTSTATE,
+       SCRAPFLAG,
+       CUTFLAG,
+       TURNFLAG,
+       TURNDEGREE
+  FROM CT_SORTJOBPRODUCT
+ WHERE JOBNAME = '3ASS01201107183755']
+2022-01-11 17:29:28,603 [      GetQueryResult] [20220111172928555052] [THREAD-ID=124] [ERROR] - kr.co.aim.greentrack.generic.exception.FrameworkErrorSignal: [QueryService.getQueryResult] DB 에러 MSG=[ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+] DataKey=[JOBNAME=3ASS01201107175325] SQL=[SELECT JOBNAME,
+       PRODUCTNAME,
+       MACHINENAME,
+       FROMLOTNAME,
+       FROMCARRIERNAME,
+       FROMPORTNAME,
+       FROMPOSITION,
+       TOLOTNAME,
+       TOCARRIERNAME,
+       TOPORTNAME,
+       TOPOSITION,
+       SORTPRODUCTSTATE,
+       SCRAPFLAG,
+       CUTFLAG,
+       TURNFLAG,
+       TURNDEGREE
+  FROM CT_SORTJOBPRODUCT
+ WHERE JOBNAME = '3ASS01201107175325']

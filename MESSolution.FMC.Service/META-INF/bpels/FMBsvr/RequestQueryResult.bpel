@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<process xmlns:bean="http://bean.aim.co.kr/" xmlns:bpel="http://bpel.aim.co.kr/" targetNamespace="http://bpel.aim.co.kr/bpelj/" name="RequestQueryResult.bpel">
+    <partnerLinks>
+        <partnerLink name="Db" partnerLinkType="bean:Db" />
+        <partnerLink name="ESBService" partnerLinkType="bean:ESBService" />
+    </partnerLinks>
+    <variables>
+        <variable name="BINDV" messageType="java.lang.Object" expression="getChildNodesText('RequestQueryResult', '//message/body/BINDV')" />
+        <variable name="QUERYID" messageType="java.lang.String" expression="getXmlData('RequestQueryResult', '//message/body/QUERYID')" />
+        <variable name="replysubjectname" messageType="java.lang.String" expression="getXmlData('RequestQueryResult', '//message/header/replysubjectname')" />
+        <variable name="RequestQueryResult" messageType="org.jdom.Document"></variable>
+        <variable name="Result" messageType="org.jdom.Document"></variable>
+        <variable name="Subject" messageType="java.lang.String">ABC</variable>
+        <variable name="VERSION" messageType="java.lang.String" expression="getXmlData('RequestQueryResult', '//message/body/VERSION')" />
+    </variables>
+    <sequence>
+        <receive name="RequestQueryResult" bounds="171,26,101,55">
+            <input variable="RequestQueryResult" />
+        </receive>
+        <assign name="parse" type="parse" messageFormat="RequestQueryResult" bounds="174,148,101,35">
+            <source terminal="5,A" />
+            <copy>
+                <from expression="getXmlData('RequestQueryResult', '//message/body/QUERYID')" />
+                <to variable="QUERYID" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('RequestQueryResult', '//message/body/VERSION')" />
+                <to variable="VERSION" />
+            </copy>
+            <copy>
+                <from expression="getChildNodesText('RequestQueryResult', '//message/body/BINDV')" />
+                <to variable="BINDV" />
+            </copy>
+            <copy>
+                <from expression="getXmlData('RequestQueryResult', '//message/header/replysubjectname')" />
+                <to variable="replysubjectname" />
+            </copy>
+        </assign>
+        <invoke name="queryForBindv" type="invokebean" description="public abstract org.jdom.Document queryForBindv(org.jdom.Document arg1, String arg2, String arg3, Object arg4)" bounds="177,229,101,71" partnerLink="Db" partnerLinkType="Db" operation="queryForBindv" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="RequestQueryResult" />
+            <input variable="QUERYID" />
+            <input variable="VERSION" />
+            <input variable="BINDV" />
+            <output variable="Result" />
+        </invoke>
+        <invoke name="ESBService sendReplyBySenderWithoutLog" type="invokebean" description="public void sendReplyBySenderWithoutLog(String replySubject, org.jdom.Document doc, String senderName)" bounds="183,355,101,71" partnerLink="ESBService" partnerLinkType="ESBService" operation="sendReplyBySenderWithoutLog" ignoreThrow="false" fork="false">
+            <source terminal="5,A" />
+            <input variable="replysubjectname" />
+            <input variable="Result" />
+            <input constant="FMBCSender" type="java.lang.String" />
+        </invoke>
+    </sequence>
+</process>
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+        <bean id="EventMapConfig" class="kr.co.aim.greenframe.infra.EventConfigurator" >
+        	<property name="classMap" ref="ClassMap" />
+        </bean>
+        
+	<util:map id="ClassMap" map-class="java.util.HashMap">
+        <!-- MCS -->
+		<entry key="ActiveTransportJobReport" value="kr.co.aim.messolution.transportjob.event.ActiveTransportJobReport"/>
+		<entry key="AllPortReport" value="kr.co.aim.messolution.transportjob.event.AllPortReport"/>
+		<entry key="AllUnitReport" value="kr.co.aim.messolution.transportjob.event.AllUnitReport"/>
+		<entry key="CancelTransportJobReply" value="kr.co.aim.messolution.transportjob.event.CancelTransportJobReply"/>
+		<entry key="CancelTransportJobRequest" value="kr.co.aim.messolution.transportjob.event.CancelTransportJobRequest"/>
+		<entry key="CarrierDataInstalled" value="kr.co.aim.messolution.transportjob.event.CarrierDataInstalled"/>
+		<entry key="CarrierDataRemoved" value="kr.co.aim.messolution.transportjob.event.CarrierDataRemoved"/>
+		<entry key="CarrierLocationChanged" value="kr.co.aim.messolution.transportjob.event.CarrierLocationChanged"/>
+		<entry key="ChangeDestinationReply" value="kr.co.aim.messolution.transportjob.event.ChangeDestinationReply"/>
+		<entry key="ChangeDestinationRequest" value="kr.co.aim.messolution.transportjob.event.ChangeDestinationRequest"/>
+		<entry key="DestinationChanged" value="kr.co.aim.messolution.transportjob.event.DestinationChanged"/>
+		<entry key="DestinationChangeFailed" value="kr.co.aim.messolution.transportjob.event.DestinationChangeFailed"/>
+		<entry key="GetCarrierDataReply" value="kr.co.aim.messolution.transportjob.event.GetCarrierDataReply"/>
+		<entry key="GetCarrierDataRequest" value="kr.co.aim.messolution.transportjob.event.GetCarrierDataRequest"/>
+		<entry key="GetInventoryCarrierDataReply" value="kr.co.aim.messolution.transportjob.event.GetInventoryCarrierDataReply"/>
+		<entry key="GetInventoryCarrierDataRequest" value="kr.co.aim.messolution.transportjob.event.GetInventoryCarrierDataRequest"/>
+		<entry key="GetInventoryZoneDataReply" value="kr.co.aim.messolution.transportjob.event.GetInventoryZoneDataReply"/>
+		<entry key="GetInventoryZoneDataRequest" value="kr.co.aim.messolution.transportjob.event.GetInventoryZoneDataRequest"/>
+		<entry key="GetMachineControlStateReply" value="kr.co.aim.messolution.transportjob.event.GetMachineControlStateReply"/>
+		<entry key="GetMachineControlStateRequest" value="kr.co.aim.messolution.transportjob.event.GetMachineControlStateRequest"/>
+		<entry key="GetMachineStateReply" value="kr.co.aim.messolution.transportjob.event.GetMachineStateReply"/>
+		<entry key="GetMachineStateRequest" value="kr.co.aim.messolution.transportjob.event.GetMachineStateRequest"/>
+		<entry key="GetMCSStateReply" value="kr.co.aim.messolution.transportjob.event.GetMCSStateReply"/>
+		<entry key="GetMCSStateRequest" value="kr.co.aim.messolution.transportjob.event.GetMCSStateRequest"/>
+		<entry key="GetUnitStateReply" value="kr.co.aim.messolution.transportjob.event.GetUnitStateReply"/>
+		<entry key="GetUnitStateRequest" value="kr.co.aim.messolution.transportjob.event.GetUnitStateRequest"/>
+		<entry key="InventoryCarrierDataReport" value="kr.co.aim.messolution.transportjob.event.InventoryCarrierDataReport"/>
+		<entry key="InventoryZoneDataReport" value="kr.co.aim.messolution.transportjob.event.InventoryZoneDataReport"/>
+		<entry key="LoadRequest" value="kr.co.aim.messolution.transportjob.event.LoadRequest"/>
+		<entry key="MachineAlarmStateChanged" value="kr.co.aim.messolution.transportjob.event.MachineAlarmStateChanged"/>
+		<entry key="MachineControlStateChanged" value="kr.co.aim.messolution.transportjob.event.MachineControlStateChanged"/>
+		<entry key="MachineStateChanged" value="kr.co.aim.messolution.transportjob.event.MachineStateChanged"/>
+		<entry key="MCSStateChanged" value="kr.co.aim.messolution.transportjob.event.MCSStateChanged"/>
+		<entry key="PortStateChanged" value="kr.co.aim.messolution.transportjob.event.PortStateChanged"/>
+		<entry key="PortTypeChanged" value="kr.co.aim.messolution.transportjob.event.PortTypeChanged"/>
+		<entry key="RequestTransportJobReply" value="kr.co.aim.messolution.transportjob.event.RequestTransportJobReply"/>
+		<entry key="RequestTransportJobRequest" value="kr.co.aim.messolution.transportjob.event.RequestTransportJobRequest"/>
+		<entry key="TransportJobCancelCompleted" value="kr.co.aim.messolution.transportjob.event.TransportJobCancelCompleted"/>
+		<entry key="TransportJobCancelFailed" value="kr.co.aim.messolution.transportjob.event.TransportJobCancelFailed"/>
+		<entry key="TransportJobCancelStarted" value="kr.co.aim.messolution.transportjob.event.TransportJobCancelStarted"/>
+		<entry key="TransportJobCompleted" value="kr.co.aim.messolution.transportjob.event.TransportJobCompleted"/>
+		<entry key="TransportJobStarted" value="kr.co.aim.messolution.transportjob.event.TransportJobStarted"/>
+		<entry key="TransportJobStartedByMCS" value="kr.co.aim.messolution.transportjob.event.TransportJobStartedByMCS"/>
+		<entry key="TransportJobTerminatedByMCS" value="kr.co.aim.messolution.transportjob.event.TransportJobTerminatedByMCS"/>
+		<entry key="UnitStateChanged" value="kr.co.aim.messolution.transportjob.event.UnitStateChanged"/>
+		<entry key="UnloadRequest" value="kr.co.aim.messolution.transportjob.event.UnloadRequest"/>
+		<entry key="HoldCarrierReport" value="kr.co.aim.messolution.transportjob.event.HoldCarrierReport"/>
+		<entry key="ReleaseHoldCarrierReport" value="kr.co.aim.messolution.transportjob.event.ReleaseHoldCarrierReport"/>
+		
+        <!-- Mask -->
+		<entry key="GetMaskDataRequest" value="kr.co.aim.messolution.transportjob.event.GetMaskDataRequest"/>
+		<entry key="GetMaskDataReply" value="kr.co.aim.messolution.transportjob.event.GetMaskDataReply"/>
+		<entry key="GetInventoryMaskDataRequest" value="kr.co.aim.messolution.transportjob.event.GetInventoryMaskDataRequest"/>
+		<entry key="GetInventoryMaskDataReply" value="kr.co.aim.messolution.transportjob.event.GetInventoryMaskDataReply"/>
+		<entry key="InventoryMaskDataReport" value="kr.co.aim.messolution.transportjob.event.InventoryMaskDataReport"/>
+		<entry key="MaskLocationChanged" value="kr.co.aim.messolution.transportjob.event.MaskLocationChanged"/>
+		<entry key="MaskDataInstalled" value="kr.co.aim.messolution.transportjob.event.MaskDataInstalled"/>
+		<entry key="MaskDataRemoved" value="kr.co.aim.messolution.transportjob.event.MaskDataRemoved"/>
+		<entry key="ActiveMaskTransportJobReport" value="kr.co.aim.messolution.transportjob.event.ActiveMaskTransportJobReport"/>
+		<entry key="MaskCarrierLoadComplete" value="kr.co.aim.messolution.transportjob.event.MaskCarrierLoadComplete"/>
+		<entry key="MaskCarrierUnloadComplete" value="kr.co.aim.messolution.transportjob.event.MaskCarrierUnloadComplete"/>
+		<entry key="MaskCarrierLoadRequest" value="kr.co.aim.messolution.transportjob.event.MaskCarrierLoadRequest"/>
+		<entry key="MaskCarrierUnloadRequest" value="kr.co.aim.messolution.transportjob.event.MaskCarrierUnloadRequest"/>
+		<entry key="InventoryMaskCassettePortStateReport" value="kr.co.aim.messolution.transportjob.event.InventoryMaskCassettePortStateReport"/>
+		<entry key="MCTUCarrierLoadComplete" value="kr.co.aim.messolution.transportjob.event.MCTUCarrierLoadComplete"/>
+		<entry key="MCTUCarrierUnloadComplete" value="kr.co.aim.messolution.transportjob.event.MCTUCarrierUnloadComplete"/>
+		<entry key="InventoryMCTUPortStateReport" value="kr.co.aim.messolution.transportjob.event.InventoryMCTUPortStateReport"/>
+		<entry key="MaskLoadRequest" value="kr.co.aim.messolution.transportjob.event.MaskLoadRequest"/>
+		<entry key="MaskUnloadRequest" value="kr.co.aim.messolution.transportjob.event.MaskUnloadRequest"/>
+
+		<entry key="RequestMaskBatchJobRequest" value="kr.co.aim.messolution.transportjob.event.RequestMaskBatchJobRequest"/>
+		<entry key="RequestMaskBatchJobReply" value="kr.co.aim.messolution.transportjob.event.RequestMaskBatchJobReply"/>
+		<entry key="CancelMaskBatchJobRequest" value="kr.co.aim.messolution.transportjob.event.CancelMaskBatchJobRequest"/>
+		<entry key="CancelMaskBatchJobReply" value="kr.co.aim.messolution.transportjob.event.CancelMaskBatchJobReply"/>
+		<entry key="MaskBatchJobStarted" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobStarted"/>
+		<entry key="MaskBatchJobCompleted" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobCompleted"/>
+		<entry key="MaskTransportJobStarted" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobStarted"/>
+		<entry key="MaskTransportJobCompleted" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobCompleted"/>
+		<entry key="MaskTransportJobStartedByMCS" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobStartedByMCS"/>
+		<entry key="MaskTransportJobTerminatedByMCS" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobTerminatedByMCS"/>
+		<entry key="MaskTransportJobCancelStarted" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobCancelStarted"/>
+		<entry key="MaskTransportJobCancelCompleted" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobCancelCompleted"/>
+		<entry key="MaskTransportJobCancelFailed" value="kr.co.aim.messolution.transportjob.event.MaskTransportJobCancelFailed"/>
+		<entry key="MaskBatchJobStartedByMCS" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobStartedByMCS"/>
+		<entry key="MaskBatchJobTerminatedByMCS" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobTerminatedByMCS"/>
+		<entry key="MaskBatchJobCancelStarted" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobCancelStarted"/>
+		<entry key="MaskBatchJobCancelCompleted" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobCancelCompleted"/>
+		<entry key="MaskBatchJobCancelFailed" value="kr.co.aim.messolution.transportjob.event.MaskBatchJobCancelFailed"/>
+		<entry key="RequestMaskTransportJobReply" value="kr.co.aim.messolution.transportjob.event.RequestMaskTransportJobReply"/>
+		<entry key="RequestMaskTransportJobRequest" value="kr.co.aim.messolution.transportjob.event.RequestMaskTransportJobRequest"/>
+		<entry key="CancelMaskTransportJobReply" value="kr.co.aim.messolution.transportjob.event.CancelMaskTransportJobReply"/>
+		<entry key="CancelMaskTransportJobRequest" value="kr.co.aim.messolution.transportjob.event.CancelMaskTransportJobRequest"/>
+		
+        <!-- Film -->
+        <!-- <entry key="GetLamiDestinationRequest" value="kr.co.aim.messolution.transportjob.event.GetLamiDestinationRequest"/> -->
+        <entry key="FilmLoadRequest" value="kr.co.aim.messolution.transportjob.event.FilmLoadRequest"/>
+        <entry key="FilmTransferBlocked" value="kr.co.aim.messolution.transportjob.event.FilmTransferBlocked"/>
+        <entry key="PeelingDumpReport" value="kr.co.aim.messolution.transportjob.event.PeelingDumpReport"/>
+
+        <!-- DSP -->
+        <entry key="ReplyToLoadRequest" value="kr.co.aim.messolution.transportjob.event.ReplyToLoadRequest"/>
+        <entry key="ReplyToUnloadRequest" value="kr.co.aim.messolution.transportjob.event.ReplyToUnloadRequest"/>
+        <entry key="ReplyToMaskLoadRequest" value="kr.co.aim.messolution.transportjob.event.ReplyToMaskLoadRequest"/>
+        <entry key="ReplyToMaskUnloadRequest" value="kr.co.aim.messolution.transportjob.event.ReplyToMaskUnloadRequest"/>
+        
+        <entry key="GetDestinationRequest" value="kr.co.aim.messolution.transportjob.event.GetDestinationRequest"/>
+	</util:map>
+
+</beans>
+

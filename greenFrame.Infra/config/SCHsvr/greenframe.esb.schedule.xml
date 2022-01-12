@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osgi="http://www.springframework.org/schema/osgi" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd     http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+	
+    <bean id="MaterialQtimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="MaterialQtimeTimer" />
+        <property name="executionJobName" value="MaterialQTimeMonitor" />
+        <property name="cronExpression" value="0 0 8 * * ?" /> 
+    </bean>
+    
+    <!-- 
+    <bean id="ReviewStationQTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="ReviewStationQtimeTimer" />
+		<property name="executionJobName" value="ReviewStationQtimeMonitor" />
+		<property name="cronExpression" value="0 0/10 * * * ?" /> 
+	</bean>
+	
+	<bean id="ReviewStationOLEDOfflineQTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="ReviewStationOLEDOfflineQtimeTimer" />
+		<property name="executionJobName" value="ReviewStationOLEDOfflineQtimeMonitor" />
+		<property name="cronExpression" value="0 0/10 * * * ?" /> 
+	</bean>
+    
+	 <bean id="BorroTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="BorroTimeScheduler" />
+        <property name="executionJobName" value="BorroTimeMonitor" />
+        <property name="cronExpression" value="0 0/60 * * * ?" /> 
+    </bean>
+    -->
+
+	<bean id="QueueTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="QueueTimeScheduler" />
+		<property name="executionJobName" value="QueueTimeMonitor" />
+		<property name="cronExpression" value="0 0/2 * * * ?" />
+	</bean>
+	<!--
+	<bean id="TransportJobConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="TransportJobScheduler" />
+        <property name="executionJobName" value="TransportJobMonitor" />
+        <property name="cronExpression" value="0 0/5 * * * ?" /> 
+    </bean>
+    -->
+	<bean id="CSTSleepConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="CSTSleepScheduler" />
+        <property name="executionJobName" value="CSTSleepMonitor" />
+        <property name="cronExpression" value="0 7/59 * * * ?" /> 
+    </bean>
+    
+    <bean id="OledMaskConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="OledMaskScheduler" />
+        <property name="executionJobName" value="OledMaskMonitor" /> 
+        <property name="cronExpression" value="0 2/10 * * * ?" />
+    </bean> 
+    <bean id="TFEMaskConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+        <property name="schedulerName" value="TFEMaskScheduler" />
+        <property name="executionJobName" value="TFEMaskMonitor" />
+        <property name="cronExpression" value="0 10 * * * ?" />
+    </bean> 
+    
+    <!--
+    <bean id="RecipeTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="RecipeTimeScheduler" />
+		<property name="executionJobName" value="RecipeTimeMonitor" />
+		<property name="cronExpression" value="0 0 8   * * ?" />
+	</bean>
+	
+	<bean id="MessageRepeatConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MessageRepeat_Scheduler" />
+		<property name="executionJobName" value="MessageRepeatMonitor" />
+		 <property name="cronExpression" value="0 0/10 * * * ?" />	
+	</bean>
+	 
+	<bean id="BorrowPanelConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="BorrowPanelScheduler" />
+		<property name="executionJobName" value="BorrowPanelMonitor" />
+		 <property name="cronExpression" value="0 0/1 * * * ?" />	
+	</bean>
+	-->
+	<bean id="ReserveCSTTransferTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="ReserveCSTTransferTimer_Scheduler" />
+	<property name="executionJobName" value="ReserveCSTTransferTimerMonitor" />
+	<property name="cronExpression" value="0 0/10 * * * ?" />	
+	</bean>
+	
+	<bean id="ReserveCSTUnloadConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="ReserveCSTUnload_Scheduler" />
+	<property name="executionJobName" value="ReserveCSTUnloadMonitor" />
+	<property name="cronExpression" value="0 0/2 * * * ?" />	
+	</bean>
+	
+	<bean id="OAINTConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="OAINTReceiveMonitor" />
+	<property name="executionJobName" value="OAINTReceiveMonitor" />
+	<property name="cronExpression" value="0 0/10 * * * ?" />	
+	</bean>
+	
+	
+	<bean id="OAQCConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="OAQCReceiveMonitor" />
+	<property name="executionJobName" value="OAQCReceiveMonitor" />
+	<property name="cronExpression" value="0 0/10 * * * ?" />	
+	</bean>
+	
+	<bean id="OAScrapConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="OAScrapReceiveMonitor" />
+	<property name="executionJobName" value="OAScrapReceiveMonitor" />
+	<property name="cronExpression" value="0 0/10 * * * ?" />	
+	</bean>
+	
+	<bean id="MachineIdleCalcutaionTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="MachineIdleCalcutaionTimerMonitor" />
+	<property name="executionJobName" value="MachineIdleCalcutaionTimerMonitor" />
+	<property name="cronExpression" value="0 0/5 * * * ?" />	
+	</bean>
+	
+	<!-- WMS I/F 
+	<bean id="AutoMaterialReleaseHoldTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="AutoMaterialReleaseHoldTimer_Scheduler" />
+		<property name="executionJobName" value="AutoMaterialReleaseHoldTimer" />
+		<property name="cronExpression" value="0 0/15 * * * ?" />	
+	</bean>
+	-->
+	
+     <!--
+    
+	<bean id="WIPConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	        <property name="schedulerName" value="WIPCalculationScheduler" />
+	        <property name="executionJobName" value="WIPCalculator" />
+	        <property name="cronExpression" value="0 0/10 * * * ?" />
+	</bean>
+
+    <bean id="StockConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+            <property name="schedulerName" value="CSTCalculationScheduler" />
+            <property name="executionJobName" value="CSTCalculator" />
+            <property name="cronExpression" value="0 5/10 * * * ?" />
+    </bean>
+    
+    <bean id="CSTSleepConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+            <property name="schedulerName" value="CSTSleepScheduler" />
+            <property name="executionJobName" value="CSTSleepMonitor" />
+            <property name="cronExpression" value="0 7/5 * * * ?" />
+    </bean>
+    
+    <bean id="MachineIdleTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+    	<property name="schedulerName" value="MachineIdleScheduler" />
+    	<property name="executionJobName" value="MachineIdleMonitor" />
+    	<property name="cronExpression" value="0 2/5 * * * ?" />
+   	</bean> 
+   	
+   	<bean id="ProductQtimeCalcConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="QueueTimeCalcScheduler" />
+		<property name="executionJobName" value="ProductQtimeCalculationTimer" />
+		<property name="cronExpression" value="0 0/10 * * * ? " /> 
+	</bean>
+   	-->
+   	
+   	<bean id="LastCleanDateConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator">
+		<property name="schedulerName" value="CheckCSTLastCleanDateMonitor" />
+		<property name="executionJobName" value="CheckCSTLastCleanDateMonitor" />
+		<property name="cronExpression" value="0 0 20 * * ?" />
+	</bean>
+
+   	<bean id="MDMMaterialConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMMaterialScheduler" />
+		<property name="executionJobName" value="MDM_MAT001_MaterialReceive" />
+		<property name="cronExpression" value="0 28 10 * * ?" />
+	</bean>
+
+	<bean id="MDMachineSpecConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMMachineSpecScheduler" />
+		<property name="executionJobName" value="MDM_PL002_MachineSpecReport" />
+		<property name="cronExpression" value="0 10 20 * * ?" />
+	</bean>
+	
+	<bean id="MDMOperationSpecConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMOperationSpecScheduler" />
+		<property name="executionJobName" value="MDM_PL003_OperationSpecReport" />
+		<property name="cronExpression" value="0 10 20 * * ?" />
+	</bean>
+	
+	<bean id="MDMProductSpecConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMProductSpecScheduler" />
+		<property name="executionJobName" value="MDM_PL004_ProductSpecReport" />
+		<property name="cronExpression" value="0 10 20 * * ?" />
+	</bean>
+	
+	<bean id="MDMDefectCodeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMDefectCodeScheduler" />
+		<property name="executionJobName" value="MDM_PL005_DefectCodeReceive" />
+		<property name="cronExpression" value="0 0/10 * * * ?" />
+	</bean>
+	
+	<bean id="MDMReasonCodeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMReasonCodeReceiveScheduler" />
+		<property name="executionJobName" value="MDM_PL006_ReasonCodeReceive" />
+		<property name="cronExpression" value="0 0/10 * * * ?" />
+	</bean>
+	
+	<bean id="MDMEnumDefValueConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMEnumDefValueScheduler" />
+		<property name="executionJobName" value="MDM_PL008_EnumDefValueReceive" />
+		<property name="cronExpression" value="0 10 20 * * ?" />
+	</bean>
+	
+	<bean id="MDMMachineStateConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="MDMReasonCodeReportScheduler" />
+		<property name="executionJobName" value="MDM_PL010_ReasonCodeReport" />
+		<property name="cronExpression" value="0 10 20 * * ?" />
+	</bean>
+	
+	<bean id="SAPWOConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="SAPWOReceiveScheduler" />
+		<property name="executionJobName" value="MES_SAPIF_WOINFO_ReceiveWO" />
+		<property name="cronExpression" value="0 0/10 * * * ?" />
+	</bean>
+	
+	<bean id="SAPBOMConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="SAPBOMReceiveScheduler" />
+		<property name="executionJobName" value="MES_SAPIF_WOBOM_ReceiveBOM" />
+		<property name="cronExpression" value="0 0/10 * * * ?" />
+	</bean>
+
+	<bean id="SAPProductionSummaryConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="SAPProductionSummaryScheduler" />
+		<property name="executionJobName" value="ProductionSummaryTimer" />
+		<property name="cronExpression" value="0 10 * * * ?" />
+	</bean>
+	
+	<bean id="CloseWOConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="CloseWOScheduler" />
+		<property name="executionJobName" value="ZPP_MES_ORDEROFF_ESB" />
+		<property name="cronExpression" value="0 0 0/1 * * ?" />
+	</bean>
+   	
+   	<!-- OrganicExpirationTimer -->
+   	<bean id="OrganicExpirationConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="OrganicExpirationTimer" />
+		<property name="executionJobName" value="OrganicExpirationMonitor" />
+		<property name="cronExpression" value="0 0 7 * * ?" />
+	</bean>
+	
+	<!-- ProcessingMonitorTimer -->
+   	<bean id="ProcessingMonitorTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="ProcessingMonitorTimer" />
+		<property name="executionJobName" value="ProcessingMonitorTimer" />
+		<property name="cronExpression" value="0 4/5 * * * ?" />
+	</bean>
+	
+	<!-- ComponentMonitorTimer -->
+   	<bean id="ComponentMonitorTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="ComponentMonitorTimer" />
+		<property name="executionJobName" value="ComponentMonitorTimer" />
+		<property name="cronExpression" value="0 3/5 * * * ?" />
+	</bean>
+	
+	<!-- ReserveCSTTransferForFTEBPTimer -->
+   	<bean id="ReserveCSTTransferForFTEBPConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="ReserveCSTTransferForFTEBPTimer" />
+		<property name="executionJobName" value="ReserveCSTTransferForFTEBPMonitor" />
+		<property name="cronExpression" value="0 0/5 * 1/1 * ?" />
+	</bean>
+	
+	<!-- FirstGlassPhotoTimer -->
+	<bean id="FirstGlassPhotoQueueTimeConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="FirstGlassPhotoQueueMonitorScheduler" />
+		<property name="executionJobName" value="FirstGlassPhotoQueueMonitor" />
+		<property name="cronExpression" value="0 0/5 * * * ?" />
+	</bean>
+	
+	<!-- OperationChangedReportTimer -->
+	<bean id="OperationChangedReportConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+	<property name="schedulerName" value="OperationChangedReportMonitor" />
+	<property name="executionJobName" value="OperationChangedReportMonitor" />
+	<property name="cronExpression" value="0 5 20 * * ?" />	
+	</bean>
+	
+	<bean id="InventoryZoneDataConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="InventoryZoneDataScheduler" />
+		<property name="executionJobName" value="InventoryZoneDataMonitor" />
+		<property name="cronExpression" value="0 10 * * * ?" />
+	</bean>	
+	
+	<!-- NamingRuleMonitorTimer -->
+   	<bean id="NamingRuleMonitorTimer" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="NamingRuleMonitorTimer" />
+		<property name="executionJobName" value="NamingRuleMonitorTimer" />
+		<property name="cronExpression" value="0 0/6 * * * ?" />
+	</bean>
+	
+	 <!-- AbnormalEQPTimer -->
+	<bean id="AbnormalEQPConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="AbnormalEQPScheduler" />
+		<property name="executionJobName" value="AbnormalEQPMonitor" />
+		 <property name="cronExpression" value="0 0/30 * * * ? " />	
+	</bean>
+	
+	<!-- WorkOrderCalcutaionTimer -->
+   	<bean id="WorkOrderCalcutaionTimer" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="WorkOrderCalcutaionTimer" />
+		<property name="executionJobName" value="WorkOrderCalcutaionTimer" />
+		<property name="cronExpression" value="0 59 6 1/1 * ?" />
+	</bean>
+	
+	<!-- AutoCloseWOTimer -->
+	<bean id="AutoCloseWOonfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="AutoCloseWOTimer" />
+		<property name="executionJobName" value="AutoCloseWOTimerMonitor" />
+		 <property name="cronExpression" value="0 25 9 * * ? " />	
+	</bean>
+	
+	<!-- LongTimeNoRunTrayGroupTimer -->
+	<bean id="LongTimeNoRunTrayGroupTimerConfigurator" class="kr.co.aim.greenframe.infra.SchedulerConfigurator" >
+		<property name="schedulerName" value="LongTimeNoRunTrayGroupTimer" />
+		<property name="executionJobName" value="LongTimeNoRunTrayGroupTimer" />
+		 <property name="cronExpression" value="0 30 9,10,11,13,14,15,16,18,19 * * ? " />	
+	</bean>
+	
+</beans>
+
