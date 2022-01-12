@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MESSolution.Alarm.Service
+Bundle-SymbolicName: MESSolution.Alarm.Service
+Bundle-Version: 1.1.0
+Bundle-Vendor: AIM Systems, Inc.
+Eclipse-RegisterBuddy: greenflow, greenframe.kernel, greenFrame.workflow
+Export-Package: kr.co.aim.messolution.alarm,
+ kr.co.aim.messolution.alarm.service
+Require-Bundle: org.eclipse.osgi,
+ com.springsource.org.jdom;bundle-version="1.1.0",
+ MESSolution.Generic;bundle-version="1.1.0",
+ MESSolution.Extended.Object;bundle-version="1.1.0",
+ MESSolution.Lot.Service;bundle-version="1.1.0",
+ greenframe.dependency.apache.commons;bundle-version="1.0.0",
+ greenframe.dependency.springframework;bundle-version="1.0.0",
+ greenframe.dependency.springframework.batch;bundle-version="1.0.0",
+ greenframe.dependency.springframework.osgi;bundle-version="1.0.0",
+ greenframe.kernel;bundle-version="1.2.4",
+ greenTrack.Alarm.Service;bundle-version="1.1.0",
+ greenTrack.Generic.Service;bundle-version="1.1.0",
+ greenTrack.Lot.Service;bundle-version="1.1.0",
+ greenTrack.Machine.Service;bundle-version="1.1.0",
+ greenTrack.Name.Service;bundle-version="1.1.0",
+ greenTrack.ProcessFlow.Service;bundle-version="1.1.0",
+ greenTrack.Product.Service;bundle-version="1.1.0"
+Import-Package: kr.co.aim.messolution.extended.webinterface,
+ kr.co.aim.messolution.extended.webinterface.service,
+ kr.co.aim.messolution.lot.service,
+ kr.co.aim.messolution.machine,
+ kr.co.aim.messolution.machine.service,
+ kr.co.aim.messolution.product,
+ kr.co.aim.messolution.product.service,
+ kr.co.aim.greentrack.processoperationspec.management.data
