@@ -52,7 +52,7 @@ public class CuttingReport extends AsyncHandler {
 	{
 		Element root = doc.getDocument().getRootElement();
 		Element body = root.getChild("Body");
-		//GIT Test 
+		//GIT Test  
 
 		// 1. Check Glass State(Released or Consumed)
 		String productName = SMessageUtil.getBodyItemValue(doc, "PRODUCTNAME", true);
