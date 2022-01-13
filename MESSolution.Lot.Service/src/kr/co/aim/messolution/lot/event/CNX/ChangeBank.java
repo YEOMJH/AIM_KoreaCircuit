@@ -29,6 +29,10 @@ public class ChangeBank extends SyncHandler {
 	@Override
 	public Object doWorks(Document doc) throws CustomException
 	{
+		///ddddd
+		///ffffff
+		
+		
 		List<Element> lotList = SMessageUtil.getBodySequenceItemList(doc, "LOTLIST", true);
 
 		EventInfo eventInfo = EventInfoUtil.makeEventInfo("ChangeBank", getEventUser(), getEventComment(), "", "");
