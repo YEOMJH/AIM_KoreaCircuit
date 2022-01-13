@@ -32,8 +32,6 @@ public class BackUpEQP extends SyncHandler {
 		String BackUpOperationName = SMessageUtil.getBodyItemValue(doc, "BackUpOPERATIONNAME", true);
 		String BackUpProcessOperationVer = SMessageUtil.getBodyItemValue(doc, "BackUpOPERATIONVER", false);
 		 
-		// Pull Test
-		
 		if (!StringUtil.isNotEmpty(BackUpProcessOperationVer))
 			BackUpProcessOperationVer = "00001";
 		
