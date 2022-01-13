@@ -20,6 +20,8 @@ public class AbnormalEQPAttachFile  extends SyncHandler {
 	@Override
 	public Object doWorks(Document doc) throws CustomException
 	{
+		//Pull Test 
+		
 		String abnormalSheetName = SMessageUtil.getBodyItemValue(doc, "ABNORMALSHEETNAME", true);
 		String productName = SMessageUtil.getBodyItemValue(doc, "PRODUCTNAME", false);
 		String fileName = SMessageUtil.getBodyItemValue(doc, "FILENAME", true);
