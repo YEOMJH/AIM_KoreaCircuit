@@ -25,7 +25,7 @@ public class MessageFormatter extends AbstractBundleEventTemplate {
 	public MessageFormatter()
 	{
 
-	}
+	} 
 
 	public void onBundleMessage(String beanName, Object data)
 	{
