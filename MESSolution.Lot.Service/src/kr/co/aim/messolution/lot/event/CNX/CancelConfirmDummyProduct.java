@@ -24,6 +24,8 @@ public class CancelConfirmDummyProduct extends SyncHandler {
 	@Override
 	public Object doWorks(Document doc) throws CustomException {
 		
+		// Git Test
+		
 		List<Element> lotList = SMessageUtil.getBodySequenceItemList(doc, "CANCELCONFIRMDUMMYPRODUCTLIST", true);
 
 		for(Element lot:lotList){
