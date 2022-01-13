@@ -52,6 +52,7 @@ public class CuttingReport extends AsyncHandler {
 	{
 		Element root = doc.getDocument().getRootElement();
 		Element body = root.getChild("Body");
+		//GIT Test
 
 		// 1. Check Glass State(Released or Consumed)
 		String productName = SMessageUtil.getBodyItemValue(doc, "PRODUCTNAME", true);
@@ -422,7 +423,7 @@ public class CuttingReport extends AsyncHandler {
 	private void setLotNameOnProductHistory(String productName, String timeKey, String lotName)
 	{
 		String sql = "UPDATE PRODUCTHISTORY SET LOTNAME = :LOTNAME WHERE PRODUCTNAME = :PRODUCTNAME AND TIMEKEY = :TIMEKEY AND PRODUCTSTATE = 'Consumed' ";
-
+   
 		Map<String, Object> args = new HashMap<String, Object>();
 		args.put("LOTNAME", lotName);
 		args.put("PRODUCTNAME", productName);
